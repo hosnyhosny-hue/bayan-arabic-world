@@ -25,3 +25,35 @@ button,
 a {
   -webkit-tap-highlight-color: transparent;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #ff941f;
+  color: #ffffff;
+}
+
+img {
+  user-select: none;
+}
+
+button,
+a {
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

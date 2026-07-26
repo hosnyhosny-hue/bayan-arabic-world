@@ -5,9 +5,26 @@ import {
   PenLine,
   Sparkles,
   Trophy,
+  type LucideIcon,
 } from "lucide-react";
 
-export const learningPath = [
+export type LearningStatus =
+  | "completed"
+  | "active"
+  | "unlocked"
+  | "locked";
+
+export type LearningPathItem = {
+  id: number;
+  titleAr: string;
+  titleEn: string;
+  icon: LucideIcon;
+  status: LearningStatus;
+  stars: number;
+  xp: number;
+};
+
+export const learningPath: LearningPathItem[] = [
   {
     id: 1,
     titleAr: "الحروف والأصوات",

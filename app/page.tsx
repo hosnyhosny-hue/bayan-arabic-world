@@ -1,8 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowLeft,
+  ArrowRight,
   BookOpen,
   CalendarDays,
   Camera,
@@ -14,298 +16,332 @@ import {
   Users,
 } from "lucide-react";
 import PublicHeader from "../src/components/public/PublicHeader";
-import FeatureCard from "../src/components/public/FeatureCard";
+import Reveal from "../src/components/motion/Reveal";
+import { useLanguage } from "../src/context/LanguageContext";
+import { useSound } from "../src/context/SoundContext";
 import { siteContent } from "../src/data/site-content";
 
 export default function Home() {
-  const { school, weeklyNewsletter, achievements, events, pathways } =
-    siteContent;
+  const { language, direction } = useLanguage();
+  const { playClick, playSuccess } = useSound();
+
+  const isArabic = language === "ar";
+  const Arrow = isArabic ? ArrowLeft : ArrowRight;
+  const { achievements, events, weeklyNewsletter } = siteContent;
+
+  const text = {
+    heroLabel: isArabic
+      ? "قسم اللغة العربية – كلية كينجز الدوحة"
+      : "Arabic Department – King's College Doha",
+    title: isArabic
+      ? "نُلهم اللغة، ونبني الهوية، ونحتفي بالإبداع"
+      : "Inspiring Language, Building Identity, Celebrating Creativity",
+    intro: isArabic
+      ? "بوابة رقمية تجمع تعلم الطلاب، ودعم أولياء الأمور، وإنجازات القسم، والأنشطة الثقافية، والنشرة الأسبوعية في تجربة حديثة نابضة بالحياة."
+      : "A vibrant digital portal bringing together student learning, parent support, department achievements, cultural activities and the weekly newsletter.",
+    students: isArabic ? "بوابة الطلاب" : "Student Hub",
+    parents: isArabic ? "بوابة أولياء الأمور" : "Parent Hub",
+    newsletter: isArabic ? "النشرة الأسبوعية" : "Weekly Newsletter",
+    achievements: isArabic ? "إنجازات القسم" : "Department Achievements",
+    activities: isArabic ? "أنشطة وفعاليات القسم" : "Activities and Events",
+    moments: isArabic ? "لحظات من قسم اللغة العربية" : "Moments from Arabic",
+    viewAll: isArabic ? "عرض المزيد" : "View More",
+  };
 
   return (
     <main
-      dir="rtl"
-      className="min-h-screen bg-[radial-gradient(circle_at_top_right,#EAF8F0_0%,#FFF9EF_42%,#F7EEDC_100%)] text-[#22312A]"
+      dir={direction}
+      className="min-h-screen overflow-hidden bg-[radial-gradient(circle_at_top_right,#EAF8F0_0%,#FFF9EF_42%,#F7EEDC_100%)] text-[#22312A]"
     >
       <PublicHeader />
 
-      <section className="mx-auto max-w-[1500px] px-4 pb-8 pt-5">
-        <div className="relative overflow-hidden rounded-[38px] bg-gradient-to-l from-[#07533B] via-[#0B6B49] to-[#20AD74] px-6 py-10 text-white shadow-[0_30px_80px_rgba(11,107,73,0.24)] sm:px-10 lg:px-14 lg:py-14">
-          <div className="absolute -left-20 -top-24 h-72 w-72 rounded-full bg-white/10" />
-          <div className="absolute -bottom-28 right-[38%] h-64 w-64 rounded-full bg-[#FF941F]/25" />
+      <section className="mx-auto max-w-[1500px] px-4 pb-10 pt-5">
+        <div className="relative min-h-[610px] overflow-hidden rounded-[42px] bg-[#07533B] shadow-[0_34px_90px_rgba(11,107,73,0.26)]">
+          <Image
+            src="/media/hero-department.svg"
+            alt=""
+            fill
+            priority
+            className="object-cover opacity-55 transition duration-[1800ms] hover:scale-105"
+          />
 
-          <div className="relative z-10 grid items-center gap-10 lg:grid-cols-[1fr_420px]">
-            <div>
-              <span className="inline-flex rounded-full bg-white/15 px-4 py-2 text-xs font-black">
-                {school.nameAr}
-              </span>
+          <div className="absolute inset-0 bg-gradient-to-r from-[#063E2E]/92 via-[#07533B]/78 to-[#07533B]/40" />
 
-              <h1 className="mt-5 max-w-4xl text-4xl font-black leading-tight sm:text-5xl lg:text-6xl">
-                نُلهم اللغة، ونبني الهوية، ونحتفي بالإبداع
-              </h1>
+          <div className="relative z-10 grid min-h-[610px] items-center gap-10 px-7 py-12 sm:px-12 lg:grid-cols-[1fr_390px] lg:px-16">
+            <Reveal>
+              <div className="text-white">
+                <span className="inline-flex rounded-full bg-white/15 px-4 py-2 text-xs font-black backdrop-blur">
+                  {text.heroLabel}
+                </span>
 
-              <p
-                dir="ltr"
-                className="mt-4 max-w-3xl text-left text-lg font-bold text-white/75"
-              >
-                Inspiring Language, Building Identity, Celebrating Creativity
-              </p>
+                <h1 className="mt-6 max-w-4xl text-4xl font-black leading-[1.22] sm:text-5xl lg:text-6xl">
+                  {text.title}
+                </h1>
 
-              <p className="mt-6 max-w-3xl text-sm leading-8 text-white/80 sm:text-base">
-                بوابة رقمية تجمع تعلم الطلاب، وإرشادات أولياء الأمور، وإنجازات
-                القسم، والأنشطة الثقافية، والنشرة الأسبوعية، وأعمال الطلاب في
-                تجربة واحدة حديثة.
-              </p>
+                <p className="mt-6 max-w-3xl text-base leading-8 text-white/82">
+                  {text.intro}
+                </p>
 
-              <div className="mt-8 flex flex-wrap gap-3">
+                <div className="mt-8 flex flex-wrap gap-3">
+                  <Link
+                    href="/student"
+                    onClick={() => {
+                      playClick();
+                      playSuccess();
+                    }}
+                    className="flex items-center gap-2 rounded-2xl border-b-4 border-[#D96E0D] bg-[#FF941F] px-6 py-3.5 text-sm font-black text-white shadow-xl transition hover:-translate-y-1"
+                  >
+                    <GraduationCap size={20} />
+                    {text.students}
+                  </Link>
+
+                  <Link
+                    href="/parent"
+                    onClick={playClick}
+                    className="flex items-center gap-2 rounded-2xl border border-white/25 bg-white/12 px-6 py-3.5 text-sm font-black text-white backdrop-blur transition hover:-translate-y-1 hover:bg-white/20"
+                  >
+                    <Users size={20} />
+                    {text.parents}
+                  </Link>
+                </div>
+              </div>
+            </Reveal>
+
+            <Reveal delay={0.15}>
+              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
                 <Link
-                  href="/student"
-                  className="flex items-center gap-2 rounded-2xl border-b-4 border-[#D96E0D] bg-[#FF941F] px-6 py-3 text-sm font-black text-white transition hover:-translate-y-1"
+                  href="/learn/arabic-a"
+                  onClick={playClick}
+                  className="group rounded-[28px] border border-white/20 bg-white/14 p-6 text-white backdrop-blur-xl transition hover:-translate-y-1 hover:bg-white/20"
                 >
-                  <GraduationCap size={20} />
-                  بوابة الطلاب
+                  <p className="text-3xl font-black">Arabic A</p>
+                  <p className="mt-2 text-sm text-white/75">
+                    {isArabic
+                      ? "للطلاب الناطقين باللغة العربية"
+                      : "For native Arabic speakers"}
+                  </p>
                 </Link>
 
                 <Link
-                  href="/parent"
-                  className="flex items-center gap-2 rounded-2xl border border-white/25 bg-white/12 px-6 py-3 text-sm font-black text-white backdrop-blur transition hover:bg-white/20"
+                  href="/learn/arabic-b"
+                  onClick={playClick}
+                  className="group rounded-[28px] border-b-8 border-[#D96E0D] bg-[#FF941F] p-6 text-white shadow-xl transition hover:-translate-y-1"
                 >
-                  <Users size={20} />
-                  بوابة أولياء الأمور
+                  <p className="text-3xl font-black">Arabic B</p>
+                  <p className="mt-2 text-sm text-white/85">
+                    {isArabic
+                      ? "للطلاب غير الناطقين باللغة العربية"
+                      : "For non-native Arabic speakers"}
+                  </p>
                 </Link>
               </div>
-            </div>
-
-            <div className="grid grid-cols-2 gap-3">
-              <div className="rounded-[28px] bg-white/12 p-5 backdrop-blur">
-                <p className="text-3xl font-black">Arabic A</p>
-                <p className="mt-2 text-xs leading-6 text-white/70">
-                  للطلاب الناطقين باللغة العربية
-                </p>
-              </div>
-
-              <div className="rounded-[28px] bg-[#FF941F] p-5 shadow-xl">
-                <p className="text-3xl font-black">Arabic B</p>
-                <p className="mt-2 text-xs leading-6 text-white/85">
-                  للطلاب غير الناطقين باللغة العربية
-                </p>
-              </div>
-
-              <div className="col-span-2 rounded-[28px] bg-white/12 p-5 backdrop-blur">
-                <p className="text-xs font-bold text-white/65">
-                  مسارات تعليم مناسبة لجميع الطلاب
-                </p>
-                <p className="mt-2 text-xl font-black">
-                  تعلم، تواصل، ثقافة، إبداع
-                </p>
-              </div>
-            </div>
+            </Reveal>
           </div>
         </div>
       </section>
 
-      <section className="mx-auto grid max-w-[1500px] gap-5 px-4 pb-8 lg:grid-cols-2">
-        <FeatureCard
-          featured
-          href="/student"
-          titleAr="بوابة الطلاب"
-          titleEn="Student Learning Hub"
-          description="مسارات تعلم تفاعلية للطلاب الناطقين باللغة العربية وغير الناطقين بها، مع تحديات وأنشطة ومصادر متدرجة."
-          icon={<GraduationCap size={25} />}
-        />
+      <section className="mx-auto grid max-w-[1500px] gap-5 px-4 pb-10 lg:grid-cols-2">
+        <Reveal>
+          <Link
+            href="/student"
+            onClick={playClick}
+            className="group relative block min-h-72 overflow-hidden rounded-[34px] bg-[#0B6B49] p-8 text-white shadow-[0_22px_60px_rgba(11,107,73,0.20)] transition hover:-translate-y-2"
+          >
+            <GraduationCap size={34} />
+            <h2 className="mt-5 text-3xl font-black">{text.students}</h2>
+            <p className="mt-4 max-w-xl leading-8 text-white/78">
+              {isArabic
+                ? "مسارات تعلم متميزة للناطقين بالعربية ولغير الناطقين بها، مع أنشطة وتحديات ومصادر متدرجة."
+                : "Distinct learning pathways for native and non-native speakers, with activities, challenges and progressive resources."}
+            </p>
+            <Arrow className="absolute bottom-8 end-8 transition group-hover:translate-x-1" />
+          </Link>
+        </Reveal>
 
-        <FeatureCard
-          href="/parent"
-          titleAr="بوابة أولياء الأمور"
-          titleEn="Parent Hub"
-          description="تعرفوا إلى ما يتعلمه أبناؤكم، والنشرة الأسبوعية، والفعاليات القادمة، وطرق دعم تعلم اللغة العربية في المنزل."
-          icon={<Users size={25} />}
-        />
+        <Reveal delay={0.08}>
+          <Link
+            href="/parent"
+            onClick={playClick}
+            className="group relative block min-h-72 overflow-hidden rounded-[34px] bg-white p-8 shadow-[0_22px_60px_rgba(22,80,55,0.11)] transition hover:-translate-y-2"
+          >
+            <Users size={34} className="text-[#0B6B49]" />
+            <h2 className="mt-5 text-3xl font-black">{text.parents}</h2>
+            <p className="mt-4 max-w-xl leading-8 text-[#65736C]">
+              {isArabic
+                ? "اطلعوا على تعلم أبنائكم، والنشرة الأسبوعية، والفعاليات القادمة، وطرق دعم العربية في المنزل."
+                : "Follow your child's learning, weekly updates, upcoming events and ways to support Arabic at home."}
+            </p>
+            <Arrow className="absolute bottom-8 end-8 text-[#0B6B49] transition group-hover:translate-x-1" />
+          </Link>
+        </Reveal>
       </section>
 
-      <section className="mx-auto max-w-[1500px] px-4 pb-8">
-        <div className="mb-4 flex items-end justify-between">
-          <div>
-            <p className="text-xs font-black text-[#FF7A00]">
-              Latest Department Update
-            </p>
-            <h2 className="text-3xl font-black text-[#0B6B49]">
-              النشرة الأسبوعية
-            </h2>
+      <section className="mx-auto max-w-[1500px] px-4 pb-10">
+        <Reveal>
+          <div className="mb-5 flex items-end justify-between">
+            <div>
+              <p className="text-xs font-black text-[#FF7A00]">
+                Latest Department Update
+              </p>
+              <h2 className="text-3xl font-black text-[#0B6B49]">
+                {text.newsletter}
+              </h2>
+            </div>
           </div>
 
           <Link
             href="/newsletters"
-            className="flex items-center gap-2 text-xs font-black text-[#0B6B49]"
+            onClick={playClick}
+            className="group grid overflow-hidden rounded-[34px] bg-white shadow-[0_20px_58px_rgba(22,80,55,0.11)] transition hover:-translate-y-1 lg:grid-cols-[360px_1fr]"
           >
-            جميع النشرات
-            <ArrowLeft size={16} />
-          </Link>
-        </div>
+            <div className="relative min-h-72 overflow-hidden">
+              <Image
+                src="/media/newsletter.svg"
+                alt=""
+                fill
+                className="object-cover transition duration-700 group-hover:scale-105"
+              />
+            </div>
 
-        <Link
-          href="/newsletters"
-          className="grid overflow-hidden rounded-[32px] border border-white/80 bg-white/90 shadow-[0_18px_50px_rgba(22,80,55,0.10)] transition hover:-translate-y-1 lg:grid-cols-[260px_1fr]"
-        >
-          <div className="flex min-h-56 items-center justify-center bg-gradient-to-br from-[#0B6B49] to-[#20AD74] text-white">
-            <div className="text-center">
-              <Newspaper size={52} className="mx-auto" />
-              <p className="mt-4 text-2xl font-black">
-                {weeklyNewsletter.weekAr}
-              </p>
-              <p className="text-xs text-white/70">
-                {weeklyNewsletter.academicYear}
+            <div className="p-8">
+              <Newspaper size={30} className="text-[#0B6B49]" />
+              <h3 className="mt-5 text-3xl font-black">
+                {isArabic
+                  ? weeklyNewsletter.titleAr
+                  : weeklyNewsletter.titleEn}
+              </h3>
+              <p className="mt-5 leading-8 text-[#65736C]">
+                {isArabic
+                  ? weeklyNewsletter.summaryAr
+                  : weeklyNewsletter.summaryEn}
               </p>
             </div>
-          </div>
-
-          <div className="p-7">
-            <span className="rounded-full bg-[#FFF0DF] px-3 py-1 text-xs font-black text-[#FF7A00]">
-              جديد
-            </span>
-
-            <h3 className="mt-4 text-2xl font-black text-[#22312A]">
-              {weeklyNewsletter.titleAr}
-            </h3>
-
-            <p
-              dir="ltr"
-              className="mt-1 text-left text-sm font-bold text-[#0B6B49]"
-            >
-              {weeklyNewsletter.titleEn}
-            </p>
-
-            <p className="mt-5 max-w-4xl text-sm leading-8 text-[#65736C]">
-              {weeklyNewsletter.summaryAr}
-            </p>
-          </div>
-        </Link>
+          </Link>
+        </Reveal>
       </section>
 
-      <section className="mx-auto max-w-[1500px] px-4 pb-8">
-        <div className="mb-4 flex items-end justify-between">
-          <div>
-            <p className="text-xs font-black text-[#FF7A00]">
-              Department Highlights
-            </p>
-            <h2 className="text-3xl font-black text-[#0B6B49]">
-              إنجازات القسم
-            </h2>
-          </div>
+      <section className="mx-auto max-w-[1500px] px-4 pb-10">
+        <Reveal>
+          <h2 className="mb-5 text-3xl font-black text-[#0B6B49]">
+            {text.achievements}
+          </h2>
 
-          <Link
-            href="/achievements"
-            className="flex items-center gap-2 text-xs font-black text-[#0B6B49]"
-          >
-            عرض جميع الإنجازات
-            <ArrowLeft size={16} />
-          </Link>
-        </div>
-
-        <div className="grid gap-4 md:grid-cols-3">
-          {achievements.map((achievement, index) => (
-            <Link
-              key={achievement.id}
-              href="/achievements"
-              className="rounded-[28px] border border-white/80 bg-white/90 p-6 shadow-[0_16px_45px_rgba(22,80,55,0.08)] transition hover:-translate-y-1"
-            >
-              <div
-                className={[
-                  "flex h-12 w-12 items-center justify-center rounded-2xl",
-                  index === 1
-                    ? "bg-[#FFF0DF] text-[#FF7A00]"
-                    : "bg-[#EEF8F2] text-[#0B6B49]",
-                ].join(" ")}
+          <div className="grid gap-5 md:grid-cols-3">
+            {achievements.map((item, index) => (
+              <Link
+                key={item.id}
+                href="/achievements"
+                onClick={playClick}
+                className="group overflow-hidden rounded-[30px] bg-white shadow-[0_18px_48px_rgba(22,80,55,0.09)] transition hover:-translate-y-2"
               >
-                {index === 1 ? <Sparkles /> : <Trophy />}
-              </div>
+                <div className="relative h-48 overflow-hidden">
+                  <Image
+                    src={
+                      index === 1
+                        ? "/media/achievement.svg"
+                        : "/media/gallery.svg"
+                    }
+                    alt=""
+                    fill
+                    className="object-cover transition duration-700 group-hover:scale-110"
+                  />
+                </div>
 
-              <p className="mt-5 text-xs font-black text-[#FF7A00]">
-                {achievement.categoryAr} • {achievement.year}
-              </p>
+                <div className="p-6">
+                  {index === 1 ? (
+                    <Sparkles className="text-[#FF7A00]" />
+                  ) : (
+                    <Trophy className="text-[#0B6B49]" />
+                  )}
 
-              <h3 className="mt-2 text-xl font-black">
-                {achievement.titleAr}
-              </h3>
+                  <h3 className="mt-4 text-xl font-black">
+                    {isArabic ? item.titleAr : item.titleEn}
+                  </h3>
 
-              <p className="mt-3 text-sm leading-7 text-[#65736C]">
-                {achievement.descriptionAr}
-              </p>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-[1500px] px-4 pb-8">
-        <div className="mb-4 flex items-end justify-between">
-          <div>
-            <p className="text-xs font-black text-[#FF7A00]">
-              Activities & Events
-            </p>
-            <h2 className="text-3xl font-black text-[#0B6B49]">
-              أنشطة وفعاليات القسم
-            </h2>
+                  <p className="mt-3 text-sm leading-7 text-[#65736C]">
+                    {isArabic ? item.descriptionAr : item.descriptionEn}
+                  </p>
+                </div>
+              </Link>
+            ))}
           </div>
-
-          <Link
-            href="/events"
-            className="flex items-center gap-2 text-xs font-black text-[#0B6B49]"
-          >
-            عرض جميع الأنشطة
-            <ArrowLeft size={16} />
-          </Link>
-        </div>
-
-        <div className="grid gap-4 lg:grid-cols-3">
-          {events.map((event) => (
-            <Link
-              key={event.id}
-              href="/events"
-              className="group overflow-hidden rounded-[28px] border border-white/80 bg-white/90 shadow-[0_16px_45px_rgba(22,80,55,0.08)] transition hover:-translate-y-1"
-            >
-              <div className="flex h-36 items-center justify-center bg-gradient-to-br from-[#EAF8F0] to-[#FFF0DF]">
-                <CalendarDays size={44} className="text-[#0B6B49]" />
-              </div>
-
-              <div className="p-5">
-                <p className="text-xs font-black text-[#FF7A00]">
-                  {event.dateAr} • {event.typeAr}
-                </p>
-                <h3 className="mt-2 text-xl font-black">{event.titleAr}</h3>
-                <p className="mt-3 text-sm leading-7 text-[#65736C]">
-                  {event.descriptionAr}
-                </p>
-              </div>
-            </Link>
-          ))}
-        </div>
+        </Reveal>
       </section>
 
-      <section className="mx-auto grid max-w-[1500px] gap-4 px-4 pb-12 sm:grid-cols-2 lg:grid-cols-4">
-        {[
-          ["معرض الصور", "Photo Gallery", Camera, "/events"],
-          ["مكتبة الفيديو", "Video Library", PlayCircle, "/events"],
-          ["أعمال الطلاب", "Student Work", BookOpen, "/student"],
-          ["رحلة التعلم", "Learning Journey", GraduationCap, "/student"],
-        ].map(([ar, en, Icon, href]) => {
-          const ItemIcon = Icon as typeof Camera;
+      <section className="mx-auto max-w-[1500px] px-4 pb-10">
+        <Reveal>
+          <h2 className="mb-5 text-3xl font-black text-[#0B6B49]">
+            {text.activities}
+          </h2>
 
-          return (
-            <Link
-              key={ar as string}
-              href={href as string}
-              className="rounded-[26px] border border-white/80 bg-white/90 p-5 shadow-[0_14px_40px_rgba(22,80,55,0.08)] transition hover:-translate-y-1"
-            >
-              <ItemIcon size={26} className="text-[#0B6B49]" />
-              <h3 className="mt-4 font-black">{ar as string}</h3>
-              <p className="mt-1 text-xs font-bold text-[#0B6B49]">
-                {en as string}
+          <div className="grid gap-5 lg:grid-cols-3">
+            {events.map((event) => (
+              <Link
+                key={event.id}
+                href="/events"
+                onClick={playClick}
+                className="group overflow-hidden rounded-[30px] bg-white shadow-[0_18px_48px_rgba(22,80,55,0.09)] transition hover:-translate-y-2"
+              >
+                <div className="relative h-48 overflow-hidden">
+                  <Image
+                    src="/media/activities.svg"
+                    alt=""
+                    fill
+                    className="object-cover transition duration-700 group-hover:scale-110"
+                  />
+                </div>
+
+                <div className="p-6">
+                  <CalendarDays className="text-[#0B6B49]" />
+
+                  <h3 className="mt-4 text-xl font-black">
+                    {isArabic ? event.titleAr : event.titleEn}
+                  </h3>
+
+                  <p className="mt-3 text-sm leading-7 text-[#65736C]">
+                    {isArabic ? event.descriptionAr : event.descriptionEn}
+                  </p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </Reveal>
+      </section>
+
+      <section className="mx-auto max-w-[1500px] px-4 pb-14">
+        <Reveal>
+          <div className="relative min-h-[420px] overflow-hidden rounded-[38px]">
+            <Image
+              src="/media/gallery.svg"
+              alt=""
+              fill
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-[#063E2E]/66" />
+
+            <div className="relative z-10 flex min-h-[420px] flex-col items-center justify-center px-6 text-center text-white">
+              <Camera size={46} />
+              <h2 className="mt-5 text-4xl font-black">{text.moments}</h2>
+              <p className="mt-4 max-w-2xl leading-8 text-white/80">
+                {isArabic
+                  ? "صور الأنشطة والفعاليات وأعمال الطلاب واللحظات التي تحتفي باللغة والثقافة والإبداع."
+                  : "Activities, events, student work and moments celebrating language, culture and creativity."}
               </p>
-            </Link>
-          );
-        })}
+
+              <Link
+                href="/events"
+                onClick={playClick}
+                className="mt-7 flex items-center gap-2 rounded-2xl bg-[#FF941F] px-6 py-3 font-black"
+              >
+                <PlayCircle size={19} />
+                {text.viewAll}
+              </Link>
+            </div>
+          </div>
+        </Reveal>
       </section>
 
-      <footer className="border-t border-[#0B6B49]/10 bg-white/60 py-6">
+      <footer className="border-t border-[#0B6B49]/10 bg-white/65 py-7">
         <div className="mx-auto flex max-w-[1500px] justify-between px-4 text-xs font-bold text-[#65736C]">
           <span>King&apos;s College Doha</span>
           <span>Powered by BAYAN</span>

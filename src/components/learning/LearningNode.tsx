@@ -3,12 +3,13 @@
 import { motion } from "framer-motion";
 import { Lock, Star } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
+import type { LearningStatus } from "../../data/learning-path";
 
 type LearningNodeProps = {
   titleAr: string;
   titleEn: string;
   icon: LucideIcon;
-  status: "completed" | "active" | "unlocked" | "locked";
+  status: LearningStatus;
   stars: number;
   xp: number;
   index: number;
