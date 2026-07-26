@@ -1,51 +1,69 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fff9ef;
-  --foreground: #26332d;
+  --background: #fffdf7;
+  --foreground: #21312a;
 }
 
 * {
   box-sizing: border-box;
 }
 
-html,
-body {
-  margin: 0;
-  min-height: 100%;
-  background: var(--background);
-  color: var(--foreground);
+html {
+  scroll-behavior: smooth;
+}
+
+html[lang="ar"] body {
+  font-family: var(--font-arabic), Arial, sans-serif;
+}
+
+html[lang="en"] body {
+  font-family: var(--font-english), Arial, sans-serif;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  min-height: 100%;
+  overflow-x: hidden;
+  background: var(--background);
+  color: var(--foreground);
 }
 
 button,
 a {
   -webkit-tap-highlight-color: transparent;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  overflow-x: hidden;
+  outline-offset: 4px;
 }
 
 ::selection {
-  background: #ff941f;
-  color: #ffffff;
+  background: #ffb648;
+  color: #123c2d;
 }
 
-img {
-  user-select: none;
+.playful-grid {
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(20, 184, 121, 0.06) 0 4px, transparent 5px),
+    radial-gradient(circle at 80% 70%, rgba(255, 148, 31, 0.07) 0 5px, transparent 6px);
+  background-size: 42px 42px, 58px 58px;
 }
 
-button,
-a {
-  outline-offset: 4px;
+.floating-shape {
+  animation: float-shape 7s ease-in-out infinite;
+}
+
+.floating-shape-delayed {
+  animation: float-shape 8.5s ease-in-out 1.2s infinite;
+}
+
+@keyframes float-shape {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-18px) rotate(5deg);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
