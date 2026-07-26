@@ -1,7 +1,5 @@
-"use client";
-
-import PortalCard from "../src/components/home/PortalCard";
-import { portalItems } from "../src/data/portal-items";
+import PortalCard from "@/components/home/PortalCard";
+import { portalItems } from "@/data/portal-items";
 import { LogIn, Moon, Search } from "lucide-react";
 
 export default function Home() {
