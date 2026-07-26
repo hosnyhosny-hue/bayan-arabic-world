@@ -1,29 +1,11 @@
 import type { Metadata } from "next";
-import {
-  IBM_Plex_Sans,
-  IBM_Plex_Sans_Arabic,
-} from "next/font/google";
 import "./globals.css";
-import AppProviders from "../src/providers/AppProviders";
-
-const arabicFont = IBM_Plex_Sans_Arabic({
-  subsets: ["arabic"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-arabic",
-  display: "swap",
-});
-
-const englishFont = IBM_Plex_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-english",
-  display: "swap",
-});
+import { WorldProvider } from "@/src/context/WorldContext";
 
 export const metadata: Metadata = {
-  title: "Arabic Department | King's College Doha",
+  title: "Bayan Arabic World | King's College Doha",
   description:
-    "A bilingual digital learning world for the Arabic Department at King's College Doha.",
+    "The digital home of Arabic learning at King's College Doha.",
 };
 
 export default function RootLayout({
@@ -32,11 +14,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ar" dir="rtl" suppressHydrationWarning>
-      <body
-        className={`${arabicFont.variable} ${englishFont.variable}`}
-      >
-        <AppProviders>{children}</AppProviders>
+    <html lang="ar" dir="rtl">
+      <body>
+        <WorldProvider>{children}</WorldProvider>
       </body>
     </html>
   );

@@ -1,0 +1,242 @@
+"use client";
+
+import Link from "next/link";
+import { useParams } from "next/navigation";
+import {
+  ArrowLeft,
+  ArrowRight,
+  BookOpen,
+  CheckCircle2,
+  Sparkles,
+} from "lucide-react";
+
+import WorldHeader from "@/src/components/world/WorldHeader";
+import { useWorld } from "@/src/context/WorldContext";
+import { sections } from "@/src/data/world";
+
+type FlexibleSection = {
+  slug?: string;
+  href?: string;
+  title?: string;
+  titleAr?: string;
+  titleEn?: string;
+  nameAr?: string;
+  nameEn?: string;
+  description?: string;
+  descriptionAr?: string;
+  descriptionEn?: string;
+  subtitleAr?: string;
+  subtitleEn?: string;
+  features?: unknown[];
+  cards?: unknown[];
+  items?: unknown[];
+};
+
+function getText(
+  section: FlexibleSection,
+  isArabic: boolean,
+  arabicKeys: Array<keyof FlexibleSection>,
+  englishKeys: Array<keyof FlexibleSection>,
+  fallback: string,
+) {
+  const keys = isArabic ? arabicKeys : englishKeys;
+
+  for (const key of keys) {
+    const value = section[key];
+
+    if (typeof value === "string" && value.trim()) {
+      return value;
+    }
+  }
+
+  return fallback;
+}
+
+export default function DynamicSectionPage() {
+  const params = useParams<{ slug: string }>();
+  const { isArabic, playSound } = useWorld();
+
+  const slug = Array.isArray(params.slug) ? params.slug[0] : params.slug;
+
+  const section = (sections as FlexibleSection[]).find((item) => {
+    const itemSlug =
+      item.slug ||
+      item.href?.replace(/^\/+/, "").replace(/\/+$/, "");
+
+    return itemSlug === slug;
+  });
+
+  const ArrowIcon = isArabic ? ArrowRight : ArrowLeft;
+
+  if (!section) {
+    return (
+      <main className="section-page" dir={isArabic ? "rtl" : "ltr"}>
+        <WorldHeader />
+
+        <section className="section-not-found">
+          <div className="section-not-found-icon">404</div>
+
+          <h1>
+            {isArabic ? "الصفحة غير موجودة" : "Page not found"}
+          </h1>
+
+          <p>
+            {isArabic
+              ? "لم نتمكن من العثور على هذا القسم."
+              : "We could not find this section."}
+          </p>
+
+          <Link href="/" className="primary-action">
+            <ArrowIcon size={18} />
+            {isArabic ? "العودة إلى الرئيسية" : "Back to home"}
+          </Link>
+        </section>
+      </main>
+    );
+  }
+
+  const title = getText(
+    section,
+    isArabic,
+    ["titleAr", "nameAr", "title"],
+    ["titleEn", "nameEn", "title"],
+    isArabic ? "عالم بيان" : "Bayan World",
+  );
+
+  const description = getText(
+    section,
+    isArabic,
+    ["descriptionAr", "subtitleAr", "description"],
+    ["descriptionEn", "subtitleEn", "description"],
+    isArabic
+      ? "مساحة تعليمية تفاعلية صُممت لتقديم تجربة عربية حديثة وملهمة."
+      : "An interactive learning space designed to deliver a modern and inspiring Arabic experience.",
+  );
+
+  const contentItems =
+    section.features || section.cards || section.items || [];
+
+  return (
+    <main className="section-page" dir={isArabic ? "rtl" : "ltr"}>
+      <WorldHeader />
+
+      <section className="section-hero">
+        <div className="section-hero-copy">
+          <Link
+            href="/"
+            className="section-back-link"
+            onClick={() => playSound("click")}
+          >
+            <ArrowIcon size={17} />
+            {isArabic ? "الرئيسية" : "Home"}
+          </Link>
+
+          <div className="section-badge">
+            <Sparkles size={16} />
+            {isArabic ? "تجربة بيان التعليمية" : "Bayan Learning Experience"}
+          </div>
+
+          <h1>{title}</h1>
+          <p>{description}</p>
+        </div>
+
+        <div className="section-hero-visual" aria-hidden="true">
+          <div className="section-orbit section-orbit-one" />
+          <div className="section-orbit section-orbit-two" />
+
+          <div className="section-main-symbol">
+            <BookOpen size={48} strokeWidth={1.7} />
+          </div>
+        </div>
+      </section>
+
+      <section className="section-content">
+        <div className="section-heading">
+          <div>
+            <span>
+              {isArabic ? "استكشف القسم" : "Explore the section"}
+            </span>
+
+            <h2>
+              {isArabic
+                ? "محتوى تعليمي متكامل"
+                : "A complete learning experience"}
+            </h2>
+          </div>
+
+          <p>
+            {isArabic
+              ? "تم تنظيم الصفحة لتكون سهلة الاستخدام للطلاب وأولياء الأمور والمعلمين."
+              : "This page is structured for easy use by students, parents and teachers."}
+          </p>
+        </div>
+
+        <div className="section-feature-grid">
+          {(contentItems.length
+            ? contentItems
+            : [
+                {
+                  titleAr: "محتوى تفاعلي",
+                  titleEn: "Interactive content",
+                  descriptionAr:
+                    "مواد تعليمية منظمة تساعد الطالب على الاستكشاف والتعلم.",
+                  descriptionEn:
+                    "Structured learning materials that support discovery and progress.",
+                },
+                {
+                  titleAr: "مصادر مختارة",
+                  titleEn: "Curated resources",
+                  descriptionAr:
+                    "مجموعة من المصادر والأنشطة المصممة وفق احتياجات المتعلمين.",
+                  descriptionEn:
+                    "Resources and activities designed around learner needs.",
+                },
+                {
+                  titleAr: "متابعة الإنجاز",
+                  titleEn: "Progress tracking",
+                  descriptionAr:
+                    "تجربة تشجع على المشاركة والاستمرار وتحقيق الإنجازات.",
+                  descriptionEn:
+                    "An experience that encourages participation, consistency and achievement.",
+                },
+              ]
+          ).slice(0, 6).map((rawItem, index) => {
+            const item =
+              typeof rawItem === "object" && rawItem !== null
+                ? (rawItem as Record<string, unknown>)
+                : {};
+
+            const itemTitle =
+              (isArabic
+                ? item.titleAr || item.nameAr
+                : item.titleEn || item.nameEn) ||
+              item.title ||
+              `${isArabic ? "المحتوى" : "Content"} ${index + 1}`;
+
+            const itemDescription =
+              (isArabic
+                ? item.descriptionAr || item.subtitleAr
+                : item.descriptionEn || item.subtitleEn) ||
+              item.description ||
+              (isArabic
+                ? "محتوى تعليمي مميز داخل عالم بيان."
+                : "Premium educational content inside Bayan World.");
+
+            return (
+              <article className="section-feature-card" key={index}>
+                <div className="section-feature-number">
+                  {String(index + 1).padStart(2, "0")}
+                </div>
+
+                <CheckCircle2 size={23} />
+
+                <h3>{String(itemTitle)}</h3>
+                <p>{String(itemDescription)}</p>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+    </main>
+  );
+}
