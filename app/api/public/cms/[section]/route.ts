@@ -139,7 +139,10 @@ export async function GET(
 
     return NextResponse.json(
       {
-        error: "Unable to load published content.",
+        error:
+          error instanceof Error
+            ? error.message
+            : JSON.stringify(error),
         items: [],
       },
       { status: 500 }
