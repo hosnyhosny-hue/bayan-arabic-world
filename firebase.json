@@ -1,0 +1,13 @@
+{
+  "apphosting": {
+    "backendId": "arabic-department-kcd",
+    "rootDir": "/",
+    "ignore": [
+      "node_modules",
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      "functions"
+    ]
+  }
+}
