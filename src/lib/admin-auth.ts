@@ -3,8 +3,9 @@ import "server-only";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { adminAuth } from "@/src/lib/firebase-admin";
+import { SESSION_COOKIE_NAME } from "@/src/lib/auth-constants";
 
-export const SESSION_COOKIE_NAME = "bayan_admin_session";
+export { SESSION_COOKIE_NAME };
 
 export async function getAdminUser() {
   const cookieStore = await cookies();

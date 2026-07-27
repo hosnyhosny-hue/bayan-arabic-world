@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ShieldCheck, Sparkles } from "lucide-react";
 import WorldHeader from "@/src/components/world/WorldHeader";
 import SectionIcon from "@/src/components/world/SectionIcon";
+import HeroMonthlyVideo from "@/src/components/world/HeroMonthlyVideo";
 import { useWorld } from "@/src/context/WorldContext";
 import { sections } from "@/src/data/world";
 
@@ -51,21 +52,7 @@ export default function HomePage() {
                   : "A bilingual digital world bringing together learning, student achievement, cultural events, digital publishing and educational resources in one joyful experience."}
               </p>
 
-              <div className="mascot-card">
-                <div className="mascot">🦉</div>
-                <div>
-                  <strong>
-                    {isArabic
-                      ? "مرحبًا، أنا بيان!"
-                      : "Hello, I’m Bayan!"}
-                  </strong>
-                  <span>
-                    {isArabic
-                      ? "اختر أيقونة لنبدأ رحلة عربية جديدة."
-                      : "Choose an icon and begin a new Arabic adventure."}
-                  </span>
-                </div>
-              </div>
+              <HeroMonthlyVideo />
 
               <div className="hero-tags">
                 <span>{isArabic ? "تعليم عالمي" : "World-Class Learning"}</span>
