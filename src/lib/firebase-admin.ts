@@ -34,6 +34,9 @@ const adminApp =
           clientEmail,
           privateKey,
         }),
+        storageBucket:
+          process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET?.trim() ||
+          "arabic-department-kcd.firebasestorage.app",
       });
 
 export const adminAuth = getAuth(adminApp);

@@ -1,12 +1,6 @@
 "use client";
 
 import { ChangeEvent, useEffect, useState } from "react";
-import {
-  getDownloadURL,
-  ref,
-  uploadBytesResumable,
-} from "firebase/storage";
-import { firebaseStorage } from "@/src/lib/firebase-client";
 
 type Settings = {
   enabled: boolean;
@@ -80,37 +74,34 @@ export default function HeroVideoManager() {
     file: File,
     type: "video" | "poster"
   ) {
-    const path =
-      `cms/hero-video/${type}/` +
-      `${Date.now()}-${safeName(file.name)}`;
+    const formData = new FormData();
+    formData.append("file", file);
+    formData.append("type", type);
 
-    const task = uploadBytesResumable(
-      ref(firebaseStorage, path),
-      file,
-      { contentType: file.type }
-    );
+    setProgress("جارٍ رفع الملف إلى الخادم...");
 
-    return new Promise<{ url: string; path: string }>(
-      (resolve, reject) => {
-        task.on(
-          "state_changed",
-          snapshot => {
-            const percent = Math.round(
-              (snapshot.bytesTransferred /
-                snapshot.totalBytes) *
-                100
-            );
-
-            setProgress(`جارٍ رفع الملف: ${percent}%`);
-          },
-          reject,
-          async () => {
-            const url = await getDownloadURL(task.snapshot.ref);
-            resolve({ url, path });
-          }
-        );
+    const response = await fetch(
+      "/api/admin/cms/hero-video/upload",
+      {
+        method: "POST",
+        body: formData,
       }
     );
+
+    const result = await response.json();
+
+    if (!response.ok || !result.success) {
+      throw new Error(
+        result.message || "فشل رفع الملف."
+      );
+    }
+
+    setProgress("اكتمل رفع الملف.");
+
+    return {
+      url: result.data.url as string,
+      path: result.data.path as string,
+    };
   }
 
   async function chooseFile(
@@ -145,7 +136,7 @@ export default function HeroVideoManager() {
     } catch (error) {
       console.error(error);
       setMessage(
-        "فشل الرفع. تحقق من Firebase Storage Rules."
+        "فشل رفع الملف إلى الخادم."
       );
     } finally {
       setProgress("");
