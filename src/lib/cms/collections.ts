@@ -13,3 +13,6 @@ export const CMS_COLLECTIONS = {
   settings: "cms_settings",
   activity: "cms_activity",
 } as const;
+
+export type CmsCollection =
+  (typeof CMS_COLLECTIONS)[keyof typeof CMS_COLLECTIONS];
