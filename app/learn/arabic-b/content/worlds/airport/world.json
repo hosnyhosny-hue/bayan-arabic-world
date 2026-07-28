@@ -1,0 +1,44 @@
+{
+  "id": "airport",
+  "title": {
+    "en": "At the Airport",
+    "ar": "في المطار"
+  },
+  "subtitle": {
+    "en": "Travel confidently in Arabic",
+    "ar": "سافر بثقة مستخدمًا العربية"
+  },
+  "level": "A2",
+  "cefr": "A2",
+  "xpReward": 340,
+  "badgeId": "confident-traveller",
+  "icon": "✈️",
+  "theme": "violet",
+  "prerequisiteWorldId": "hospital",
+  "objectives": {
+    "en": [
+      "Check in for a flight",
+      "Ask about gates and times",
+      "Handle common travel situations"
+    ],
+    "ar": [
+      "إنهاء إجراءات السفر",
+      "السؤال عن البوابات والمواعيد",
+      "التعامل مع مواقف السفر الشائعة"
+    ]
+  },
+  "estimatedMinutes": 25,
+  "sceneIds": [
+    "airport-arrival",
+    "airport-practice",
+    "airport-challenge"
+  ],
+  "missionIds": [
+    "airport-mission-1",
+    "airport-mission-2",
+    "airport-mission-3"
+  ],
+  "characterIds": [],
+  "isPublished": true,
+  "version": 1
+}

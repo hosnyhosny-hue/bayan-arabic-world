@@ -1,0 +1,28 @@
+{
+  "dialogues": [
+    {
+      "id": "library-book",
+      "title": {
+        "en": "Finding a book",
+        "ar": "البحث عن كتاب"
+      },
+      "lines": [
+        {
+          "speaker": "Student",
+          "arabic": "أَيْنَ كُتُبُ القِصَص؟",
+          "english": "Where are the story books?"
+        },
+        {
+          "speaker": "Librarian",
+          "arabic": "هِيَ عَلى الرَّفِّ الثّالِث.",
+          "english": "They are on the third shelf."
+        },
+        {
+          "speaker": "Student",
+          "arabic": "شُكْرًا لَكِ.",
+          "english": "Thank you."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "university",
+  "title": {
+    "en": "At University",
+    "ar": "في الجامعة"
+  },
+  "subtitle": {
+    "en": "Study, discuss and express ideas",
+    "ar": "تعلّم وناقش وعبّر عن أفكارك"
+  },
+  "level": "B1",
+  "cefr": "B1",
+  "xpReward": 500,
+  "badgeId": "arabic-world-citizen",
+  "icon": "🎓",
+  "theme": "gold",
+  "prerequisiteWorldId": "airport",
+  "objectives": {
+    "en": [
+      "Discuss study plans",
+      "Express opinions",
+      "Participate in an academic conversation"
+    ],
+    "ar": [
+      "مناقشة الخطط الدراسية",
+      "التعبير عن الرأي",
+      "المشاركة في حوار أكاديمي"
+    ]
+  },
+  "estimatedMinutes": 25,
+  "sceneIds": [
+    "university-arrival",
+    "university-practice",
+    "university-challenge"
+  ],
+  "missionIds": [
+    "university-mission-1",
+    "university-mission-2",
+    "university-mission-3"
+  ],
+  "characterIds": [],
+  "isPublished": true,
+  "version": 1
+}

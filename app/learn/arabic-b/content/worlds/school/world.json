@@ -1,0 +1,47 @@
+{
+  "id": "school",
+  "title": {
+    "en": "At School",
+    "ar": "في المدرسة"
+  },
+  "subtitle": {
+    "en": "Meet, learn and communicate at school",
+    "ar": "تعرّف وتعلّم وتواصل في المدرسة"
+  },
+  "level": "A0",
+  "cefr": "Pre-A1",
+  "xpReward": 120,
+  "badgeId": "school-graduate",
+  "icon": "🏫",
+  "theme": "emerald",
+  "prerequisiteWorldId": null,
+  "objectives": {
+    "en": [
+      "Greet teachers and classmates",
+      "Introduce yourself",
+      "Understand classroom instructions"
+    ],
+    "ar": [
+      "تحية المعلمين والزملاء",
+      "التعريف بالنفس",
+      "فهم تعليمات الصف"
+    ]
+  },
+  "estimatedMinutes": 25,
+  "sceneIds": [
+    "school-arrival",
+    "school-practice",
+    "school-challenge"
+  ],
+  "missionIds": [
+    "school-mission-1",
+    "school-mission-2",
+    "school-mission-3"
+  ],
+  "characterIds": [
+    "teacher-omar",
+    "student-lina"
+  ],
+  "isPublished": true,
+  "version": 1
+}

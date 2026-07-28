@@ -1,0 +1,28 @@
+{
+  "dialogues": [
+    {
+      "id": "market-shopping",
+      "title": {
+        "en": "Buying fruit",
+        "ar": "شراء الفاكهة"
+      },
+      "lines": [
+        {
+          "speaker": "Customer",
+          "arabic": "بِكَمْ هذِهِ التُّفّاحَة؟",
+          "english": "How much is this apple?"
+        },
+        {
+          "speaker": "Seller",
+          "arabic": "بِخَمْسَةِ رِيالات.",
+          "english": "It is five riyals."
+        },
+        {
+          "speaker": "Customer",
+          "arabic": "سَآخُذُ اثْنَتَيْنِ، مِنْ فَضْلِكَ.",
+          "english": "I will take two, please."
+        }
+      ]
+    }
+  ]
+}

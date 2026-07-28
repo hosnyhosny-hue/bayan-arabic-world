@@ -1,0 +1,28 @@
+{
+  "dialogues": [
+    {
+      "id": "canteen-order",
+      "title": {
+        "en": "Ordering lunch",
+        "ar": "طلب الغداء"
+      },
+      "lines": [
+        {
+          "speaker": "Student",
+          "arabic": "أُريدُ شَطيرَةً وَعَصيرًا، مِنْ فَضْلِكَ.",
+          "english": "I would like a sandwich and juice, please."
+        },
+        {
+          "speaker": "Staff",
+          "arabic": "تَفَضَّل. هَلْ تُريدُ شَيْئًا آخَر؟",
+          "english": "Here you are. Would you like anything else?"
+        },
+        {
+          "speaker": "Student",
+          "arabic": "لا، شُكْرًا.",
+          "english": "No, thank you."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "library",
+  "title": {
+    "en": "In the Library",
+    "ar": "في المكتبة"
+  },
+  "subtitle": {
+    "en": "Find books and ask for information",
+    "ar": "ابحث عن الكتب واطلب المعلومات"
+  },
+  "level": "A1",
+  "cefr": "A1",
+  "xpReward": 190,
+  "badgeId": null,
+  "icon": "📚",
+  "theme": "indigo",
+  "prerequisiteWorldId": "canteen",
+  "objectives": {
+    "en": [
+      "Identify book categories",
+      "Ask where something is",
+      "Borrow a book"
+    ],
+    "ar": [
+      "تمييز أنواع الكتب",
+      "السؤال عن مكان شيء",
+      "استعارة كتاب"
+    ]
+  },
+  "estimatedMinutes": 25,
+  "sceneIds": [
+    "library-arrival",
+    "library-practice",
+    "library-challenge"
+  ],
+  "missionIds": [
+    "library-mission-1",
+    "library-mission-2",
+    "library-mission-3"
+  ],
+  "characterIds": [],
+  "isPublished": true,
+  "version": 1
+}

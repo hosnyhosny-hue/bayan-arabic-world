@@ -1,0 +1,26 @@
+[
+  {
+    "id": "library-word-1",
+    "arabic": "مرحبًا",
+    "english": "Hello",
+    "transliteration": "marhaban",
+    "partOfSpeech": "expression",
+    "audio": null
+  },
+  {
+    "id": "library-word-2",
+    "arabic": "من فضلك",
+    "english": "Please",
+    "transliteration": "min fadlik",
+    "partOfSpeech": "expression",
+    "audio": null
+  },
+  {
+    "id": "library-word-3",
+    "arabic": "شكرًا",
+    "english": "Thank you",
+    "transliteration": "shukran",
+    "partOfSpeech": "expression",
+    "audio": null
+  }
+]

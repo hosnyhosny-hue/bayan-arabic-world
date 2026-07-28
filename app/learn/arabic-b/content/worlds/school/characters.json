@@ -1,0 +1,32 @@
+[
+  {
+    "id": "teacher-omar",
+    "name": {
+      "en": "Mr Omar",
+      "ar": "الأستاذ عمر"
+    },
+    "role": {
+      "en": "Arabic teacher",
+      "ar": "معلم اللغة العربية"
+    },
+    "avatar": "/images/bayan/characters/teacher-omar.png",
+    "voice": "male-1",
+    "personality": "warm, patient, encouraging",
+    "difficulty": "A0"
+  },
+  {
+    "id": "student-lina",
+    "name": {
+      "en": "Lina",
+      "ar": "لينا"
+    },
+    "role": {
+      "en": "Classmate",
+      "ar": "زميلة"
+    },
+    "avatar": "/images/bayan/characters/lina.png",
+    "voice": "female-1",
+    "personality": "friendly, curious",
+    "difficulty": "A0"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "canteen-arrival",
+    "order": 1,
+    "title": {
+      "en": "Arrival",
+      "ar": "الوصول"
+    },
+    "description": {
+      "en": "Enter the world and meet its characters.",
+      "ar": "ادخل العالم وتعرّف إلى شخصياته."
+    },
+    "missionIds": [
+      "canteen-mission-1"
+    ]
+  },
+  {
+    "id": "canteen-practice",
+    "order": 2,
+    "title": {
+      "en": "Guided Practice",
+      "ar": "التدريب الموجّه"
+    },
+    "description": {
+      "en": "Practise vocabulary and useful expressions.",
+      "ar": "تدرّب على المفردات والتعبيرات المفيدة."
+    },
+    "missionIds": [
+      "canteen-mission-2"
+    ]
+  },
+  {
+    "id": "canteen-challenge",
+    "order": 3,
+    "title": {
+      "en": "World Challenge",
+      "ar": "تحدي العالم"
+    },
+    "description": {
+      "en": "Complete a realistic communication challenge.",
+      "ar": "أكمل تحديًا تواصليًا واقعيًا."
+    },
+    "missionIds": [
+      "canteen-mission-3"
+    ]
+  }
+]

@@ -5,8 +5,10 @@ import { useEffect, useMemo, useState } from "react";
 import styles from "./arabic-b.module.css";
 import Hero from "./components/Hero/Hero";
 import Header from "./components/Header/Header";
+import JourneyMap from "./components/JourneyMap/JourneyMap";
 import JourneyEngineProvider from "./engine/core/JourneyEngineProvider";
-import DynamicJourneyMap from "./components/DynamicJourneyMap";
+import JourneyEngineDevPanel from "./engine/core/JourneyEngineDevPanel";
+import WorldContentDevPanel from "./engine/worlds/WorldContentDevPanel";
 
 type SpeechRecognitionAlternativeLike = {
   transcript?: string;
@@ -636,7 +638,9 @@ export default function ArabicBPage() {
       </section>
 
       <JourneyEngineProvider>
-        <DynamicJourneyMap isArabic={isArabic} />
+        <JourneyMap isArabic={isArabic} />
+        <JourneyEngineDevPanel />
+        <WorldContentDevPanel />
       </JourneyEngineProvider>
 
       <section className={styles.missionSection} id="mission">

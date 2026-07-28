@@ -1,0 +1,35 @@
+[
+  {
+    "id": "hospital-mission-1",
+    "order": 1,
+    "type": "story",
+    "title": {
+      "en": "Discover",
+      "ar": "اكتشف"
+    },
+    "xp": 25,
+    "required": true
+  },
+  {
+    "id": "hospital-mission-2",
+    "order": 2,
+    "type": "practice",
+    "title": {
+      "en": "Practise",
+      "ar": "تدرّب"
+    },
+    "xp": 35,
+    "required": true
+  },
+  {
+    "id": "hospital-mission-3",
+    "order": 3,
+    "type": "conversation",
+    "title": {
+      "en": "Communicate",
+      "ar": "تواصل"
+    },
+    "xp": 60,
+    "required": true
+  }
+]

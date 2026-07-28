@@ -1,0 +1,26 @@
+[
+  {
+    "id": "school-word-1",
+    "arabic": "مرحبًا",
+    "english": "Hello",
+    "transliteration": "marhaban",
+    "partOfSpeech": "expression",
+    "audio": null
+  },
+  {
+    "id": "school-word-2",
+    "arabic": "من فضلك",
+    "english": "Please",
+    "transliteration": "min fadlik",
+    "partOfSpeech": "expression",
+    "audio": null
+  },
+  {
+    "id": "school-word-3",
+    "arabic": "شكرًا",
+    "english": "Thank you",
+    "transliteration": "shukran",
+    "partOfSpeech": "expression",
+    "audio": null
+  }
+]

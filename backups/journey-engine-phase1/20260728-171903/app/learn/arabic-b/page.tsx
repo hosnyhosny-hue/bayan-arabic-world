@@ -5,8 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import styles from "./arabic-b.module.css";
 import Hero from "./components/Hero/Hero";
 import Header from "./components/Header/Header";
-import JourneyEngineProvider from "./engine/core/JourneyEngineProvider";
-import DynamicJourneyMap from "./components/DynamicJourneyMap";
+import JourneyMap from "./components/JourneyMap/JourneyMap";
 
 type SpeechRecognitionAlternativeLike = {
   transcript?: string;
@@ -31,7 +30,9 @@ interface SpeechRecognitionLike {
   start: () => void;
   stop: () => void;
   abort: () => void;
-  onresult: ((event: SpeechRecognitionResultEventLike) => void) | null;
+  onresult:
+    | ((event: SpeechRecognitionResultEventLike) => void)
+    | null;
   onerror: ((event: Event) => void) | null;
   onend: (() => void) | null;
 }
@@ -121,8 +122,7 @@ const levels: Level[] = [
     promiseAr: "أشرح رأيي وأروي تجربة وأفهم نصوصًا أطول.",
     promiseEn: "I express opinions, narrate experiences and read longer texts.",
     descriptionAr: "الرأي، السرد، المقارنة، الرسائل والمشروعات القصيرة.",
-    descriptionEn:
-      "Opinions, narration, comparison, messages and mini-projects.",
+    descriptionEn: "Opinions, narration, comparison, messages and mini-projects.",
     icon: "⭐",
     units: 10,
     lessons: 40,
@@ -338,6 +338,7 @@ function suggestedLevel(score: number): LevelId {
   return "B2";
 }
 
+
 type MeaningOption = {
   id: string;
   en: string;
@@ -502,7 +503,9 @@ export default function ArabicBPage() {
       const savedLevel = localStorage.getItem(
         "bayan-arabic-b-placement-level",
       ) as LevelId | null;
-      const savedMission = localStorage.getItem("bayan-arabic-b-daily-mission");
+      const savedMission = localStorage.getItem(
+        "bayan-arabic-b-daily-mission",
+      );
 
       if (savedLanguage === "ar" || savedLanguage === "en") {
         setLanguage(savedLanguage);
@@ -534,7 +537,9 @@ export default function ArabicBPage() {
     [selectedLevel],
   );
 
-  const currentExperience = levelExperienceContent[selectedLevelData.id];
+
+  const currentExperience =
+    levelExperienceContent[selectedLevelData.id];
 
   const direction = isArabic ? "rtl" : "ltr";
 
@@ -583,19 +588,30 @@ export default function ArabicBPage() {
   }
 
   return (
-    <main className={styles.page} lang={isArabic ? "ar" : "en"} dir={direction}>
+    <main
+      className={styles.page}
+      lang={isArabic ? "ar" : "en"}
+      dir={direction}
+    >
       <Header
         isArabic={isArabic}
         onToggleLanguage={() =>
-          setLanguage((current) => (current === "ar" ? "en" : "ar"))
+          setLanguage((current) =>
+            current === "ar" ? "en" : "ar"
+          )
         }
       />
 
-      <Hero isArabic={isArabic} openPlacement={openPlacement} />
+      <Hero
+        isArabic={isArabic}
+        openPlacement={openPlacement}
+      />
 
       <section className={styles.startPanel}>
         <div className={styles.startMessage}>
-          <span className={styles.startIcon}>{level ? "✨" : "👋"}</span>
+          <span className={styles.startIcon}>
+            {level ? "✨" : "👋"}
+          </span>
 
           <div>
             <small>
@@ -635,16 +651,12 @@ export default function ArabicBPage() {
         </button>
       </section>
 
-      <JourneyEngineProvider>
-        <DynamicJourneyMap isArabic={isArabic} />
-      </JourneyEngineProvider>
+            <JourneyMap isArabic={isArabic} />
 
-      <section className={styles.missionSection} id="mission">
+<section className={styles.missionSection} id="mission">
         <div className={styles.missionIntro}>
           <span className={styles.sectionKicker}>
-            {isArabic
-              ? "تعلّم شيئًا يمكنك استخدامه اليوم"
-              : "Learn something you can use today"}
+            {isArabic ? "تعلّم شيئًا يمكنك استخدامه اليوم" : "Learn something you can use today"}
           </span>
 
           <h2>{isArabic ? "تحدي اليوم" : "Today’s Mission"}</h2>
@@ -683,7 +695,9 @@ export default function ArabicBPage() {
           </div>
 
           <p className={styles.missionInstruction}>
-            {isArabic ? dailyMission.instructionAr : dailyMission.instructionEn}
+            {isArabic
+              ? dailyMission.instructionAr
+              : dailyMission.instructionEn}
           </p>
 
           <button
@@ -755,9 +769,7 @@ export default function ArabicBPage() {
               <span>🎉</span>
               <div>
                 <strong>
-                  {isArabic
-                    ? "أحسنت! استخدمت العربية بنجاح."
-                    : "Well done! You used Arabic successfully."}
+                  {isArabic ? "أحسنت! استخدمت العربية بنجاح." : "Well done! You used Arabic successfully."}
                 </strong>
                 <small>
                   {isArabic
@@ -907,7 +919,11 @@ export default function ArabicBPage() {
       <footer className={styles.footer}>
         <div>
           <strong>King&apos;s College Doha</strong>
-          <span>{isArabic ? "قسم اللغة العربية" : "Arabic Department"}</span>
+          <span>
+            {isArabic
+              ? "قسم اللغة العربية"
+              : "Arabic Department"}
+          </span>
         </div>
 
         <p>
@@ -968,7 +984,9 @@ export default function ArabicBPage() {
                   key={step}
                   type="button"
                   className={
-                    previewStep === step ? styles.experienceProgressActive : ""
+                    previewStep === step
+                      ? styles.experienceProgressActive
+                      : ""
                   }
                   onClick={() => setPreviewStep(step)}
                 >
@@ -1142,7 +1160,9 @@ export default function ArabicBPage() {
                         setPreviewStep(3);
                       }}
                     >
-                      {isArabic ? "متابعة إلى التحدث" : "Continue to Speaking"}
+                      {isArabic
+                        ? "متابعة إلى التحدث"
+                        : "Continue to Speaking"}
                       <span>→</span>
                     </button>
                   )}
@@ -1219,7 +1239,9 @@ export default function ArabicBPage() {
 
                   {spokenText && (
                     <div className={styles.spokenResult}>
-                      <small>{isArabic ? "سمعنا:" : "We heard:"}</small>
+                      <small>
+                        {isArabic ? "سمعنا:" : "We heard:"}
+                      </small>
                       <strong>{spokenText}</strong>
                     </div>
                   )}
@@ -1230,7 +1252,9 @@ export default function ArabicBPage() {
                       className={styles.continueWritingButton}
                       onClick={() => setPreviewStep(4)}
                     >
-                      {isArabic ? "متابعة إلى الكتابة" : "Continue to Writing"}
+                      {isArabic
+                        ? "متابعة إلى الكتابة"
+                        : "Continue to Writing"}
                       <span>→</span>
                     </button>
                   )}
@@ -1307,7 +1331,9 @@ export default function ArabicBPage() {
             <div className={styles.modalHeader}>
               <div>
                 <small>
-                  {isArabic ? "اختبار قصير غير رسمي" : "A short informal check"}
+                  {isArabic
+                    ? "اختبار قصير غير رسمي"
+                    : "A short informal check"}
                 </small>
                 <h2 id="placement-title">
                   {isArabic
@@ -1346,7 +1372,9 @@ export default function ArabicBPage() {
                   <span
                     style={{
                       width: `${
-                        ((questionIndex + 1) / placementQuestions.length) * 100
+                        ((questionIndex + 1) /
+                          placementQuestions.length) *
+                        100
                       }%`,
                     }}
                   />
@@ -1354,7 +1382,11 @@ export default function ArabicBPage() {
 
                 <div className={styles.questionArea}>
                   <span className={styles.questionIcon}>
-                    {questionIndex < 2 ? "👋" : questionIndex < 5 ? "💬" : "📚"}
+                    {questionIndex < 2
+                      ? "👋"
+                      : questionIndex < 5
+                        ? "💬"
+                        : "📚"}
                   </span>
 
                   <h3>

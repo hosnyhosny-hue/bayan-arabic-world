@@ -1,0 +1,28 @@
+{
+  "dialogues": [
+    {
+      "id": "airport-checkin",
+      "title": {
+        "en": "Checking in",
+        "ar": "إنهاء إجراءات السفر"
+      },
+      "lines": [
+        {
+          "speaker": "Traveller",
+          "arabic": "هذِهِ تَذْكِرَتي وَجَوازُ سَفَري.",
+          "english": "Here are my ticket and passport."
+        },
+        {
+          "speaker": "Agent",
+          "arabic": "إِلى أَيْنَ تُسافِر؟",
+          "english": "Where are you travelling?"
+        },
+        {
+          "speaker": "Traveller",
+          "arabic": "أُسافِرُ إِلى الدَّوْحَة.",
+          "english": "I am travelling to Doha."
+        }
+      ]
+    }
+  ]
+}

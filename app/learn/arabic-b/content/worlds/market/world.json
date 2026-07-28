@@ -1,0 +1,44 @@
+{
+  "id": "market",
+  "title": {
+    "en": "At the Market",
+    "ar": "في السوق"
+  },
+  "subtitle": {
+    "en": "Buy, compare and negotiate",
+    "ar": "اشترِ وقارن وتفاوض"
+  },
+  "level": "A1",
+  "cefr": "A1",
+  "xpReward": 240,
+  "badgeId": "market-explorer",
+  "icon": "🛍️",
+  "theme": "rose",
+  "prerequisiteWorldId": "library",
+  "objectives": {
+    "en": [
+      "Ask about prices",
+      "Use numbers and quantities",
+      "Complete a purchase"
+    ],
+    "ar": [
+      "السؤال عن الأسعار",
+      "استخدام الأعداد والكميات",
+      "إتمام عملية شراء"
+    ]
+  },
+  "estimatedMinutes": 25,
+  "sceneIds": [
+    "market-arrival",
+    "market-practice",
+    "market-challenge"
+  ],
+  "missionIds": [
+    "market-mission-1",
+    "market-mission-2",
+    "market-mission-3"
+  ],
+  "characterIds": [],
+  "isPublished": true,
+  "version": 1
+}

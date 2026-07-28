@@ -1,0 +1,28 @@
+{
+  "dialogues": [
+    {
+      "id": "university-introduction",
+      "title": {
+        "en": "Introducing your studies",
+        "ar": "التعريف بالدراسة"
+      },
+      "lines": [
+        {
+          "speaker": "Student A",
+          "arabic": "ماذا تَدْرُسُ في الجامِعَة؟",
+          "english": "What do you study at university?"
+        },
+        {
+          "speaker": "Student B",
+          "arabic": "أَدْرُسُ عِلْمَ الحاسوب.",
+          "english": "I study computer science."
+        },
+        {
+          "speaker": "Student A",
+          "arabic": "هذا تَخَصُّصٌ مُفيد.",
+          "english": "That is a useful major."
+        }
+      ]
+    }
+  ]
+}

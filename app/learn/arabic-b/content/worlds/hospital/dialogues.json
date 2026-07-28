@@ -1,0 +1,28 @@
+{
+  "dialogues": [
+    {
+      "id": "hospital-visit",
+      "title": {
+        "en": "At the doctor",
+        "ar": "عند الطبيب"
+      },
+      "lines": [
+        {
+          "speaker": "Doctor",
+          "arabic": "ما الَّذي يُؤْلِمُكَ؟",
+          "english": "What hurts?"
+        },
+        {
+          "speaker": "Patient",
+          "arabic": "رَأْسي يُؤْلِمُني.",
+          "english": "My head hurts."
+        },
+        {
+          "speaker": "Doctor",
+          "arabic": "خُذْ قِسْطًا مِنَ الرّاحَة.",
+          "english": "Get some rest."
+        }
+      ]
+    }
+  ]
+}

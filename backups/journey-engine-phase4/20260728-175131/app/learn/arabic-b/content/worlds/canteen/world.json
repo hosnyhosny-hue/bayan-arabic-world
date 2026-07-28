@@ -1,0 +1,46 @@
+{
+  "id": "canteen",
+  "title": {
+    "en": "At the Canteen",
+    "ar": "في المقصف"
+  },
+  "subtitle": {
+    "en": "Order food and talk about preferences",
+    "ar": "اطلب الطعام وتحدث عن تفضيلاتك"
+  },
+  "level": "A0",
+  "cefr": "Pre-A1",
+  "xpReward": 160,
+  "badgeId": "everyday-speaker",
+  "icon": "🥙",
+  "theme": "orange",
+  "prerequisiteWorldId": "school",
+  "objectives": {
+    "en": [
+      "Name common foods",
+      "Ask for an item",
+      "Express likes and dislikes"
+    ],
+    "ar": [
+      "تسمية الأطعمة الشائعة",
+      "طلب غرض",
+      "التعبير عن الإعجاب وعدم الإعجاب"
+    ]
+  },
+  "estimatedMinutes": 25,
+  "sceneIds": [
+    "canteen-arrival",
+    "canteen-practice",
+    "canteen-challenge"
+  ],
+  "missionIds": [
+    "canteen-mission-1",
+    "canteen-mission-2",
+    "canteen-mission-3"
+  ],
+  "characterIds": [
+    "server-hassan"
+  ],
+  "isPublished": true,
+  "version": 1
+}

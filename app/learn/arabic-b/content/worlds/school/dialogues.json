@@ -1,0 +1,28 @@
+{
+  "dialogues": [
+    {
+      "id": "school-greeting",
+      "title": {
+        "en": "Meeting the teacher",
+        "ar": "لقاء المعلم"
+      },
+      "lines": [
+        {
+          "speaker": "Student",
+          "arabic": "السَّلامُ عَلَيْكُم.",
+          "english": "Peace be upon you."
+        },
+        {
+          "speaker": "Teacher",
+          "arabic": "وَعَلَيْكُمُ السَّلام. أَهْلًا وَسَهْلًا.",
+          "english": "And peace be upon you. Welcome."
+        },
+        {
+          "speaker": "Student",
+          "arabic": "شُكْرًا يا أُسْتاذ.",
+          "english": "Thank you, teacher."
+        }
+      ]
+    }
+  ]
+}

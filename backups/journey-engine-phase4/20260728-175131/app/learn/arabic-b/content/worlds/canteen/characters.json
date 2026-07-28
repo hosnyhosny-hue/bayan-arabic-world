@@ -1,0 +1,17 @@
+[
+  {
+    "id": "server-hassan",
+    "name": {
+      "en": "Hassan",
+      "ar": "حسن"
+    },
+    "role": {
+      "en": "Canteen server",
+      "ar": "موظف المقصف"
+    },
+    "avatar": "/images/bayan/characters/hassan.png",
+    "voice": "male-2",
+    "personality": "helpful, cheerful",
+    "difficulty": "A0"
+  }
+]

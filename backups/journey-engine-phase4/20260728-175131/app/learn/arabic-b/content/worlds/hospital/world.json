@@ -1,0 +1,44 @@
+{
+  "id": "hospital",
+  "title": {
+    "en": "At the Hospital",
+    "ar": "في المستشفى"
+  },
+  "subtitle": {
+    "en": "Describe symptoms and understand advice",
+    "ar": "صف الأعراض وافهم النصائح"
+  },
+  "level": "A2",
+  "cefr": "A2",
+  "xpReward": 280,
+  "badgeId": null,
+  "icon": "🏥",
+  "theme": "sky",
+  "prerequisiteWorldId": "market",
+  "objectives": {
+    "en": [
+      "Name body parts",
+      "Describe basic symptoms",
+      "Understand simple medical instructions"
+    ],
+    "ar": [
+      "تسمية أجزاء الجسم",
+      "وصف الأعراض الأساسية",
+      "فهم التعليمات الطبية البسيطة"
+    ]
+  },
+  "estimatedMinutes": 25,
+  "sceneIds": [
+    "hospital-arrival",
+    "hospital-practice",
+    "hospital-challenge"
+  ],
+  "missionIds": [
+    "hospital-mission-1",
+    "hospital-mission-2",
+    "hospital-mission-3"
+  ],
+  "characterIds": [],
+  "isPublished": true,
+  "version": 1
+}
