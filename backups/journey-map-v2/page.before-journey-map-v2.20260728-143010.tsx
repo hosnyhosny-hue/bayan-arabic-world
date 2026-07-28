@@ -5,7 +5,6 @@ import { useEffect, useMemo, useState } from "react";
 import styles from "./arabic-b.module.css";
 import Hero from "./components/Hero/Hero";
 import Header from "./components/Header/Header";
-import JourneyMap from "./components/JourneyMap/JourneyMap";
 
 type SpeechRecognitionAlternativeLike = {
   transcript?: string;
@@ -651,9 +650,260 @@ export default function ArabicBPage() {
         </button>
       </section>
 
-            <JourneyMap isArabic={isArabic} />
+      <section className={styles.journeySection} id="journey">
+        <div className={styles.sectionHeading}>
+          <div>
+            <span className={styles.sectionKicker}>
+              {isArabic ? "رحلة واضحة من البداية إلى الطلاقة" : "A clear route from first words to fluency"}
+            </span>
+            <h2>
+              {isArabic ? "اختر نقطة البداية وابدأ الرحلة" : "Choose your starting point"}
+            </h2>
+          </div>
 
-<section className={styles.missionSection} id="mission">
+          <p>
+            {isArabic
+              ? "كل مستوى مبني حول ما تستطيع فعله باللغة، وليس حول ما تحفظه من قواعد."
+              : "Each level is built around what you can do with Arabic—not how many rules you can memorise."}
+          </p>
+        </div>
+
+        <div className={styles.levelLayout}>
+          <div className={styles.levelRail}>
+            {levels.map((item, index) => {
+              const active = selectedLevel === item.id;
+              const suggested = level === item.id;
+
+              return (
+                <button
+                  key={item.id}
+                  type="button"
+                  className={`${styles.levelRailItem} ${
+                    active ? styles.levelRailItemActive : ""
+                  }`}
+                  onClick={() => setSelectedLevel(item.id)}
+                >
+                  <span className={styles.levelRailNumber}>{item.number}</span>
+
+                  <span className={styles.levelRailIdentity}>
+                    <strong>{item.id}</strong>
+                    <small>
+                      {isArabic ? item.titleAr : item.titleEn}
+                    </small>
+                  </span>
+
+                  {suggested && (
+                    <span className={styles.suggestedBadge}>
+                      {isArabic ? "مقترح" : "Suggested"}
+                    </span>
+                  )}
+
+                  {index < levels.length - 1 && (
+                    <span className={styles.levelConnector} />
+                  )}
+                </button>
+              );
+            })}
+          </div>
+
+          <article className={styles.levelFeature}>
+            <div className={styles.levelFeatureTop}>
+              <span className={styles.levelIcon}>
+                {selectedLevelData.icon}
+              </span>
+
+              <div className={styles.levelCode}>
+                <small>{isArabic ? "المستوى" : "Level"}</small>
+                <strong>{selectedLevelData.id}</strong>
+              </div>
+            </div>
+
+            <span className={styles.levelTitleSmall}>
+              {isArabic
+                ? selectedLevelData.titleAr
+                : selectedLevelData.titleEn}
+            </span>
+
+            <h3>
+              {isArabic
+                ? selectedLevelData.promiseAr
+                : selectedLevelData.promiseEn}
+            </h3>
+
+            <p>
+              {isArabic
+                ? selectedLevelData.descriptionAr
+                : selectedLevelData.descriptionEn}
+            </p>
+
+            <div className={styles.levelMetrics}>
+              <div>
+                <strong>{selectedLevelData.units}</strong>
+                <span>{isArabic ? "وحدات" : "Units"}</span>
+              </div>
+              <div>
+                <strong>{selectedLevelData.lessons}</strong>
+                <span>{isArabic ? "درسًا" : "Lessons"}</span>
+              </div>
+              <div>
+                <strong>4</strong>
+                <span>{isArabic ? "مهارات" : "Skills"}</span>
+              </div>
+            </div>
+
+            <div className={styles.canDo}>
+              <strong>
+                {isArabic
+                  ? "بعد هذا المستوى أستطيع:"
+                  : "After this level, I can:"}
+              </strong>
+
+              <ul>
+                <li>
+                  {selectedLevelData.id === "A0"
+                    ? isArabic
+                      ? "الترحيب بالآخرين وتقديم نفسي."
+                      : "Greet people and introduce myself."
+                    : selectedLevelData.id === "A1"
+                      ? isArabic
+                        ? "التحدث عن أسرتي ومدرستي ويومي."
+                        : "Talk about my family, school and daily routine."
+                      : selectedLevelData.id === "A2"
+                        ? isArabic
+                          ? "التعامل مع مواقف يومية متنوعة."
+                          : "Handle a range of everyday situations."
+                        : selectedLevelData.id === "B1"
+                          ? isArabic
+                            ? "شرح رأيي ورواية تجربة بوضوح."
+                            : "Explain opinions and narrate experiences."
+                          : isArabic
+                            ? "مناقشة أفكار واستخدام العربية في التعلم."
+                            : "Discuss ideas and use Arabic for learning."}
+                </li>
+
+                <li>
+                  {isArabic
+                    ? "فهم اللغة المناسبة لهذا المستوى في مواقف حقيقية."
+                    : "Understand level-appropriate Arabic in real contexts."}
+                </li>
+              </ul>
+            </div>
+
+            <button
+              type="button"
+              className={styles.levelEnterButton}
+              onClick={() => setLevelExperienceOpen(true)}
+            >
+              {isArabic
+                ? `دخول المستوى ${selectedLevelData.id}`
+                : `Enter Level ${selectedLevelData.id}`}
+              <span>→</span>
+            </button>
+          </article>
+
+          <aside className={styles.lessonPreview}>
+            <div className={styles.previewHeading}>
+              <span>{isArabic ? "نموذج من الرحلة" : "Journey Preview"}</span>
+              <strong>
+                {selectedLevelData.id === "A0"
+                  ? isArabic
+                    ? "مهمتي الأولى"
+                    : "My First Mission"
+                  : isArabic
+                    ? "مهمة واقعية"
+                    : "Real-Life Mission"}
+              </strong>
+            </div>
+
+            <div className={styles.previewScene}>
+              <div className={styles.previewIllustration}>
+                <span>👩‍🏫</span>
+                <span className={styles.speechBubble}>
+                  {selectedLevelData.id === "A0"
+                    ? "ما اسمك؟"
+                    : selectedLevelData.id === "A1"
+                      ? "ماذا تحب؟"
+                      : selectedLevelData.id === "A2"
+                        ? "كيف أذهب إلى المكتبة؟"
+                        : selectedLevelData.id === "B1"
+                          ? "ما رأيك في الفكرة؟"
+                          : "كيف يمكننا تحسين المشروع؟"}
+                </span>
+              </div>
+
+              <p>
+                {isArabic
+                  ? "استمع، افهم، ثم استخدم العربية في موقف قصير."
+                  : "Listen, understand, then use Arabic in a short situation."}
+              </p>
+            </div>
+
+            <div className={styles.previewSteps}>
+              {[1, 2, 3, 4].map((step) => (
+                <button
+                  key={step}
+                  type="button"
+                  className={
+                    previewStep === step ? styles.previewStepActive : ""
+                  }
+                  onClick={() => setPreviewStep(step)}
+                  aria-label={
+                    isArabic
+                      ? `عرض النشاط ${step}`
+                      : `Show activity ${step}`
+                  }
+                >
+                  {step}
+                </button>
+              ))}
+            </div>
+
+            <button
+              type="button"
+              className={styles.previewTask}
+              onClick={() => setLevelExperienceOpen(true)}
+            >
+              <span>
+                {previewStep === 1
+                  ? "🎧"
+                  : previewStep === 2
+                    ? "🖼️"
+                    : previewStep === 3
+                      ? "🗣️"
+                      : "✍️"}
+              </span>
+
+              <div>
+                <small>
+                  {isArabic
+                    ? `النشاط ${previewStep}`
+                    : `Activity ${previewStep}`}
+                </small>
+
+                <strong>
+                  {previewStep === 1
+                    ? isArabic
+                      ? "استمع إلى الحوار"
+                      : "Listen to the dialogue"
+                    : previewStep === 2
+                      ? isArabic
+                        ? "اختر الصورة الصحيحة"
+                        : "Choose the correct picture"
+                      : previewStep === 3
+                        ? isArabic
+                          ? "كرر العبارة بصوتك"
+                          : "Repeat the expression aloud"
+                        : isArabic
+                          ? "اكتب إجابة قصيرة"
+                          : "Write a short response"}
+                </strong>
+              </div>
+            </button>
+          </aside>
+        </div>
+      </section>
+
+      <section className={styles.missionSection} id="mission">
         <div className={styles.missionIntro}>
           <span className={styles.sectionKicker}>
             {isArabic ? "تعلّم شيئًا يمكنك استخدامه اليوم" : "Learn something you can use today"}

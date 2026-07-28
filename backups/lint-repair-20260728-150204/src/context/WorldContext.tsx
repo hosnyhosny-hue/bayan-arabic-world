@@ -1,7 +1,5 @@
 "use client";
 
-/* eslint-disable react-hooks/set-state-in-effect */
-
 import {
   createContext,
   useCallback,
@@ -57,11 +55,9 @@ export function WorldProvider({ children }: { children: React.ReactNode }) {
     if (!audioContext.current) {
       const AudioContextClass =
         window.AudioContext ||
-        (
-          window as typeof window & {
-            webkitAudioContext?: typeof AudioContext;
-          }
-        ).webkitAudioContext;
+        (window as typeof window & {
+          webkitAudioContext?: typeof AudioContext;
+        }).webkitAudioContext;
 
       if (!AudioContextClass) return null;
       audioContext.current = new AudioContextClass();
@@ -124,7 +120,10 @@ export function WorldProvider({ children }: { children: React.ReactNode }) {
           type === "hover" ? 0.025 : 0.055,
           start + 0.01,
         );
-        gain.gain.exponentialRampToValueAtTime(0.0001, start + duration);
+        gain.gain.exponentialRampToValueAtTime(
+          0.0001,
+          start + duration,
+        );
 
         oscillator.connect(gain);
         gain.connect(context.destination);
@@ -167,11 +166,19 @@ export function WorldProvider({ children }: { children: React.ReactNode }) {
       toggleSound,
       playSound,
     }),
-    [language, soundEnabled, toggleLanguage, toggleSound, playSound],
+    [
+      language,
+      soundEnabled,
+      toggleLanguage,
+      toggleSound,
+      playSound,
+    ],
   );
 
   return (
-    <WorldContext.Provider value={value}>{children}</WorldContext.Provider>
+    <WorldContext.Provider value={value}>
+      {children}
+    </WorldContext.Provider>
   );
 }
 

@@ -1,7 +1,5 @@
 "use client";
 
-/* eslint-disable react-hooks/set-state-in-effect */
-
 import {
   ChangeEvent,
   DragEvent,
@@ -39,24 +37,12 @@ type UploadItem = {
 const MEDIA_COLLECTION = "cms_media";
 
 const allowedExtensions = new Set([
-  "jpg",
-  "jpeg",
-  "png",
-  "webp",
-  "gif",
-  "svg",
-  "mp4",
-  "webm",
-  "mov",
-  "mp3",
-  "wav",
-  "pdf",
-  "doc",
-  "docx",
-  "xls",
-  "xlsx",
-  "ppt",
-  "pptx",
+  "jpg", "jpeg", "png", "webp", "gif", "svg",
+  "mp4", "webm", "mov",
+  "mp3", "wav",
+  "pdf", "doc", "docx",
+  "xls", "xlsx",
+  "ppt", "pptx",
   "zip",
 ]);
 
@@ -100,7 +86,7 @@ export default function MediaLibrary() {
     try {
       const response = await fetch(
         `/api/admin/cms/documents?collection=${MEDIA_COLLECTION}`,
-        { cache: "no-store" },
+        { cache: "no-store" }
       );
 
       const result = await response.json();
@@ -122,7 +108,11 @@ export default function MediaLibrary() {
     loadItems();
   }, [loadItems]);
 
-  async function saveMetadata(file: File, url: string, storagePath: string) {
+  async function saveMetadata(
+    file: File,
+    url: string,
+    storagePath: string
+  ) {
     const response = await fetch("/api/admin/cms/documents", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -174,7 +164,8 @@ export default function MediaLibrary() {
         ...current,
       ]);
 
-      const storagePath = `bayan-cms/${folder}/${Date.now()}-${safeFileName(file.name)}`;
+      const storagePath =
+        `bayan-cms/${folder}/${Date.now()}-${safeFileName(file.name)}`;
 
       try {
         await new Promise<void>((resolve, reject) => {
@@ -192,13 +183,15 @@ export default function MediaLibrary() {
             "state_changed",
             (snapshot) => {
               const progress = Math.round(
-                (snapshot.bytesTransferred / snapshot.totalBytes) * 100,
+                (snapshot.bytesTransferred / snapshot.totalBytes) * 100
               );
 
               setUploads((current) =>
                 current.map((entry) =>
-                  entry.id === uploadId ? { ...entry, progress } : entry,
-                ),
+                  entry.id === uploadId
+                    ? { ...entry, progress }
+                    : entry
+                )
               );
             },
             (error) => {
@@ -206,8 +199,10 @@ export default function MediaLibrary() {
 
               setUploads((current) =>
                 current.map((entry) =>
-                  entry.id === uploadId ? { ...entry, status: "error" } : entry,
-                ),
+                  entry.id === uploadId
+                    ? { ...entry, status: "error" }
+                    : entry
+                )
               );
 
               reject(error);
@@ -222,21 +217,21 @@ export default function MediaLibrary() {
                   current.map((entry) =>
                     entry.id === uploadId
                       ? { ...entry, progress: 100, status: "done" }
-                      : entry,
-                  ),
+                      : entry
+                  )
                 );
 
                 resolve();
               } catch (error) {
                 reject(error);
               }
-            },
+            }
           );
         });
       } catch (error) {
         console.error(error);
         setMessage(
-          "تعذر رفع ملف. تأكد من تفعيل Firebase Storage وقواعد الوصول.",
+          "تعذر رفع ملف. تأكد من تفعيل Firebase Storage وقواعد الوصول."
         );
       }
     }
@@ -307,7 +302,12 @@ export default function MediaLibrary() {
   }
 
   const filteredItems = items.filter((item) => {
-    const text = [item.name, item.titleAr, item.folder, item.mimeType]
+    const text = [
+      item.name,
+      item.titleAr,
+      item.folder,
+      item.mimeType,
+    ]
       .filter(Boolean)
       .join(" ")
       .toLowerCase();
@@ -322,7 +322,8 @@ export default function MediaLibrary() {
           <span>BAYAN MEDIA LIBRARY</span>
           <h1>مركز الوسائط</h1>
           <p>
-            ارفع الصور والفيديوهات والمستندات، ثم استخدمها في جميع أقسام الموقع.
+            ارفع الصور والفيديوهات والمستندات، ثم استخدمها في جميع
+            أقسام الموقع.
           </p>
         </div>
       </header>
@@ -355,7 +356,9 @@ export default function MediaLibrary() {
 
           <div
             className={
-              dragging ? "bayan-upload-zone is-dragging" : "bayan-upload-zone"
+              dragging
+                ? "bayan-upload-zone is-dragging"
+                : "bayan-upload-zone"
             }
             onClick={() => inputRef.current?.click()}
             onDragEnter={(event) => {
@@ -374,7 +377,9 @@ export default function MediaLibrary() {
           >
             <div className="bayan-upload-icon">↑</div>
             <strong>اضغط أو اسحب الملفات هنا</strong>
-            <p>صور، فيديو، صوت، PDF، Word، Excel، PowerPoint وZIP</p>
+            <p>
+              صور، فيديو، صوت، PDF، Word، Excel، PowerPoint وZIP
+            </p>
 
             <input
               ref={inputRef}
@@ -429,7 +434,9 @@ export default function MediaLibrary() {
           {loading ? (
             <div className="cms-empty">جارٍ تحميل الملفات...</div>
           ) : filteredItems.length === 0 ? (
-            <div className="cms-empty">لا توجد ملفات مرفوعة حتى الآن.</div>
+            <div className="cms-empty">
+              لا توجد ملفات مرفوعة حتى الآن.
+            </div>
           ) : (
             <div className="bayan-media-grid">
               {filteredItems.map((item) => (
@@ -442,7 +449,11 @@ export default function MediaLibrary() {
                         alt={item.name || item.titleAr || "Media"}
                       />
                     ) : item.mimeType?.startsWith("video/") && item.url ? (
-                      <video src={item.url} controls preload="metadata" />
+                      <video
+                        src={item.url}
+                        controls
+                        preload="metadata"
+                      />
                     ) : (
                       <div className="bayan-file-icon">FILE</div>
                     )}
@@ -459,7 +470,10 @@ export default function MediaLibrary() {
                   </div>
 
                   <div className="bayan-media-actions">
-                    <button type="button" onClick={() => copyLink(item.url)}>
+                    <button
+                      type="button"
+                      onClick={() => copyLink(item.url)}
+                    >
                       نسخ الرابط
                     </button>
 

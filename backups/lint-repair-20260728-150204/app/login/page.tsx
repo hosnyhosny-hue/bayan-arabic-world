@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { FormEvent, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import {
@@ -13,7 +12,9 @@ import { firebaseAuth } from "@/src/lib/firebase-client";
 export default function LoginPage() {
   const router = useRouter();
 
-  const [email, setEmail] = useState(process.env.NEXT_PUBLIC_ADMIN_EMAIL || "");
+  const [email, setEmail] = useState(
+    process.env.NEXT_PUBLIC_ADMIN_EMAIL || "",
+  );
   const [password, setPassword] = useState("");
   const [checking, setChecking] = useState(true);
   const [submitting, setSubmitting] = useState(false);
@@ -153,9 +154,9 @@ export default function LoginPage() {
           </button>
         </form>
 
-        <Link href="/" className="admin-login-home">
+        <a href="/" className="admin-login-home">
           العودة إلى الصفحة الرئيسية
-        </Link>
+        </a>
       </section>
     </main>
   );

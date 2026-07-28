@@ -1,10 +1,12 @@
 "use client";
 
-import Link from "next/link";
-
-/* eslint-disable react-hooks/set-state-in-effect */
-
-import { FormEvent, useCallback, useEffect, useMemo, useState } from "react";
+import {
+  FormEvent,
+  useCallback,
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
 
 type MediaItem = {
   id: string;
@@ -101,7 +103,7 @@ export default function CmsManager({
     try {
       const response = await fetch(
         `/api/admin/cms/documents?collection=${encodeURIComponent(collection)}`,
-        { cache: "no-store" },
+        { cache: "no-store" }
       );
 
       const result = await response.json();
@@ -125,7 +127,7 @@ export default function CmsManager({
     try {
       const response = await fetch(
         "/api/admin/cms/documents?collection=cms_media",
-        { cache: "no-store" },
+        { cache: "no-store" }
       );
 
       const result = await response.json();
@@ -158,8 +160,8 @@ export default function CmsManager({
       new Set(
         mediaItems
           .map((item) => item.folder)
-          .filter((folder): folder is string => Boolean(folder)),
-      ),
+          .filter((folder): folder is string => Boolean(folder))
+      )
     ).sort();
   }, [mediaItems]);
 
@@ -180,7 +182,8 @@ export default function CmsManager({
         .join(" ")
         .toLowerCase();
 
-      const matchesSearch = !searchText || searchableText.includes(searchText);
+      const matchesSearch =
+        !searchText || searchableText.includes(searchText);
 
       return matchesFolder && matchesSearch;
     });
@@ -214,7 +217,9 @@ export default function CmsManager({
       setForm(emptyForm);
       setEditingId(null);
       setMessage(
-        editingId ? "تم حفظ التعديلات بنجاح." : "تم إنشاء العنصر بنجاح.",
+        editingId
+          ? "تم حفظ التعديلات بنجاح."
+          : "تم إنشاء العنصر بنجاح."
       );
 
       await loadItems();
@@ -324,7 +329,9 @@ export default function CmsManager({
 
       <div className="cms-grid">
         <form className="cms-card cms-form" onSubmit={submit}>
-          <h2>{editingId ? "تعديل العنصر" : "إضافة عنصر جديد"}</h2>
+          <h2>
+            {editingId ? "تعديل العنصر" : "إضافة عنصر جديد"}
+          </h2>
 
           <label>
             العنوان بالعربية
@@ -388,7 +395,9 @@ export default function CmsManager({
             <div className="bayan-media-selector-heading">
               <div>
                 <strong>الملف أو الصورة الرئيسية</strong>
-                <p>اختر ملفًا سبق رفعه داخل مركز الوسائط.</p>
+                <p>
+                  اختر ملفًا سبق رفعه داخل مركز الوسائط.
+                </p>
               </div>
 
               <button
@@ -401,7 +410,9 @@ export default function CmsManager({
             </div>
 
             {!form.mediaUrl ? (
-              <div className="bayan-no-media">لم يتم اختيار ملف.</div>
+              <div className="bayan-no-media">
+                لم يتم اختيار ملف.
+              </div>
             ) : (
               <div className="bayan-selected-media">
                 <div className="bayan-selected-media-preview">
@@ -412,22 +423,35 @@ export default function CmsManager({
                       alt={form.mediaName || "Selected media"}
                     />
                   ) : isVideo(form.mediaType) ? (
-                    <video src={form.mediaUrl} controls preload="metadata" />
+                    <video
+                      src={form.mediaUrl}
+                      controls
+                      preload="metadata"
+                    />
                   ) : (
                     <span>FILE</span>
                   )}
                 </div>
 
                 <div className="bayan-selected-media-info">
-                  <strong>{form.mediaName || "ملف مرفق"}</strong>
+                  <strong>
+                    {form.mediaName || "ملف مرفق"}
+                  </strong>
                   <p>{form.mediaType || "ملف"}</p>
 
                   <div>
-                    <a href={form.mediaUrl} target="_blank" rel="noreferrer">
+                    <a
+                      href={form.mediaUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       فتح الملف
                     </a>
 
-                    <button type="button" onClick={removeSelectedMedia}>
+                    <button
+                      type="button"
+                      onClick={removeSelectedMedia}
+                    >
                       إزالة
                     </button>
                   </div>
@@ -464,20 +488,31 @@ export default function CmsManager({
                 })
               }
             />
+
             إظهار العنصر في الموقع
           </label>
 
           <button type="submit" disabled={saving}>
-            {saving ? "جارٍ الحفظ..." : editingId ? "حفظ التعديلات" : "إنشاء"}
+            {saving
+              ? "جارٍ الحفظ..."
+              : editingId
+                ? "حفظ التعديلات"
+                : "إنشاء"}
           </button>
 
           {editingId && (
-            <button type="button" className="cms-secondary" onClick={resetForm}>
+            <button
+              type="button"
+              className="cms-secondary"
+              onClick={resetForm}
+            >
               إلغاء التعديل
             </button>
           )}
 
-          {message && <p className="cms-message">{message}</p>}
+          {message && (
+            <p className="cms-message">{message}</p>
+          )}
         </form>
 
         <section className="cms-card">
@@ -492,7 +527,9 @@ export default function CmsManager({
           {loading ? (
             <p>جارٍ التحميل...</p>
           ) : items.length === 0 ? (
-            <div className="cms-empty">لا توجد عناصر حتى الآن.</div>
+            <div className="cms-empty">
+              لا توجد عناصر حتى الآن.
+            </div>
           ) : (
             <div className="cms-list">
               {items.map((item) => (
@@ -513,12 +550,16 @@ export default function CmsManager({
                     )}
 
                     <div>
-                      <h3>{item.titleAr || "بدون عنوان"}</h3>
+                      <h3>
+                        {item.titleAr || "بدون عنوان"}
+                      </h3>
 
                       <p>{item.titleEn}</p>
 
                       {item.mediaName && (
-                        <small>المرفق: {item.mediaName}</small>
+                        <small>
+                          المرفق: {item.mediaName}
+                        </small>
                       )}
 
                       <div className="cms-badges">
@@ -530,13 +571,20 @@ export default function CmsManager({
                               : "مسودة"}
                         </span>
 
-                        <span>{item.visible === false ? "مخفي" : "ظاهر"}</span>
+                        <span>
+                          {item.visible === false
+                            ? "مخفي"
+                            : "ظاهر"}
+                        </span>
                       </div>
                     </div>
                   </div>
 
                   <div className="cms-actions">
-                    <button type="button" onClick={() => edit(item)}>
+                    <button
+                      type="button"
+                      onClick={() => edit(item)}
+                    >
                       تعديل
                     </button>
 
@@ -589,12 +637,16 @@ export default function CmsManager({
               <input
                 value={mediaSearch}
                 placeholder="ابحث باسم الملف..."
-                onChange={(event) => setMediaSearch(event.target.value)}
+                onChange={(event) =>
+                  setMediaSearch(event.target.value)
+                }
               />
 
               <select
                 value={mediaFolder}
-                onChange={(event) => setMediaFolder(event.target.value)}
+                onChange={(event) =>
+                  setMediaFolder(event.target.value)
+                }
               >
                 <option value="all">كل المجلدات</option>
 
@@ -605,16 +657,23 @@ export default function CmsManager({
                 ))}
               </select>
 
-              <button type="button" onClick={loadMedia}>
+              <button
+                type="button"
+                onClick={loadMedia}
+              >
                 تحديث
               </button>
             </div>
 
             <div className="bayan-media-modal-body">
               {mediaLoading ? (
-                <div className="cms-empty">جارٍ تحميل مكتبة الوسائط...</div>
+                <div className="cms-empty">
+                  جارٍ تحميل مكتبة الوسائط...
+                </div>
               ) : filteredMedia.length === 0 ? (
-                <div className="cms-empty">لا توجد ملفات مطابقة.</div>
+                <div className="cms-empty">
+                  لا توجد ملفات مطابقة.
+                </div>
               ) : (
                 <div className="bayan-media-picker-grid">
                   {filteredMedia.map((media) => (
@@ -629,19 +688,33 @@ export default function CmsManager({
                           // eslint-disable-next-line @next/next/no-img-element
                           <img
                             src={media.url}
-                            alt={media.name || media.titleAr || "Media"}
+                            alt={
+                              media.name ||
+                              media.titleAr ||
+                              "Media"
+                            }
                           />
-                        ) : isVideo(media.mimeType) && media.url ? (
-                          <video src={media.url} preload="metadata" />
+                        ) : isVideo(media.mimeType) &&
+                          media.url ? (
+                          <video
+                            src={media.url}
+                            preload="metadata"
+                          />
                         ) : (
                           <span>FILE</span>
                         )}
                       </div>
 
                       <div className="bayan-media-picker-info">
-                        <strong>{media.name || media.titleAr || "ملف"}</strong>
+                        <strong>
+                          {media.name ||
+                            media.titleAr ||
+                            "ملف"}
+                        </strong>
 
-                        <small>{media.folder || "general"}</small>
+                        <small>
+                          {media.folder || "general"}
+                        </small>
                       </div>
                     </button>
                   ))}
@@ -650,9 +723,14 @@ export default function CmsManager({
             </div>
 
             <footer className="bayan-media-modal-footer">
-              <Link href="/admin/cms/media">فتح مركز الوسائط</Link>
+              <a href="/admin/cms/media">
+                فتح مركز الوسائط
+              </a>
 
-              <button type="button" onClick={() => setMediaOpen(false)}>
+              <button
+                type="button"
+                onClick={() => setMediaOpen(false)}
+              >
                 إلغاء
               </button>
             </footer>

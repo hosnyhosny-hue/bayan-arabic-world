@@ -1,7 +1,5 @@
 "use client";
 
-/* eslint-disable react-hooks/set-state-in-effect */
-
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import {
@@ -137,7 +135,7 @@ export default function CmsDashboard() {
             </div>
 
             <div>
-              <strong>{loading ? "—" : (data.counts[key] ?? 0)}</strong>
+              <strong>{loading ? "—" : data.counts[key] ?? 0}</strong>
               <span>{title}</span>
             </div>
           </Link>
@@ -174,7 +172,9 @@ export default function CmsDashboard() {
           </div>
 
           {data.activity.length === 0 ? (
-            <div className="cms-empty">لم تُسجّل أنشطة بعد.</div>
+            <div className="cms-empty">
+              لم تُسجّل أنشطة بعد.
+            </div>
           ) : (
             <div className="cms-activity-list">
               {data.activity.map((activity) => (
@@ -182,7 +182,9 @@ export default function CmsDashboard() {
                   <span className="cms-activity-dot" />
 
                   <div>
-                    <strong>{activity.title || "عنصر في النظام"}</strong>
+                    <strong>
+                      {activity.title || "عنصر في النظام"}
+                    </strong>
                     <p>
                       {activity.action === "create"
                         ? "تم الإنشاء"

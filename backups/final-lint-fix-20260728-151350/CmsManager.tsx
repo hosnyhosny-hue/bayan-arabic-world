@@ -425,7 +425,7 @@ export default function CmsManager({
                   <div>
                     <a href={form.mediaUrl} target="_blank" rel="noreferrer">
                       فتح الملف
-                    </a>
+                    </Link>
 
                     <button type="button" onClick={removeSelectedMedia}>
                       إزالة
@@ -650,7 +650,7 @@ export default function CmsManager({
             </div>
 
             <footer className="bayan-media-modal-footer">
-              <Link href="/admin/cms/media">فتح مركز الوسائط</Link>
+              <a href="/admin/cms/media">فتح مركز الوسائط</Link>
 
               <button type="button" onClick={() => setMediaOpen(false)}>
                 إلغاء

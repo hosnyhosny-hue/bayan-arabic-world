@@ -1,7 +1,5 @@
 "use client";
 
-/* eslint-disable react-hooks/set-state-in-effect */
-
 import {
   createContext,
   useCallback,
@@ -29,7 +27,9 @@ export function SoundProvider({ children }: { children: ReactNode }) {
   const lastHoverRef = useRef(0);
 
   useEffect(() => {
-    setSoundEnabled(window.localStorage.getItem("bayan-sound") === "enabled");
+    setSoundEnabled(
+      window.localStorage.getItem("bayan-sound") === "enabled",
+    );
   }, []);
 
   const getAudioContext = useCallback(() => {
@@ -88,10 +88,7 @@ export function SoundProvider({ children }: { children: ReactNode }) {
       };
 
       if (context.state === "suspended") {
-        void context
-          .resume()
-          .then(startPlayback)
-          .catch(() => undefined);
+        void context.resume().then(startPlayback).catch(() => undefined);
       } else {
         startPlayback();
       }
@@ -121,7 +118,10 @@ export function SoundProvider({ children }: { children: ReactNode }) {
     setSoundEnabled((current) => {
       const next = !current;
 
-      window.localStorage.setItem("bayan-sound", next ? "enabled" : "disabled");
+      window.localStorage.setItem(
+        "bayan-sound",
+        next ? "enabled" : "disabled",
+      );
 
       if (next) {
         window.setTimeout(() => {
@@ -145,11 +145,19 @@ export function SoundProvider({ children }: { children: ReactNode }) {
       playClick,
       playSuccess,
     }),
-    [soundEnabled, toggleSound, playHover, playClick, playSuccess],
+    [
+      soundEnabled,
+      toggleSound,
+      playHover,
+      playClick,
+      playSuccess,
+    ],
   );
 
   return (
-    <SoundContext.Provider value={value}>{children}</SoundContext.Provider>
+    <SoundContext.Provider value={value}>
+      {children}
+    </SoundContext.Provider>
   );
 }
 

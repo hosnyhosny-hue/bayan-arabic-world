@@ -34,12 +34,6 @@ const inputStyle = {
   font: "inherit",
 };
 
-function safeName(name: string) {
-  return name
-    .normalize("NFKD")
-    .replace(/[^\w.-]+/g, "-")
-    .toLowerCase();
-}
 
 export default function HeroVideoManager() {
   const [settings, setSettings] = useState(defaults);
