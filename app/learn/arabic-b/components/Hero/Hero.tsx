@@ -108,7 +108,7 @@ export default function Hero({
 
   return (
     <>
-      <section
+      <section id="speak"
         className={styles.hero}
         onPointerMove={handlePointerMove}
         onPointerLeave={resetParallax}

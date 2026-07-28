@@ -2229,3 +2229,14 @@
   cursor: not-allowed !important;
   transform: none !important;
 }
+
+/* Header v2 fixed-navigation offset */
+.page {
+  padding-top: 84px;
+}
+
+@media (max-width: 840px) {
+  .page {
+    padding-top: 70px;
+  }
+}

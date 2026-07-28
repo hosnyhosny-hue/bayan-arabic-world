@@ -4,11 +4,42 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import styles from "./arabic-b.module.css";
 import Hero from "./components/Hero/Hero";
+import Header from "./components/Header/Header";
+
+type SpeechRecognitionAlternativeLike = {
+  transcript?: string;
+};
+
+type SpeechRecognitionResultLike = {
+  [index: number]: SpeechRecognitionAlternativeLike;
+};
+
+type SpeechRecognitionResultListLike = {
+  [index: number]: SpeechRecognitionResultLike;
+};
+
+interface SpeechRecognitionResultEventLike extends Event {
+  results: SpeechRecognitionResultListLike;
+}
+
+interface SpeechRecognitionLike {
+  lang: string;
+  interimResults: boolean;
+  continuous: boolean;
+  start: () => void;
+  stop: () => void;
+  abort: () => void;
+  onresult:
+    | ((event: SpeechRecognitionResultEventLike) => void)
+    | null;
+  onerror: ((event: Event) => void) | null;
+  onend: (() => void) | null;
+}
 
 declare global {
   interface Window {
-    SpeechRecognition?: new () => any;
-    webkitSpeechRecognition?: new () => any;
+    SpeechRecognition?: new () => SpeechRecognitionLike;
+    webkitSpeechRecognition?: new () => SpeechRecognitionLike;
   }
 }
 
@@ -561,47 +592,14 @@ export default function ArabicBPage() {
       lang={isArabic ? "ar" : "en"}
       dir={direction}
     >
-      <header className={styles.header}>
-        <Link href="/" className={styles.brand} aria-label="BAYAN home">
-          <span className={styles.brandMark}>ب</span>
-          <span>
-            <strong>BAYAN Arabic</strong>
-            <small>
-              {isArabic
-                ? "تعليم العربية لغير الناطقين بها"
-                : "Arabic for Non-Native Speakers"}
-            </small>
-          </span>
-        </Link>
-
-        <nav className={styles.nav} aria-label="Arabic B navigation">
-          <a href="#journey">
-            {isArabic ? "مساري" : "My Journey"}
-          </a>
-          <a href="#mission">
-            {isArabic ? "تحدي اليوم" : "Daily Mission"}
-          </a>
-          <a href="#skills">
-            {isArabic ? "المهارات" : "Skills"}
-          </a>
-        </nav>
-
-        <div className={styles.headerActions}>
-          <button
-            type="button"
-            className={styles.languageButton}
-            onClick={() =>
-              setLanguage((current) => (current === "ar" ? "en" : "ar"))
-            }
-          >
-            {isArabic ? "English" : "العربية"}
-          </button>
-
-          <Link href="/" className={styles.homeButton}>
-            {isArabic ? "الرئيسية" : "Home"}
-          </Link>
-        </div>
-      </header>
+      <Header
+        isArabic={isArabic}
+        onToggleLanguage={() =>
+          setLanguage((current) =>
+            current === "ar" ? "en" : "ar"
+          )
+        }
+      />
 
       <Hero
         isArabic={isArabic}
@@ -1451,7 +1449,7 @@ export default function ArabicBPage() {
                       setSpokenText("");
                       setSpeakingComplete(false);
 
-                      recognition.onresult = (event: any) => {
+                      recognition.onresult = (event) => {
                         const transcript =
                           event.results?.[0]?.[0]?.transcript || "";
 
