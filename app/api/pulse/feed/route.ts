@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { bayanDb } from "@bayan/core/server";
+import { adminDb } from "@/src/lib/firebase-admin";
 
 export const dynamic = "force-dynamic";
 
@@ -163,7 +163,7 @@ export async function GET(request: Request) {
      * نجلب مجموعة محدودة ثم نطبّق التصفية والترتيب في الخادم
      * لتجنب الحاجة إلى Firestore Composite Index.
      */
-    const snapshot = await bayanDb()
+    const snapshot = await adminDb
       .collection("bayan_pulse_content")
       .limit(200)
       .get();
