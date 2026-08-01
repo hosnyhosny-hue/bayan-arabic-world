@@ -1,0 +1,83 @@
+{
+  "generatedAt": "2026-07-28T17:08:18.692Z",
+  "totalJobs": 12,
+  "byStatus": {
+    "needs-review": 12
+  },
+  "totalAttempts": 12,
+  "failures": [],
+  "pendingReview": [
+    {
+      "id": "extract-08-ec214f70-ec214f70",
+      "sourceId": "08-ec214f70",
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/08-ec214f70.metadata.json",
+      "pageCount": 51
+    },
+    {
+      "id": "extract-book-1-term-1-2-205e86b9-205e86b9",
+      "sourceId": "book-1-term-1-2-205e86b9",
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/book-1-term-1-2-205e86b9.metadata.json",
+      "pageCount": 110
+    },
+    {
+      "id": "extract-book-2-term1-307a9000-307a9000",
+      "sourceId": "book-2-term1-307a9000",
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/book-2-term1-307a9000.metadata.json",
+      "pageCount": 114
+    },
+    {
+      "id": "extract-book-3-term1-b47cdebe-b47cdebe",
+      "sourceId": "book-3-term1-b47cdebe",
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/book-3-term1-b47cdebe.metadata.json",
+      "pageCount": 108
+    },
+    {
+      "id": "extract-book-4-term-1-1-1876cde4-1876cde4",
+      "sourceId": "book-4-term-1-1-1876cde4",
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/book-4-term-1-1-1876cde4.metadata.json",
+      "pageCount": 112
+    },
+    {
+      "id": "extract-book-5-term1-0f309ead-0f309ead",
+      "sourceId": "book-5-term1-0f309ead",
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/book-5-term1-0f309ead.metadata.json",
+      "pageCount": 100
+    },
+    {
+      "id": "extract-book-7-93a54433-93a54433",
+      "sourceId": "book-7-93a54433",
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/book-7-93a54433.metadata.json",
+      "pageCount": 50
+    },
+    {
+      "id": "extract-book-9-term1-8fdbfe72-8fdbfe72",
+      "sourceId": "book-9-term1-8fdbfe72",
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/book-9-term1-8fdbfe72.metadata.json",
+      "pageCount": 108
+    },
+    {
+      "id": "extract-elementary-arabic-i-1670896059-355feb96-355feb96",
+      "sourceId": "elementary-arabic-i-1670896059-355feb96",
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/elementary-arabic-i-1670896059-355feb96.metadata.json",
+      "pageCount": 132
+    },
+    {
+      "id": "extract-elementary-arabic-ii-1738786591-print-6e48cc3d-6e48cc3d",
+      "sourceId": "elementary-arabic-ii-1738786591-print-6e48cc3d",
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/elementary-arabic-ii-1738786591-print-6e48cc3d.metadata.json",
+      "pageCount": 231
+    },
+    {
+      "id": "extract-ا-ول-1-ae3afaa4-ae3afaa4",
+      "sourceId": "ا-ول-1-ae3afaa4",
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/ا-ول-1-ae3afaa4.metadata.json",
+      "pageCount": 112
+    },
+    {
+      "id": "extract-خامس-1-f8a10ee6-f8a10ee6",
+      "sourceId": "خامس-1-f8a10ee6",
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/خامس-1-f8a10ee6.metadata.json",
+      "pageCount": 112
+    }
+  ]
+}

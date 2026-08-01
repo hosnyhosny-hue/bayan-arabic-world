@@ -1,0 +1,618 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-28T17:08:17.987Z",
+  "jobs": [
+    {
+      "id": "extract-08-ec214f70-ec214f70",
+      "sourceId": "08-ec214f70",
+      "sourceChecksum": "ec214f707e04f00f6898ce8050decf9001f282888db8a21d5770fd0621f3a1fd",
+      "fileName": "08.pdf",
+      "mediaType": "application/pdf",
+      "originalPath": "/Users/imac/Desktop/Arabic B/08.pdf",
+      "status": "needs-review",
+      "attempt": 1,
+      "maxAttempts": 3,
+      "createdAt": "2026-07-28T17:07:37.863Z",
+      "updatedAt": "2026-07-28T17:08:14.433Z",
+      "startedAt": "2026-07-28T17:08:14.371Z",
+      "completedAt": "2026-07-28T17:08:14.433Z",
+      "nextAttemptAt": "2026-07-28T17:07:37.863Z",
+      "lastError": null,
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/08-ec214f70.metadata.json",
+      "metadata": {
+        "pdfVersion": "1.4",
+        "fileSizeBytes": 6956744,
+        "estimatedPageCount": 51,
+        "title": null,
+        "author": null,
+        "creator": "Canon iR-ADV C5540  PDF",
+        "producer": "Adobe PSL 1.3e for Canon",
+        "creationDate": "D:20190911024549+04'00'",
+        "modificationDate": "D:20190911151111+04'00'",
+        "encrypted": false,
+        "extractionMethod": "native-pdf-object-scan-v1"
+      },
+      "history": [
+        {
+          "at": "2026-07-28T17:07:37.863Z",
+          "from": null,
+          "to": "queued",
+          "reason": "Job created"
+        },
+        {
+          "at": "2026-07-28T17:08:14.370Z",
+          "from": "queued",
+          "to": "extracting",
+          "reason": "Worker claimed job"
+        },
+        {
+          "at": "2026-07-28T17:08:14.433Z",
+          "from": "extracting",
+          "to": "needs-review",
+          "reason": "Metadata extracted"
+        }
+      ]
+    },
+    {
+      "id": "extract-book-1-term-1-2-205e86b9-205e86b9",
+      "sourceId": "book-1-term-1-2-205e86b9",
+      "sourceChecksum": "205e86b9ffe419efa68bac76953581d86b6fbfcf941cb5a59f0f9a40246bce6c",
+      "fileName": "book-1-term-1-2.pdf",
+      "mediaType": "application/pdf",
+      "originalPath": "/Users/imac/Desktop/Arabic B/book-1-term-1-2.pdf",
+      "status": "needs-review",
+      "attempt": 1,
+      "maxAttempts": 3,
+      "createdAt": "2026-07-28T17:07:37.864Z",
+      "updatedAt": "2026-07-28T17:08:15.475Z",
+      "startedAt": "2026-07-28T17:08:14.439Z",
+      "completedAt": "2026-07-28T17:08:15.475Z",
+      "nextAttemptAt": "2026-07-28T17:07:37.864Z",
+      "lastError": null,
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/book-1-term-1-2-205e86b9.metadata.json",
+      "metadata": {
+        "pdfVersion": "1.3",
+        "fileSizeBytes": 95585486,
+        "estimatedPageCount": 110,
+        "title": null,
+        "author": null,
+        "creator": "Canon",
+        "producer": "",
+        "creationDate": "D:20190918051851+04'00'",
+        "modificationDate": null,
+        "encrypted": false,
+        "extractionMethod": "native-pdf-object-scan-v1"
+      },
+      "history": [
+        {
+          "at": "2026-07-28T17:07:37.864Z",
+          "from": null,
+          "to": "queued",
+          "reason": "Job created"
+        },
+        {
+          "at": "2026-07-28T17:08:14.439Z",
+          "from": "queued",
+          "to": "extracting",
+          "reason": "Worker claimed job"
+        },
+        {
+          "at": "2026-07-28T17:08:15.475Z",
+          "from": "extracting",
+          "to": "needs-review",
+          "reason": "Metadata extracted"
+        }
+      ]
+    },
+    {
+      "id": "extract-book-2-term1-307a9000-307a9000",
+      "sourceId": "book-2-term1-307a9000",
+      "sourceChecksum": "307a9000e2d4d6f09283ef471eb7994812e2f310405ff37ef0afa29a9b5e02a3",
+      "fileName": "book-2-term1.pdf",
+      "mediaType": "application/pdf",
+      "originalPath": "/Users/imac/Desktop/Arabic B/book-2-term1.pdf",
+      "status": "needs-review",
+      "attempt": 1,
+      "maxAttempts": 3,
+      "createdAt": "2026-07-28T17:07:37.864Z",
+      "updatedAt": "2026-07-28T17:08:15.626Z",
+      "startedAt": "2026-07-28T17:08:15.475Z",
+      "completedAt": "2026-07-28T17:08:15.626Z",
+      "nextAttemptAt": "2026-07-28T17:07:37.864Z",
+      "lastError": null,
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/book-2-term1-307a9000.metadata.json",
+      "metadata": {
+        "pdfVersion": "1.6",
+        "fileSizeBytes": 10823550,
+        "estimatedPageCount": 114,
+        "title": null,
+        "author": null,
+        "creator": null,
+        "producer": null,
+        "creationDate": null,
+        "modificationDate": null,
+        "encrypted": false,
+        "extractionMethod": "native-pdf-object-scan-v1"
+      },
+      "history": [
+        {
+          "at": "2026-07-28T17:07:37.864Z",
+          "from": null,
+          "to": "queued",
+          "reason": "Job created"
+        },
+        {
+          "at": "2026-07-28T17:08:15.475Z",
+          "from": "queued",
+          "to": "extracting",
+          "reason": "Worker claimed job"
+        },
+        {
+          "at": "2026-07-28T17:08:15.626Z",
+          "from": "extracting",
+          "to": "needs-review",
+          "reason": "Metadata extracted"
+        }
+      ]
+    },
+    {
+      "id": "extract-book-3-term1-b47cdebe-b47cdebe",
+      "sourceId": "book-3-term1-b47cdebe",
+      "sourceChecksum": "b47cdebeccd7482ae7eb3d7f6ede69d2c953de69e294354f0fa0ebf01ffdca32",
+      "fileName": "book-3-term1.pdf",
+      "mediaType": "application/pdf",
+      "originalPath": "/Users/imac/Desktop/Arabic B/book-3-term1.pdf",
+      "status": "needs-review",
+      "attempt": 1,
+      "maxAttempts": 3,
+      "createdAt": "2026-07-28T17:07:37.864Z",
+      "updatedAt": "2026-07-28T17:08:15.752Z",
+      "startedAt": "2026-07-28T17:08:15.627Z",
+      "completedAt": "2026-07-28T17:08:15.752Z",
+      "nextAttemptAt": "2026-07-28T17:07:37.864Z",
+      "lastError": null,
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/book-3-term1-b47cdebe.metadata.json",
+      "metadata": {
+        "pdfVersion": "1.6",
+        "fileSizeBytes": 10016840,
+        "estimatedPageCount": 108,
+        "title": null,
+        "author": null,
+        "creator": null,
+        "producer": null,
+        "creationDate": null,
+        "modificationDate": null,
+        "encrypted": false,
+        "extractionMethod": "native-pdf-object-scan-v1"
+      },
+      "history": [
+        {
+          "at": "2026-07-28T17:07:37.864Z",
+          "from": null,
+          "to": "queued",
+          "reason": "Job created"
+        },
+        {
+          "at": "2026-07-28T17:08:15.627Z",
+          "from": "queued",
+          "to": "extracting",
+          "reason": "Worker claimed job"
+        },
+        {
+          "at": "2026-07-28T17:08:15.752Z",
+          "from": "extracting",
+          "to": "needs-review",
+          "reason": "Metadata extracted"
+        }
+      ]
+    },
+    {
+      "id": "extract-book-4-term-1-1-1876cde4-1876cde4",
+      "sourceId": "book-4-term-1-1-1876cde4",
+      "sourceChecksum": "1876cde483f379e37aab5a0f868299f546cfb5bda9436d50b35658af4ec95914",
+      "fileName": "book-4-term-1-1.pdf",
+      "mediaType": "application/pdf",
+      "originalPath": "/Users/imac/Desktop/Arabic B/book-4-term-1-1.pdf",
+      "status": "needs-review",
+      "attempt": 1,
+      "maxAttempts": 3,
+      "createdAt": "2026-07-28T17:07:37.864Z",
+      "updatedAt": "2026-07-28T17:08:16.727Z",
+      "startedAt": "2026-07-28T17:08:15.752Z",
+      "completedAt": "2026-07-28T17:08:16.727Z",
+      "nextAttemptAt": "2026-07-28T17:07:37.864Z",
+      "lastError": null,
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/book-4-term-1-1-1876cde4.metadata.json",
+      "metadata": {
+        "pdfVersion": "1.3",
+        "fileSizeBytes": 91283304,
+        "estimatedPageCount": 112,
+        "title": null,
+        "author": null,
+        "creator": "Canon",
+        "producer": "",
+        "creationDate": "D:20190918061353+04'00'",
+        "modificationDate": null,
+        "encrypted": false,
+        "extractionMethod": "native-pdf-object-scan-v1"
+      },
+      "history": [
+        {
+          "at": "2026-07-28T17:07:37.864Z",
+          "from": null,
+          "to": "queued",
+          "reason": "Job created"
+        },
+        {
+          "at": "2026-07-28T17:08:15.752Z",
+          "from": "queued",
+          "to": "extracting",
+          "reason": "Worker claimed job"
+        },
+        {
+          "at": "2026-07-28T17:08:16.727Z",
+          "from": "extracting",
+          "to": "needs-review",
+          "reason": "Metadata extracted"
+        }
+      ]
+    },
+    {
+      "id": "extract-book-5-term1-0f309ead-0f309ead",
+      "sourceId": "book-5-term1-0f309ead",
+      "sourceChecksum": "0f309ead4a69253c518d729aa1e2410c6ee5ad844d90b3b18cea989c05e23ba2",
+      "fileName": "book-5-term1.pdf",
+      "mediaType": "application/pdf",
+      "originalPath": "/Users/imac/Desktop/Arabic B/book-5-term1.pdf",
+      "status": "needs-review",
+      "attempt": 1,
+      "maxAttempts": 3,
+      "createdAt": "2026-07-28T17:07:37.864Z",
+      "updatedAt": "2026-07-28T17:08:16.822Z",
+      "startedAt": "2026-07-28T17:08:16.729Z",
+      "completedAt": "2026-07-28T17:08:16.822Z",
+      "nextAttemptAt": "2026-07-28T17:07:37.864Z",
+      "lastError": null,
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/book-5-term1-0f309ead.metadata.json",
+      "metadata": {
+        "pdfVersion": "1.6",
+        "fileSizeBytes": 8519848,
+        "estimatedPageCount": 100,
+        "title": null,
+        "author": null,
+        "creator": null,
+        "producer": null,
+        "creationDate": null,
+        "modificationDate": null,
+        "encrypted": false,
+        "extractionMethod": "native-pdf-object-scan-v1"
+      },
+      "history": [
+        {
+          "at": "2026-07-28T17:07:37.864Z",
+          "from": null,
+          "to": "queued",
+          "reason": "Job created"
+        },
+        {
+          "at": "2026-07-28T17:08:16.729Z",
+          "from": "queued",
+          "to": "extracting",
+          "reason": "Worker claimed job"
+        },
+        {
+          "at": "2026-07-28T17:08:16.822Z",
+          "from": "extracting",
+          "to": "needs-review",
+          "reason": "Metadata extracted"
+        }
+      ]
+    },
+    {
+      "id": "extract-book-7-93a54433-93a54433",
+      "sourceId": "book-7-93a54433",
+      "sourceChecksum": "93a544332c5a5648374a055b51eca608701401511239ae1789da36ade2c33bbb",
+      "fileName": "book-7.pdf",
+      "mediaType": "application/pdf",
+      "originalPath": "/Users/imac/Desktop/Arabic B/book-7.pdf",
+      "status": "needs-review",
+      "attempt": 1,
+      "maxAttempts": 3,
+      "createdAt": "2026-07-28T17:07:37.864Z",
+      "updatedAt": "2026-07-28T17:08:16.872Z",
+      "startedAt": "2026-07-28T17:08:16.822Z",
+      "completedAt": "2026-07-28T17:08:16.872Z",
+      "nextAttemptAt": "2026-07-28T17:07:37.864Z",
+      "lastError": null,
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/book-7-93a54433.metadata.json",
+      "metadata": {
+        "pdfVersion": "1.4",
+        "fileSizeBytes": 7296576,
+        "estimatedPageCount": 50,
+        "title": null,
+        "author": null,
+        "creator": "Canon iR-ADV C5540  PDF",
+        "producer": "Adobe PSL 1.3e for Canon",
+        "creationDate": "D:20190911023133+04'00'",
+        "modificationDate": "D:20190911150918+04'00'",
+        "encrypted": false,
+        "extractionMethod": "native-pdf-object-scan-v1"
+      },
+      "history": [
+        {
+          "at": "2026-07-28T17:07:37.864Z",
+          "from": null,
+          "to": "queued",
+          "reason": "Job created"
+        },
+        {
+          "at": "2026-07-28T17:08:16.822Z",
+          "from": "queued",
+          "to": "extracting",
+          "reason": "Worker claimed job"
+        },
+        {
+          "at": "2026-07-28T17:08:16.872Z",
+          "from": "extracting",
+          "to": "needs-review",
+          "reason": "Metadata extracted"
+        }
+      ]
+    },
+    {
+      "id": "extract-book-9-term1-8fdbfe72-8fdbfe72",
+      "sourceId": "book-9-term1-8fdbfe72",
+      "sourceChecksum": "8fdbfe72c163faa14437217c29e6c22d3e8577fb1c871f315264039b874d7f9e",
+      "fileName": "book-9-term1.pdf",
+      "mediaType": "application/pdf",
+      "originalPath": "/Users/imac/Desktop/Arabic B/book-9-term1.pdf",
+      "status": "needs-review",
+      "attempt": 1,
+      "maxAttempts": 3,
+      "createdAt": "2026-07-28T17:07:37.864Z",
+      "updatedAt": "2026-07-28T17:08:16.922Z",
+      "startedAt": "2026-07-28T17:08:16.873Z",
+      "completedAt": "2026-07-28T17:08:16.922Z",
+      "nextAttemptAt": "2026-07-28T17:07:37.864Z",
+      "lastError": null,
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/book-9-term1-8fdbfe72.metadata.json",
+      "metadata": {
+        "pdfVersion": "1.6",
+        "fileSizeBytes": 6220649,
+        "estimatedPageCount": 108,
+        "title": null,
+        "author": null,
+        "creator": null,
+        "producer": null,
+        "creationDate": null,
+        "modificationDate": null,
+        "encrypted": false,
+        "extractionMethod": "native-pdf-object-scan-v1"
+      },
+      "history": [
+        {
+          "at": "2026-07-28T17:07:37.864Z",
+          "from": null,
+          "to": "queued",
+          "reason": "Job created"
+        },
+        {
+          "at": "2026-07-28T17:08:16.873Z",
+          "from": "queued",
+          "to": "extracting",
+          "reason": "Worker claimed job"
+        },
+        {
+          "at": "2026-07-28T17:08:16.922Z",
+          "from": "extracting",
+          "to": "needs-review",
+          "reason": "Metadata extracted"
+        }
+      ]
+    },
+    {
+      "id": "extract-elementary-arabic-i-1670896059-355feb96-355feb96",
+      "sourceId": "elementary-arabic-i-1670896059-355feb96",
+      "sourceChecksum": "355feb963243819ae8a076d94602b30e9c0a4dc5952a933712a26ddde17b4dc7",
+      "fileName": "Elementary-Arabic-I-1670896059.pdf",
+      "mediaType": "application/pdf",
+      "originalPath": "/Users/imac/Desktop/Arabic B/Elementary-Arabic-I-1670896059.pdf",
+      "status": "needs-review",
+      "attempt": 1,
+      "maxAttempts": 3,
+      "createdAt": "2026-07-28T17:07:37.864Z",
+      "updatedAt": "2026-07-28T17:08:16.941Z",
+      "startedAt": "2026-07-28T17:08:16.923Z",
+      "completedAt": "2026-07-28T17:08:16.941Z",
+      "nextAttemptAt": "2026-07-28T17:07:37.864Z",
+      "lastError": null,
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/elementary-arabic-i-1670896059-355feb96.metadata.json",
+      "metadata": {
+        "pdfVersion": "1.7",
+        "fileSizeBytes": 1683172,
+        "estimatedPageCount": 132,
+        "title": "Elementary Arabic I",
+        "author": null,
+        "creator": "Pressbooks 6.4.0",
+        "producer": "Prince 14.1 (www.princexml.com\\",
+        "creationDate": null,
+        "modificationDate": null,
+        "encrypted": false,
+        "extractionMethod": "native-pdf-object-scan-v1"
+      },
+      "history": [
+        {
+          "at": "2026-07-28T17:07:37.864Z",
+          "from": null,
+          "to": "queued",
+          "reason": "Job created"
+        },
+        {
+          "at": "2026-07-28T17:08:16.923Z",
+          "from": "queued",
+          "to": "extracting",
+          "reason": "Worker claimed job"
+        },
+        {
+          "at": "2026-07-28T17:08:16.941Z",
+          "from": "extracting",
+          "to": "needs-review",
+          "reason": "Metadata extracted"
+        }
+      ]
+    },
+    {
+      "id": "extract-elementary-arabic-ii-1738786591-print-6e48cc3d-6e48cc3d",
+      "sourceId": "elementary-arabic-ii-1738786591-print-6e48cc3d",
+      "sourceChecksum": "6e48cc3da7a632289035b8a4e5ff04d37758f8659b2038a13793f63ce6d72b09",
+      "fileName": "Elementary-Arabic-II-1738786591._print.pdf",
+      "mediaType": "application/pdf",
+      "originalPath": "/Users/imac/Desktop/Arabic B/Elementary-Arabic-II-1738786591._print.pdf",
+      "status": "needs-review",
+      "attempt": 1,
+      "maxAttempts": 3,
+      "createdAt": "2026-07-28T17:07:37.864Z",
+      "updatedAt": "2026-07-28T17:08:17.072Z",
+      "startedAt": "2026-07-28T17:08:16.942Z",
+      "completedAt": "2026-07-28T17:08:17.072Z",
+      "nextAttemptAt": "2026-07-28T17:07:37.864Z",
+      "lastError": null,
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/elementary-arabic-ii-1738786591-print-6e48cc3d.metadata.json",
+      "metadata": {
+        "pdfVersion": "1.6",
+        "fileSizeBytes": 14023836,
+        "estimatedPageCount": 231,
+        "title": "Elementary Arabic II",
+        "author": null,
+        "creator": "Pressbooks 6.22.1",
+        "producer": "Prince 14.3 (www.princexml.com\\",
+        "creationDate": "D:20250205201651Z",
+        "modificationDate": "D:20250205201651Z",
+        "encrypted": false,
+        "extractionMethod": "native-pdf-object-scan-v1"
+      },
+      "history": [
+        {
+          "at": "2026-07-28T17:07:37.864Z",
+          "from": null,
+          "to": "queued",
+          "reason": "Job created"
+        },
+        {
+          "at": "2026-07-28T17:08:16.942Z",
+          "from": "queued",
+          "to": "extracting",
+          "reason": "Worker claimed job"
+        },
+        {
+          "at": "2026-07-28T17:08:17.072Z",
+          "from": "extracting",
+          "to": "needs-review",
+          "reason": "Metadata extracted"
+        }
+      ]
+    },
+    {
+      "id": "extract-ا-ول-1-ae3afaa4-ae3afaa4",
+      "sourceId": "ا-ول-1-ae3afaa4",
+      "sourceChecksum": "ae3afaa405437545ce273467ab0d63122cc633eda2fdbb5ada193f8d204edcc0",
+      "fileName": "أول 1.pdf",
+      "mediaType": "application/pdf",
+      "originalPath": "/Users/imac/Desktop/Arabic B/أول 1.pdf",
+      "status": "needs-review",
+      "attempt": 1,
+      "maxAttempts": 3,
+      "createdAt": "2026-07-28T17:07:37.864Z",
+      "updatedAt": "2026-07-28T17:08:17.744Z",
+      "startedAt": "2026-07-28T17:08:17.073Z",
+      "completedAt": "2026-07-28T17:08:17.744Z",
+      "nextAttemptAt": "2026-07-28T17:07:37.864Z",
+      "lastError": null,
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/ا-ول-1-ae3afaa4.metadata.json",
+      "metadata": {
+        "pdfVersion": "1.4",
+        "fileSizeBytes": 94862895,
+        "estimatedPageCount": 112,
+        "title": null,
+        "author": null,
+        "creator": null,
+        "producer": null,
+        "creationDate": null,
+        "modificationDate": null,
+        "encrypted": false,
+        "extractionMethod": "native-pdf-object-scan-v1"
+      },
+      "history": [
+        {
+          "at": "2026-07-28T17:07:37.864Z",
+          "from": null,
+          "to": "queued",
+          "reason": "Job created"
+        },
+        {
+          "at": "2026-07-28T17:08:17.073Z",
+          "from": "queued",
+          "to": "extracting",
+          "reason": "Worker claimed job"
+        },
+        {
+          "at": "2026-07-28T17:08:17.744Z",
+          "from": "extracting",
+          "to": "needs-review",
+          "reason": "Metadata extracted"
+        }
+      ]
+    },
+    {
+      "id": "extract-خامس-1-f8a10ee6-f8a10ee6",
+      "sourceId": "خامس-1-f8a10ee6",
+      "sourceChecksum": "f8a10ee684cf7929870994e23e7791d0d7dfd327f1ec7869129b6eb9796e842a",
+      "fileName": "خامس 1.pdf",
+      "mediaType": "application/pdf",
+      "originalPath": "/Users/imac/Desktop/Arabic B/خامس 1.pdf",
+      "status": "needs-review",
+      "attempt": 1,
+      "maxAttempts": 3,
+      "createdAt": "2026-07-28T17:07:37.864Z",
+      "updatedAt": "2026-07-28T17:08:17.987Z",
+      "startedAt": "2026-07-28T17:08:17.745Z",
+      "completedAt": "2026-07-28T17:08:17.987Z",
+      "nextAttemptAt": "2026-07-28T17:07:37.864Z",
+      "lastError": null,
+      "artifactPath": "app/learn/arabic-b/knowledge/extraction/artifacts/خامس-1-f8a10ee6.metadata.json",
+      "metadata": {
+        "pdfVersion": "1.6",
+        "fileSizeBytes": 31615188,
+        "estimatedPageCount": 112,
+        "title": null,
+        "author": null,
+        "creator": null,
+        "producer": null,
+        "creationDate": null,
+        "modificationDate": null,
+        "encrypted": false,
+        "extractionMethod": "native-pdf-object-scan-v1"
+      },
+      "history": [
+        {
+          "at": "2026-07-28T17:07:37.864Z",
+          "from": null,
+          "to": "queued",
+          "reason": "Job created"
+        },
+        {
+          "at": "2026-07-28T17:08:17.745Z",
+          "from": "queued",
+          "to": "extracting",
+          "reason": "Worker claimed job"
+        },
+        {
+          "at": "2026-07-28T17:08:17.987Z",
+          "from": "extracting",
+          "to": "needs-review",
+          "reason": "Metadata extracted"
+        }
+      ]
+    }
+  ]
+}

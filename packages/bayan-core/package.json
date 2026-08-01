@@ -1,0 +1,21 @@
+{
+  "name": "@bayan/core",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BAYAN Core engine for identity, RBAC, media and settings",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./server": "./src/server/index.ts",
+    "./types": "./src/types/index.ts",
+    "./roles": "./src/roles/index.ts",
+    "./schemas": "./src/schemas/index.ts",
+    "./dashboard": "./src/dashboard/BayanCoreDashboard.tsx"
+  },
+  "peerDependencies": {
+    "firebase-admin": ">=12",
+    "next": ">=15",
+    "zod": ">=3",
+    "react": ">=18"
+  }
+}

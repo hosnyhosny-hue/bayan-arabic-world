@@ -20,7 +20,7 @@ import { useSound } from "../../context/SoundContext";
 const navigation = [
   { href: "/", ar: "الرئيسية", en: "Home", icon: Home },
   { href: "/student", ar: "الطلاب", en: "Students", icon: BookOpen },
-  { href: "/parent", ar: "أولياء الأمور", en: "Parents", icon: Users },
+  { href: "/parents", ar: "أولياء الأمور", en: "Parents", icon: Users },
   {
     href: "/newsletters",
     ar: "النشرة",

@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-07-28T17:08:19.892Z",
+  "total": 3,
+  "items": [
+    {
+      "id": "v-ismi",
+      "arabic": "اِسْمِي",
+      "english": "My name is",
+      "partOfSpeech": "expression",
+      "tags": [
+        "introduction"
+      ],
+      "lessonIds": [
+        "a0-greetings-introductions"
+      ],
+      "cefr": [
+        "A0"
+      ],
+      "themes": [
+        "Introductions"
+      ],
+      "worldIds": [
+        "school"
+      ]
+    },
+    {
+      "id": "v-ahlan-wa-sahlan",
+      "arabic": "أَهْلًا وَسَهْلًا",
+      "english": "Welcome",
+      "partOfSpeech": "expression",
+      "tags": [
+        "greeting"
+      ],
+      "lessonIds": [
+        "a0-greetings-introductions"
+      ],
+      "cefr": [
+        "A0"
+      ],
+      "themes": [
+        "Introductions"
+      ],
+      "worldIds": [
+        "school"
+      ]
+    },
+    {
+      "id": "v-shukran",
+      "arabic": "شُكْرًا",
+      "english": "Thank you",
+      "partOfSpeech": "expression",
+      "tags": [
+        "courtesy"
+      ],
+      "lessonIds": [
+        "a0-greetings-introductions"
+      ],
+      "cefr": [
+        "A0"
+      ],
+      "themes": [
+        "Introductions"
+      ],
+      "worldIds": [
+        "school"
+      ]
+    }
+  ]
+}

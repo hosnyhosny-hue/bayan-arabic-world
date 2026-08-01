@@ -1,0 +1,44 @@
+{
+  "name": "arabic-department-portal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "bayan:knowledge:validate": "node scripts/bayan-knowledge/validate.mjs",
+    "bayan:knowledge:build": "npm run bayan:knowledge:validate && node scripts/bayan-knowledge/build.mjs",
+    "bayan:knowledge:report": "node scripts/bayan-knowledge/report.mjs",
+    "bayan:knowledge:source": "node scripts/bayan-knowledge/register-source.mjs",
+    "bayan:knowledge:import": "node scripts/bayan-knowledge/import-lesson.mjs",
+    "bayan:source:migrate": "node scripts/bayan-knowledge/migrate-sources.mjs",
+    "bayan:source:register": "node scripts/bayan-knowledge/register-source-v2.mjs",
+    "bayan:source:batch": "node scripts/bayan-knowledge/batch-register.mjs",
+    "bayan:source:list": "node scripts/bayan-knowledge/list-sources.mjs",
+    "bayan:source:audit": "node scripts/bayan-knowledge/source-audit.mjs",
+    "bayan:source:validate-links": "node scripts/bayan-knowledge/validate-source-links.mjs"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.1",
+    "@vercel/blob": "^2.6.1",
+    "clsx": "^2.1.1",
+    "firebase": "^12.16.0",
+    "firebase-admin": "^12.7.0",
+    "framer-motion": "^12.42.2",
+    "lucide-react": "^1.27.0",
+    "next": "16.2.12",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.12",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

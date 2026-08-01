@@ -1,0 +1,162 @@
+[
+  {
+    "id": "dialogue-a0-greeting-001",
+    "type": "dialogue",
+    "level": "A0",
+    "titleAr": "التعارف الأول",
+    "titleEn": "First introduction",
+    "situation": "school",
+    "characters": ["عُمَر", "لَيْلى"],
+    "turns": [
+      {
+        "speaker": "عُمَر",
+        "arabic": "مَرْحَبًا. أَنا عُمَر. ما اسْمُكِ؟",
+        "translationEn": "Hello. I am Omar. What is your name?"
+      },
+      {
+        "speaker": "لَيْلى",
+        "arabic": "مَرْحَبًا. أَنا لَيْلى.",
+        "translationEn": "Hello. I am Layla."
+      },
+      {
+        "speaker": "عُمَر",
+        "arabic": "تَشَرَّفْتُ بِمَعْرِفَتِكِ.",
+        "translationEn": "Nice to meet you."
+      }
+    ],
+    "targets": ["greetings", "name", "أنا"],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "dialogue-a1-cafe-001",
+    "type": "dialogue",
+    "level": "A1",
+    "titleAr": "في المقهى",
+    "titleEn": "At the café",
+    "situation": "cafe",
+    "characters": ["النادل", "سارة"],
+    "turns": [
+      {
+        "speaker": "النادل",
+        "arabic": "مَرْحَبًا، ماذا تُرِيدِينَ؟",
+        "translationEn": "Hello, what would you like?"
+      },
+      {
+        "speaker": "سارة",
+        "arabic": "أُرِيدُ عَصِيرَ بُرْتُقالٍ، مِنْ فَضْلِكَ.",
+        "translationEn": "I would like orange juice, please."
+      },
+      {
+        "speaker": "النادل",
+        "arabic": "هَلْ تُرِيدِينَ شَيْئًا آخَرَ؟",
+        "translationEn": "Would you like anything else?"
+      },
+      {
+        "speaker": "سارة",
+        "arabic": "لا، شُكْرًا.",
+        "translationEn": "No, thank you."
+      }
+    ],
+    "targets": ["requests", "food", "courtesy"],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "dialogue-a2-travel-001",
+    "type": "dialogue",
+    "level": "A2",
+    "titleAr": "السؤال عن الرحلة",
+    "titleEn": "Asking about a trip",
+    "situation": "travel",
+    "characters": ["الموظف", "خالد"],
+    "turns": [
+      {
+        "speaker": "خالد",
+        "arabic": "مَتى تَغادِرُ الرِّحْلَةُ إِلَى مَسْقَط؟",
+        "translationEn": "When does the flight to Muscat depart?"
+      },
+      {
+        "speaker": "الموظف",
+        "arabic": "تُغادِرُ في السّاعَةِ الثّامِنَةِ مَساءً.",
+        "translationEn": "It departs at eight in the evening."
+      },
+      {
+        "speaker": "خالد",
+        "arabic": "وَمِنْ أَيِّ بَوّابَةٍ؟",
+        "translationEn": "And from which gate?"
+      },
+      {
+        "speaker": "الموظف",
+        "arabic": "مِنَ البَوّابَةِ اثْنَتَيْ عَشْرَةَ.",
+        "translationEn": "From gate twelve."
+      }
+    ],
+    "targets": ["time", "travel", "questions"],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "dialogue-b1-school-project-001",
+    "type": "dialogue",
+    "level": "B1",
+    "titleAr": "التخطيط لمشروع مدرسي",
+    "titleEn": "Planning a school project",
+    "situation": "school-project",
+    "characters": ["ريم", "يوسف"],
+    "turns": [
+      {
+        "speaker": "ريم",
+        "arabic": "أَقْتَرِحُ أَنْ نُعِدَّ مَشْروعًا عَنِ الطّاقَةِ النَّظيفَةِ.",
+        "translationEn": "I suggest that we prepare a project about clean energy."
+      },
+      {
+        "speaker": "يوسف",
+        "arabic": "فِكْرَةٌ جَيِّدَةٌ، لَكِنْ نَحْتاجُ إِلى مَصادِرَ مَوْثوقَةٍ.",
+        "translationEn": "That is a good idea, but we need reliable sources."
+      },
+      {
+        "speaker": "ريم",
+        "arabic": "سَأَبْحَثُ عَنِ المَعْلوماتِ، وَيُمْكِنُكَ إِعْدادُ العَرْضِ.",
+        "translationEn": "I will research the information, and you can prepare the presentation."
+      }
+    ],
+    "targets": ["suggestion", "agreement", "project-planning"],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "dialogue-b2-debate-001",
+    "type": "dialogue",
+    "level": "B2",
+    "titleAr": "نقاش حول التعلم الرقمي",
+    "titleEn": "Discussion about digital learning",
+    "situation": "academic-discussion",
+    "characters": ["نورة", "آدم"],
+    "turns": [
+      {
+        "speaker": "نورة",
+        "arabic": "أَرى أَنَّ التَّعَلُّمَ الرَّقْمِيَّ يُوَسِّعُ فُرَصَ الوُصولِ إِلَى المَعْرِفَةِ.",
+        "translationEn": "I believe digital learning expands access to knowledge."
+      },
+      {
+        "speaker": "آدم",
+        "arabic": "أَتَّفِقُ مَعَكِ جُزْئِيًّا، وَلَكِنَّهُ لا يُغْنِي عَنِ التَّفاعُلِ الإِنْسانِيِّ.",
+        "translationEn": "I partly agree, but it does not replace human interaction."
+      },
+      {
+        "speaker": "نورة",
+        "arabic": "صَحيحٌ، وَلِذلِكَ قَدْ يَكونُ التَّعَلُّمُ المُدْمَجُ حَلًّا أَكْثَرَ تَوازُنًا.",
+        "translationEn": "That is true; therefore, blended learning may be a more balanced solution."
+      }
+    ],
+    "targets": ["argumentation", "partial-agreement", "evaluation"],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  }
+]

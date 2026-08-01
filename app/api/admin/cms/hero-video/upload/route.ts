@@ -21,6 +21,13 @@ const allowedImageTypes = new Set([
   "image/webp",
 ]);
 
+type UploadRequest = {
+  name?: unknown;
+  contentType?: unknown;
+  size?: unknown;
+  type?: unknown;
+};
+
 async function requireAdmin() {
   const cookieStore = await cookies();
   const sessionCookie = cookieStore.get(COOKIE_NAME)?.value;
@@ -48,33 +55,56 @@ export async function POST(request: Request) {
 
   if (!user) {
     return NextResponse.json(
-      { success: false, message: "Unauthorized" },
+      {
+        success: false,
+        message: "Unauthorized",
+      },
       { status: 401 }
     );
   }
 
   try {
-    const formData = await request.formData();
-    const fileValue = formData.get("file");
-    const typeValue = formData.get("type");
+    const body = (await request.json()) as UploadRequest;
 
-    if (!(fileValue instanceof File)) {
+    const uploadType =
+      body.type === "poster" ? "poster" : "video";
+
+    const name =
+      typeof body.name === "string"
+        ? body.name.trim()
+        : "";
+
+    const contentType =
+      typeof body.contentType === "string"
+        ? body.contentType.trim()
+        : "";
+
+    const size =
+      typeof body.size === "number"
+        ? body.size
+        : Number(body.size);
+
+    if (!name || !contentType || !Number.isFinite(size)) {
       return NextResponse.json(
-        { success: false, message: "لم يتم اختيار ملف." },
+        {
+          success: false,
+          message: "بيانات الملف غير مكتملة.",
+        },
         { status: 400 }
       );
     }
 
-    const type = typeValue === "poster" ? "poster" : "video";
     const allowedTypes =
-      type === "video" ? allowedVideoTypes : allowedImageTypes;
+      uploadType === "video"
+        ? allowedVideoTypes
+        : allowedImageTypes;
 
-    if (!allowedTypes.has(fileValue.type)) {
+    if (!allowedTypes.has(contentType)) {
       return NextResponse.json(
         {
           success: false,
           message:
-            type === "video"
+            uploadType === "video"
               ? "نوع الفيديو غير مدعوم. استخدم MP4 أو WebM أو MOV."
               : "نوع الصورة غير مدعوم. استخدم JPG أو PNG أو WebP.",
         },
@@ -83,68 +113,73 @@ export async function POST(request: Request) {
     }
 
     const maximumSize =
-      type === "video"
+      uploadType === "video"
         ? 1024 * 1024 * 1024
         : 15 * 1024 * 1024;
 
-    if (fileValue.size > maximumSize) {
+    if (size <= 0 || size > maximumSize) {
       return NextResponse.json(
         {
           success: false,
           message:
-            type === "video"
-              ? "حجم الفيديو يتجاوز 1 جيجابايت."
-              : "حجم الصورة يتجاوز 15 ميجابايت.",
+            uploadType === "video"
+              ? "يجب ألا يتجاوز حجم الفيديو 1 جيجابايت."
+              : "يجب ألا يتجاوز حجم الصورة 15 ميجابايت.",
         },
         { status: 400 }
       );
     }
 
-    const buffer = Buffer.from(await fileValue.arrayBuffer());
     const token = randomUUID();
 
     const originalName =
-      safeFileName(fileValue.name) ||
-      `${type}-${Date.now()}`;
+      safeFileName(name) ||
+      `${uploadType}-${Date.now()}`;
 
     const path =
-      `cms/hero-video/${type}/` +
-      `${Date.now()}-${originalName}`;
+      `cms/hero-video/${uploadType}/` +
+      `${Date.now()}-${randomUUID()}-${originalName}`;
 
     const bucket = getStorage().bucket();
     const storageFile = bucket.file(path);
 
-    await storageFile.save(buffer, {
-      resumable: false,
-      contentType: fileValue.type,
-      metadata: {
-        cacheControl: "public,max-age=31536000,immutable",
+    const [uploadUrl] =
+      await storageFile.createResumableUpload({
         metadata: {
-          firebaseStorageDownloadTokens: token,
-          uploadedBy: user.email || user.uid,
-          section: "homepage-hero-video",
+          contentType,
+          cacheControl:
+            "public,max-age=31536000,immutable",
+          metadata: {
+            firebaseStorageDownloadTokens: token,
+            uploadedBy: user.email || user.uid,
+            section: "homepage-hero-video",
+          },
         },
-      },
-    });
+      });
 
     const encodedPath = encodeURIComponent(path);
 
-    const url =
+    const downloadUrl =
       `https://firebasestorage.googleapis.com/v0/b/` +
-      `${bucket.name}/o/${encodedPath}?alt=media&token=${token}`;
+      `${bucket.name}/o/${encodedPath}` +
+      `?alt=media&token=${token}`;
 
     return NextResponse.json({
       success: true,
       data: {
-        url,
+        uploadUrl,
+        downloadUrl,
         path,
-        name: fileValue.name,
-        size: fileValue.size,
-        contentType: fileValue.type,
+        name,
+        size,
+        contentType,
       },
     });
   } catch (error) {
-    console.error("Hero video upload error:", error);
+    console.error(
+      "Hero video resumable upload error:",
+      error
+    );
 
     return NextResponse.json(
       {
@@ -152,7 +187,7 @@ export async function POST(request: Request) {
         message:
           error instanceof Error
             ? error.message
-            : "فشل رفع الملف.",
+            : "تعذر إنشاء رابط رفع الفيديو.",
       },
       { status: 500 }
     );

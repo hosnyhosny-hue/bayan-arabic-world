@@ -1,0 +1,50 @@
+[
+  {
+    "id": "culture-a1-hospitality-001",
+    "type": "culture",
+    "level": "A1",
+    "titleAr": "الضيافة العربية",
+    "titleEn": "Arab hospitality",
+    "summaryAr": "تُعَدُّ الضيافة قيمة مهمة في مجتمعات عربية كثيرة، وقد يُقدَّم للضيف القهوة أو الشاي أو الطعام ترحيبًا به.",
+    "learningFocus": [
+      "استخدام عبارات الترحيب.",
+      "قبول الضيافة أو الاعتذار عنها بأدب.",
+      "تجنب تعميم عادة واحدة على جميع البلدان العربية."
+    ],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "culture-a2-arab-world-001",
+    "type": "culture",
+    "level": "A2",
+    "titleAr": "تنوع العالم العربي",
+    "titleEn": "Diversity of the Arab world",
+    "summaryAr": "يضم العالم العربي مجتمعات ولهجات وبيئات وعادات متنوعة، مع وجود العربية الفصحى لغة مشتركة في التعليم والإعلام والكتابة الرسمية.",
+    "learningFocus": [
+      "التفريق بين الفصحى واللهجات.",
+      "احترام التنوع الثقافي.",
+      "تحديد أمثلة على التنوع الجغرافي."
+    ],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "culture-b1-majlis-001",
+    "type": "culture",
+    "level": "B1",
+    "titleAr": "المجلس والتواصل الاجتماعي",
+    "titleEn": "The majlis and social communication",
+    "summaryAr": "يؤدي المجلس في بعض مجتمعات الخليج أدوارًا اجتماعية وثقافية، وقد يكون مكانًا لاستقبال الضيوف وتبادل الأخبار ومناقشة شؤون المجتمع.",
+    "learningFocus": [
+      "مقارنة أشكال التجمع الاجتماعي.",
+      "استخدام لغة الوصف والمقارنة.",
+      "فهم ارتباط المكان بالهوية الاجتماعية."
+    ],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  }
+]

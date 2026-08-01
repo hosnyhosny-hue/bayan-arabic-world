@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-28T18:48:20.089Z",
+  "items": [
+    {
+      "sourceId": "08-ec214f70",
+      "sourceChecksum": "ec214f707e04f00f6898ce8050decf9001f282888db8a21d5770fd0621f3a1fd",
+      "status": "ocr-required",
+      "documentType": "scanned",
+      "extractor": "pdf-literal-string-scan-v1",
+      "pageCount": 51,
+      "totalCharacters": 0,
+      "totalWords": 0,
+      "textCoverageRatio": 0,
+      "artifactDirectory": "app/learn/arabic-b/knowledge/text-extraction/artifacts/08-ec214f70",
+      "updatedAt": "2026-07-28T18:48:20.054Z",
+      "attempts": 1,
+      "lastError": null
+    }
+  ]
+}

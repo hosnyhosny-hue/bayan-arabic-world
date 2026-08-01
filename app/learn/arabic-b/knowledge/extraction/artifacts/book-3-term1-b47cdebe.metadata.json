@@ -1,0 +1,18 @@
+{
+  "jobId": "extract-book-3-term1-b47cdebe-b47cdebe",
+  "sourceId": "book-3-term1-b47cdebe",
+  "extractedAt": "2026-07-28T17:08:15.751Z",
+  "metadata": {
+    "pdfVersion": "1.6",
+    "fileSizeBytes": 10016840,
+    "estimatedPageCount": 108,
+    "title": null,
+    "author": null,
+    "creator": null,
+    "producer": null,
+    "creationDate": null,
+    "modificationDate": null,
+    "encrypted": false,
+    "extractionMethod": "native-pdf-object-scan-v1"
+  }
+}

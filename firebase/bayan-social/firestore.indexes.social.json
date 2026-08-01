@@ -1,0 +1,20 @@
+{
+  "indexes": [
+    { "collectionGroup": "bayan_social_posts", "queryScope": "COLLECTION", "fields": [
+      { "fieldPath": "schoolId", "order": "ASCENDING" },
+      { "fieldPath": "status", "order": "ASCENDING" },
+      { "fieldPath": "createdAt", "order": "DESCENDING" }
+    ]},
+    { "collectionGroup": "bayan_social_comments", "queryScope": "COLLECTION", "fields": [
+      { "fieldPath": "schoolId", "order": "ASCENDING" },
+      { "fieldPath": "postId", "order": "ASCENDING" },
+      { "fieldPath": "status", "order": "ASCENDING" },
+      { "fieldPath": "createdAt", "order": "ASCENDING" }
+    ]},
+    { "collectionGroup": "bayan_social_notifications", "queryScope": "COLLECTION", "fields": [
+      { "fieldPath": "recipientId", "order": "ASCENDING" },
+      { "fieldPath": "createdAt", "order": "DESCENDING" }
+    ]}
+  ],
+  "fieldOverrides": []
+}

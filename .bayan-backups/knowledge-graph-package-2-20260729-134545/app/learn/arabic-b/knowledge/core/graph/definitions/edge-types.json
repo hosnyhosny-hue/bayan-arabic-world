@@ -1,0 +1,95 @@
+{
+  "version": "1.0.0",
+  "edgeTypes": [
+    {
+      "id": "BELONGS_TO_LEVEL",
+      "labelAr": "ينتمي إلى المستوى",
+      "labelEn": "Belongs to level",
+      "directed": true
+    },
+    {
+      "id": "ALIGNS_WITH_SKILL",
+      "labelAr": "يتوافق مع المهارة",
+      "labelEn": "Aligns with skill",
+      "directed": true
+    },
+    {
+      "id": "USES_VOCABULARY",
+      "labelAr": "يستخدم المفردة",
+      "labelEn": "Uses vocabulary",
+      "directed": true
+    },
+    {
+      "id": "PRACTICES_GRAMMAR",
+      "labelAr": "يدرّب على القاعدة",
+      "labelEn": "Practices grammar",
+      "directed": true
+    },
+    {
+      "id": "ASSESSED_BY",
+      "labelAr": "يُقاس بواسطة",
+      "labelEn": "Assessed by",
+      "directed": true
+    },
+    {
+      "id": "PRACTICED_IN",
+      "labelAr": "يُمارس في",
+      "labelEn": "Practiced in",
+      "directed": true
+    },
+    {
+      "id": "RELATED_TO_TOPIC",
+      "labelAr": "مرتبط بالموضوع",
+      "labelEn": "Related to topic",
+      "directed": true
+    },
+    {
+      "id": "SAME_LEVEL_AS",
+      "labelAr": "في المستوى نفسه",
+      "labelEn": "Same level as",
+      "directed": false
+    },
+    {
+      "id": "NEXT_LEVEL",
+      "labelAr": "المستوى التالي",
+      "labelEn": "Next level",
+      "directed": true
+    },
+    {
+      "id": "PREVIOUS_LEVEL",
+      "labelAr": "المستوى السابق",
+      "labelEn": "Previous level",
+      "directed": true
+    },
+    {
+      "id": "PREREQUISITE_OF",
+      "labelAr": "متطلب سابق لـ",
+      "labelEn": "Prerequisite of",
+      "directed": true
+    },
+    {
+      "id": "HAS_PREREQUISITE",
+      "labelAr": "له متطلب سابق",
+      "labelEn": "Has prerequisite",
+      "directed": true
+    },
+    {
+      "id": "PART_OF",
+      "labelAr": "جزء من",
+      "labelEn": "Part of",
+      "directed": true
+    },
+    {
+      "id": "CONTAINS",
+      "labelAr": "يحتوي على",
+      "labelEn": "Contains",
+      "directed": true
+    },
+    {
+      "id": "RELATED_TO",
+      "labelAr": "مرتبط بـ",
+      "labelEn": "Related to",
+      "directed": false
+    }
+  ]
+}

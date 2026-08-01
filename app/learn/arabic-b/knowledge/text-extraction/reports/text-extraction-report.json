@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-07-29T02:52:29.110Z",
+  "totalSources": 1,
+  "byStatus": {
+    "extracted": 1
+  },
+  "byDocumentType": {
+    "mixed": 1
+  },
+  "totals": {
+    "pages": 51,
+    "words": 995,
+    "characters": 5574
+  },
+  "ocrRequired": [],
+  "failures": []
+}

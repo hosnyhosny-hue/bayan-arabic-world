@@ -1,0 +1,18 @@
+{
+  "jobId": "extract-book-9-term1-8fdbfe72-8fdbfe72",
+  "sourceId": "book-9-term1-8fdbfe72",
+  "extractedAt": "2026-07-28T17:08:16.921Z",
+  "metadata": {
+    "pdfVersion": "1.6",
+    "fileSizeBytes": 6220649,
+    "estimatedPageCount": 108,
+    "title": null,
+    "author": null,
+    "creator": null,
+    "producer": null,
+    "creationDate": null,
+    "modificationDate": null,
+    "encrypted": false,
+    "extractionMethod": "native-pdf-object-scan-v1"
+  }
+}

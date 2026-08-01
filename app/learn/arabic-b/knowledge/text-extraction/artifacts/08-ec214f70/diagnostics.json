@@ -1,0 +1,489 @@
+{
+  "sourceId": "08-ec214f70",
+  "generatedAt": "2026-07-29T02:52:00.975Z",
+  "extractor": "tesseract.js-ocr",
+  "warnings": [
+    "Native PDF text extraction was insufficient; OCR fallback was used.",
+    "OCR languages: ara+eng",
+    "OCR rendering scale: 2"
+  ],
+  "ocr": {
+    "languages": [
+      "ara",
+      "eng"
+    ],
+    "scale": 2,
+    "pageDiagnostics": [
+      {
+        "page": 1,
+        "characters": 36,
+        "words": 3,
+        "confidence": 86,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 2,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 3,
+        "characters": 89,
+        "words": 23,
+        "confidence": 66,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 4,
+        "characters": 18,
+        "words": 6,
+        "confidence": 83,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 5,
+        "characters": 274,
+        "words": 47,
+        "confidence": 50,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 6,
+        "characters": 153,
+        "words": 24,
+        "confidence": 62,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 7,
+        "characters": 4,
+        "words": 2,
+        "confidence": 89,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 8,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 9,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 10,
+        "characters": 666,
+        "words": 109,
+        "confidence": 48,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 11,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 12,
+        "characters": 63,
+        "words": 13,
+        "confidence": 61,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 13,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 14,
+        "characters": 172,
+        "words": 31,
+        "confidence": 58,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 15,
+        "characters": 340,
+        "words": 56,
+        "confidence": 53,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 16,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 17,
+        "characters": 1,
+        "words": 1,
+        "confidence": 93,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 18,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 19,
+        "characters": 148,
+        "words": 30,
+        "confidence": 66,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 20,
+        "characters": 287,
+        "words": 52,
+        "confidence": 51,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 21,
+        "characters": 1,
+        "words": 1,
+        "confidence": 90,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 22,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 23,
+        "characters": 251,
+        "words": 37,
+        "confidence": 56,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 24,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 25,
+        "characters": 221,
+        "words": 42,
+        "confidence": 51,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 26,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 27,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 28,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 29,
+        "characters": 170,
+        "words": 26,
+        "confidence": 66,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 30,
+        "characters": 60,
+        "words": 15,
+        "confidence": 62,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 31,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 32,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 33,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 34,
+        "characters": 220,
+        "words": 36,
+        "confidence": 64,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 35,
+        "characters": 737,
+        "words": 152,
+        "confidence": 47,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 36,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 37,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 38,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 39,
+        "characters": 167,
+        "words": 23,
+        "confidence": 68,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 40,
+        "characters": 100,
+        "words": 16,
+        "confidence": 63,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 41,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 42,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 43,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 44,
+        "characters": 58,
+        "words": 9,
+        "confidence": 75,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 45,
+        "characters": 881,
+        "words": 167,
+        "confidence": 53,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 46,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 47,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 48,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 49,
+        "characters": 84,
+        "words": 20,
+        "confidence": 66,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 50,
+        "characters": 373,
+        "words": 54,
+        "confidence": 68,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      },
+      {
+        "page": 51,
+        "characters": 0,
+        "words": 0,
+        "confidence": 95,
+        "width": 2381,
+        "height": 1683,
+        "scale": 2
+      }
+    ]
+  },
+  "documentType": "mixed",
+  "status": "extracted",
+  "pageCount": 51,
+  "pagesWithMeaningfulText": 21,
+  "textCoverageRatio": 0.4118,
+  "totalCharacters": 5574,
+  "totalWords": 995,
+  "totalParagraphs": 111,
+  "averageCharactersPerPage": 109,
+  "averageWordsPerPage": 20,
+  "arabicCharacterRatio": 0.8581
+}

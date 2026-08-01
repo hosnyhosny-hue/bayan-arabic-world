@@ -1,0 +1,17 @@
+{
+  "id": "bayan-knowledge-core",
+  "version": "1.0.0",
+  "language": "ar",
+  "targetLearners": "Arabic as an additional language",
+  "levels": ["A0", "A1", "A2", "B1", "B2"],
+  "contentPolicy": "Original BAYAN content and explicitly licensed open resources only",
+  "collections": [
+    "frameworks/bayan-proficiency.json",
+    "vocabulary/core-vocabulary.json",
+    "grammar/core-grammar.json",
+    "skills/core-skills.json",
+    "dialogues/core-dialogues.json",
+    "culture/core-culture.json",
+    "assessments/core-assessments.json"
+  ]
+}

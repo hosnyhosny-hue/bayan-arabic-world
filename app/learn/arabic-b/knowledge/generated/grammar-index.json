@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-07-28T17:08:19.892Z",
+  "total": 1,
+  "items": [
+    {
+      "id": "g-nominal-self-introduction",
+      "title": "Simple nominal self-introduction",
+      "description": "Using اِسْمِي followed by a personal name.",
+      "examples": [
+        "اِسْمِي سَامِي."
+      ],
+      "lessonIds": [
+        "a0-greetings-introductions"
+      ],
+      "cefr": [
+        "A0"
+      ]
+    }
+  ]
+}

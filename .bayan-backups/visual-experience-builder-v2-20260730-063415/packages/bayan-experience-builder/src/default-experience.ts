@@ -1,0 +1,60 @@
+import type { BayanExperienceDocument } from "./types";
+
+export const defaultFamilyExperience: BayanExperienceDocument = {
+  id: "family-home",
+  name: "BAYAN Family",
+  slug: "parents",
+  status: "draft",
+  version: 1,
+  theme: {
+    primary: "#0d6b4d",
+    secondary: "#ef8b27",
+    background: "#f5f8f6",
+    radius: 28,
+    spacing: 20,
+  },
+  blocks: [
+    {
+      id: "hero-1",
+      type: "hero",
+      title: "نبض المدرسة يبدأ من هنا",
+      subtitle: "تجربة اجتماعية تعليمية حيّة تجمع أخبار المدرسة وإنجازاتها وفعالياتها.",
+      buttonLabel: "استكشف النبض",
+      buttonHref: "#feed",
+      variant: "gradient",
+      visible: true,
+    },
+    {
+      id: "stories-1",
+      type: "stories",
+      title: "قصص بيان",
+      source: "bayan_pulse_stories",
+      limit: 6,
+      visible: true,
+    },
+    {
+      id: "feed-1",
+      type: "feed",
+      title: "نبض بيان",
+      source: "bayan_social_posts",
+      limit: 12,
+      visible: true,
+    },
+    {
+      id: "events-1",
+      type: "events",
+      title: "الفعاليات القادمة",
+      source: "bayan_events",
+      limit: 4,
+      visible: true,
+    },
+    {
+      id: "achievements-1",
+      type: "achievements",
+      title: "إنجازات الأسبوع",
+      source: "bayan_achievements",
+      limit: 6,
+      visible: true,
+    },
+  ],
+};

@@ -1,0 +1,18 @@
+{
+  "jobId": "extract-book-1-term-1-2-205e86b9-205e86b9",
+  "sourceId": "book-1-term-1-2-205e86b9",
+  "extractedAt": "2026-07-28T17:08:15.474Z",
+  "metadata": {
+    "pdfVersion": "1.3",
+    "fileSizeBytes": 95585486,
+    "estimatedPageCount": 110,
+    "title": null,
+    "author": null,
+    "creator": "Canon",
+    "producer": "",
+    "creationDate": "D:20190918051851+04'00'",
+    "modificationDate": null,
+    "encrypted": false,
+    "extractionMethod": "native-pdf-object-scan-v1"
+  }
+}

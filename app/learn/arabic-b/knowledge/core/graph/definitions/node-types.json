@@ -1,0 +1,83 @@
+{
+  "version": "1.0.0",
+  "nodeTypes": [
+    {
+      "id": "framework-level",
+      "labelAr": "مستوى الإتقان",
+      "labelEn": "Framework Level",
+      "prefix": "level"
+    },
+    {
+      "id": "vocabulary",
+      "labelAr": "مفردة",
+      "labelEn": "Vocabulary",
+      "prefix": "vocab"
+    },
+    {
+      "id": "grammar",
+      "labelAr": "قاعدة",
+      "labelEn": "Grammar",
+      "prefix": "grammar"
+    },
+    {
+      "id": "skill",
+      "labelAr": "مهارة",
+      "labelEn": "Skill",
+      "prefix": "skill"
+    },
+    {
+      "id": "dialogue",
+      "labelAr": "حوار",
+      "labelEn": "Dialogue",
+      "prefix": "dialogue"
+    },
+    {
+      "id": "culture",
+      "labelAr": "ثقافة",
+      "labelEn": "Culture",
+      "prefix": "culture"
+    },
+    {
+      "id": "assessment",
+      "labelAr": "تقييم",
+      "labelEn": "Assessment",
+      "prefix": "assessment"
+    },
+    {
+      "id": "topic",
+      "labelAr": "موضوع",
+      "labelEn": "Topic",
+      "prefix": "topic"
+    },
+    {
+      "id": "unit",
+      "labelAr": "وحدة",
+      "labelEn": "Unit",
+      "prefix": "unit"
+    },
+    {
+      "id": "lesson",
+      "labelAr": "درس",
+      "labelEn": "Lesson",
+      "prefix": "lesson"
+    },
+    {
+      "id": "mission",
+      "labelAr": "مهمة",
+      "labelEn": "Mission",
+      "prefix": "mission"
+    },
+    {
+      "id": "story",
+      "labelAr": "قصة",
+      "labelEn": "Story",
+      "prefix": "story"
+    },
+    {
+      "id": "media",
+      "labelAr": "وسائط",
+      "labelEn": "Media",
+      "prefix": "media"
+    }
+  ]
+}

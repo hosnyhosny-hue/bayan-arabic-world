@@ -1,0 +1,18 @@
+{
+  "jobId": "extract-book-5-term1-0f309ead-0f309ead",
+  "sourceId": "book-5-term1-0f309ead",
+  "extractedAt": "2026-07-28T17:08:16.821Z",
+  "metadata": {
+    "pdfVersion": "1.6",
+    "fileSizeBytes": 8519848,
+    "estimatedPageCount": 100,
+    "title": null,
+    "author": null,
+    "creator": null,
+    "producer": null,
+    "creationDate": null,
+    "modificationDate": null,
+    "encrypted": false,
+    "extractionMethod": "native-pdf-object-scan-v1"
+  }
+}

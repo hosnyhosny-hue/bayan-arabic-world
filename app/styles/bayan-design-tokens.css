@@ -1,0 +1,173 @@
+:root{
+  /* Brand primitives */
+  --bayan-emerald-500:#0A6A4C;
+  --bayan-emerald-700:#063F30;
+  --bayan-emerald-100:#E9F4EF;
+  --bayan-orange-500:#EF8A25;
+  --bayan-orange-100:#FFF3E5;
+  --bayan-gold-500:#C89B3C;
+  --bayan-navy-700:#173A52;
+  --bayan-crimson-500:#C8102E;
+
+  /* Neutral scale */
+  --bayan-neutral-0:#FFFFFF;
+  --bayan-neutral-25:#FBFCFA;
+  --bayan-neutral-50:#F6F9F7;
+  --bayan-neutral-100:#EDF3EF;
+  --bayan-neutral-200:#DCE7E2;
+  --bayan-neutral-300:#C7D5CF;
+  --bayan-neutral-400:#93A69F;
+  --bayan-neutral-500:#71867F;
+  --bayan-neutral-600:#526C64;
+  --bayan-neutral-700:#36554C;
+  --bayan-neutral-800:#21443A;
+  --bayan-neutral-900:#12372F;
+  --bayan-neutral-950:#082B23;
+
+  /* Semantic color roles */
+  --bayan-page:var(--bayan-neutral-25);
+  --bayan-page-subtle:var(--bayan-neutral-50);
+  --bayan-surface:rgba(255,255,255,.86);
+  --bayan-surface-solid:var(--bayan-neutral-0);
+  --bayan-surface-muted:var(--bayan-neutral-100);
+  --bayan-surface-inverse:var(--bayan-neutral-950);
+  --bayan-text-primary:var(--bayan-neutral-900);
+  --bayan-text-secondary:var(--bayan-neutral-500);
+  --bayan-text-tertiary:var(--bayan-neutral-400);
+  --bayan-text-inverse:var(--bayan-neutral-0);
+  --bayan-border:rgba(18,55,47,.10);
+  --bayan-border-strong:rgba(18,55,47,.18);
+  --bayan-brand:var(--bayan-emerald-500);
+  --bayan-brand-deep:var(--bayan-emerald-700);
+  --bayan-brand-soft:var(--bayan-emerald-100);
+  --bayan-on-brand:var(--bayan-neutral-0);
+  --bayan-accent:var(--bayan-orange-500);
+  --bayan-accent-soft:var(--bayan-orange-100);
+  --bayan-success:#138A62;
+  --bayan-success-soft:#E7F6F0;
+  --bayan-warning:#D77B1F;
+  --bayan-warning-soft:#FFF2DE;
+  --bayan-danger:#C94C43;
+  --bayan-danger-soft:#FDECEA;
+  --bayan-info:#3178A8;
+  --bayan-info-soft:#E8F3FA;
+  --bayan-live:#E66431;
+
+  /* Typography scale */
+  --bayan-font-arabic:var(--font-arabic,"Noto Sans Arabic"),system-ui,sans-serif;
+  --bayan-font-latin:var(--font-latin,Inter),system-ui,sans-serif;
+  --bayan-display-xl:clamp(4.5rem,8vw,7.75rem);
+  --bayan-display-lg:clamp(3.5rem,6vw,6rem);
+  --bayan-display-md:clamp(2.75rem,5vw,4.5rem);
+  --bayan-heading-xl:clamp(2.25rem,4vw,3.5rem);
+  --bayan-heading-lg:clamp(1.875rem,3vw,2.75rem);
+  --bayan-heading-md:1.75rem;
+  --bayan-heading-sm:1.375rem;
+  --bayan-text-lg:1.125rem;
+  --bayan-text-md:1rem;
+  --bayan-text-sm:.875rem;
+  --bayan-text-xs:.75rem;
+  --bayan-text-micro:.6875rem;
+  --bayan-weight-regular:400;
+  --bayan-weight-medium:500;
+  --bayan-weight-semibold:650;
+  --bayan-weight-bold:750;
+  --bayan-weight-black:900;
+  --bayan-leading-none:1;
+  --bayan-leading-tight:1.1;
+  --bayan-leading-normal:1.55;
+  --bayan-leading-relaxed:1.85;
+  --bayan-tracking-tight:-.04em;
+  --bayan-tracking-normal:0;
+  --bayan-tracking-wide:.12em;
+
+  /* Spacing system — 4px base */
+  --bayan-space-0:0;
+  --bayan-space-1:.25rem;
+  --bayan-space-2:.5rem;
+  --bayan-space-3:.75rem;
+  --bayan-space-4:1rem;
+  --bayan-space-5:1.25rem;
+  --bayan-space-6:1.5rem;
+  --bayan-space-8:2rem;
+  --bayan-space-10:2.5rem;
+  --bayan-space-12:3rem;
+  --bayan-space-14:3.5rem;
+  --bayan-space-16:4rem;
+  --bayan-space-20:5rem;
+  --bayan-space-24:6rem;
+  --bayan-space-28:7rem;
+  --bayan-space-32:8rem;
+  --bayan-section-space:clamp(3.5rem,7vw,6rem);
+  --bayan-container:min(1400px,calc(100% - 32px));
+
+  /* Radius */
+  --bayan-radius-xs:.5rem;
+  --bayan-radius-sm:.75rem;
+  --bayan-radius-md:1rem;
+  --bayan-radius-lg:1.25rem;
+  --bayan-radius-xl:1.75rem;
+  --bayan-radius-2xl:2.25rem;
+  --bayan-radius-3xl:3rem;
+  --bayan-radius-round:9999px;
+
+  /* Elevation */
+  --bayan-shadow-0:none;
+  --bayan-shadow-1:0 4px 16px rgba(18,55,47,.05);
+  --bayan-shadow-2:0 10px 30px rgba(18,55,47,.07);
+  --bayan-shadow-3:0 18px 54px rgba(18,55,47,.10);
+  --bayan-shadow-4:0 28px 80px rgba(18,55,47,.14);
+  --bayan-shadow-5:0 40px 110px rgba(18,55,47,.18);
+  --bayan-shadow-focus:0 0 0 4px rgba(10,106,76,.16);
+
+  /* Motion */
+  --bayan-duration-instant:100ms;
+  --bayan-duration-fast:180ms;
+  --bayan-duration-normal:280ms;
+  --bayan-duration-slow:480ms;
+  --bayan-duration-cinematic:800ms;
+  --bayan-ease-standard:cubic-bezier(.2,.8,.2,1);
+  --bayan-ease-enter:cubic-bezier(.16,1,.3,1);
+  --bayan-ease-exit:cubic-bezier(.4,0,1,1);
+  --bayan-ease-spring:cubic-bezier(.34,1.56,.64,1);
+
+  /* Component roles */
+  --bayan-header-height:78px;
+  --bayan-control-height-sm:36px;
+  --bayan-control-height-md:44px;
+  --bayan-control-height-lg:52px;
+  --bayan-card-padding:var(--bayan-space-6);
+  --bayan-card-radius:var(--bayan-radius-xl);
+  --bayan-hero-radius:var(--bayan-radius-2xl);
+}
+
+[data-bayan-theme="night"]{
+  --bayan-page:#061F1A;
+  --bayan-page-subtle:#0B2B24;
+  --bayan-surface:rgba(14,52,43,.88);
+  --bayan-surface-solid:#0E342B;
+  --bayan-surface-muted:#143E34;
+  --bayan-text-primary:#F7FBF9;
+  --bayan-text-secondary:#B6C9C2;
+  --bayan-text-tertiary:#8DA49C;
+  --bayan-border:rgba(255,255,255,.10);
+  --bayan-border-strong:rgba(255,255,255,.18);
+}
+
+@media(max-width:720px){
+  :root{
+    --bayan-container:min(100% - 18px,1400px);
+    --bayan-card-padding:var(--bayan-space-5);
+    --bayan-hero-radius:var(--bayan-radius-xl);
+  }
+}
+
+@media(prefers-reduced-motion:reduce){
+  :root{
+    --bayan-duration-instant:0ms;
+    --bayan-duration-fast:0ms;
+    --bayan-duration-normal:0ms;
+    --bayan-duration-slow:0ms;
+    --bayan-duration-cinematic:0ms;
+  }
+}

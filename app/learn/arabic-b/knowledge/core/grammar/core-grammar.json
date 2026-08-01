@@ -1,0 +1,142 @@
+[
+  {
+    "id": "grammar-a0-001",
+    "type": "grammar",
+    "level": "A0",
+    "titleAr": "هذا وهذه",
+    "titleEn": "This: masculine and feminine",
+    "function": "الإشارة إلى شخص أو شيء قريب.",
+    "explanationAr": "نستخدم هذا مع الاسم المفرد المذكر، وهذه مع الاسم المفرد المؤنث.",
+    "examples": [
+      "هذا كِتابٌ.",
+      "هذه حَقيبَةٌ."
+    ],
+    "commonErrors": [
+      {
+        "incorrect": "هذا سيارة.",
+        "correct": "هذه سيارة."
+      }
+    ],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "grammar-a1-001",
+    "type": "grammar",
+    "level": "A1",
+    "titleAr": "الجملة الاسمية البسيطة",
+    "titleEn": "Basic nominal sentence",
+    "function": "وصف الأشخاص والأماكن والأشياء.",
+    "explanationAr": "تبدأ الجملة الاسمية غالبًا باسم أو ضمير، ثم نذكر خبرًا يقدم معلومة عنه.",
+    "examples": [
+      "الطَّقْسُ جَميلٌ.",
+      "أَنا طالِبٌ."
+    ],
+    "commonErrors": [
+      {
+        "incorrect": "أنا يكون طالب.",
+        "correct": "أنا طالب."
+      }
+    ],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "grammar-a1-002",
+    "type": "grammar",
+    "level": "A1",
+    "titleAr": "الفعل المضارع",
+    "titleEn": "Present tense",
+    "function": "التحدث عن العادات والأحداث الحالية.",
+    "explanationAr": "تبدأ أفعال المضارع عادة بأحد أحرف: أ، ن، ي، ت.",
+    "examples": [
+      "أَدْرُسُ اللُّغَةَ العَرَبِيَّةَ.",
+      "تَذْهَبُ مَرْيَمُ إِلَى المَدْرَسَةِ."
+    ],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "grammar-a2-001",
+    "type": "grammar",
+    "level": "A2",
+    "titleAr": "الفعل الماضي",
+    "titleEn": "Past tense",
+    "function": "رواية أحداث انتهت.",
+    "explanationAr": "يتغير آخر الفعل الماضي بحسب المتحدث أو المخاطب أو الغائب.",
+    "examples": [
+      "زُرْتُ المَتْحَفَ أَمْسِ.",
+      "سافَرَتْ أُسْرَتي في العُطْلَةِ."
+    ],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "grammar-a2-002",
+    "type": "grammar",
+    "level": "A2",
+    "titleAr": "أدوات الربط الأساسية",
+    "titleEn": "Basic connectors",
+    "function": "ربط الأفكار والأحداث.",
+    "explanationAr": "نستخدم و، ثم، لكن، لأن؛ لإظهار الإضافة أو الترتيب أو التعارض أو السبب.",
+    "examples": [
+      "ذَهَبْتُ إِلَى السُّوقِ ثُمَّ عُدْتُ إِلَى البَيْتِ.",
+      "بَقِيتُ في البَيْتِ لِأَنَّ الطَّقْسَ كانَ حارًّا."
+    ],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "grammar-b1-001",
+    "type": "grammar",
+    "level": "B1",
+    "titleAr": "أسلوب الشرط الواقعي",
+    "titleEn": "Real conditional",
+    "function": "التعبير عن نتيجة مرتبطة بشرط ممكن.",
+    "explanationAr": "يمكن استخدام إذا لعرض شرط متوقع ونتيجته.",
+    "examples": [
+      "إِذا دَرَسْتَ بِانْتِظامٍ فَسَتَتَقَدَّمُ.",
+      "إِذا كانَ الجَوُّ مُناسِبًا سَنَذْهَبُ إِلَى الحَديقَةِ."
+    ],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "grammar-b1-002",
+    "type": "grammar",
+    "level": "B1",
+    "titleAr": "اسم الفاعل",
+    "titleEn": "Active participle",
+    "function": "وصف من يقوم بالفعل أو حالته.",
+    "explanationAr": "يُشتق اسم الفاعل من الفعل الثلاثي غالبًا على وزن فاعل.",
+    "examples": [
+      "الطالِبُ مُشارِكٌ في النَّشاطِ.",
+      "المُعَلِّمُ واقِفٌ أَمامَ السَّبّورَةِ."
+    ],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "grammar-b2-001",
+    "type": "grammar",
+    "level": "B2",
+    "titleAr": "المبني للمجهول",
+    "titleEn": "Passive voice",
+    "function": "التركيز على الحدث أو النتيجة بدلًا من القائم بالفعل.",
+    "explanationAr": "يُبنى الفعل للمجهول عندما يكون الفاعل غير معروف أو غير مهم في السياق.",
+    "examples": [
+      "اُفْتُتِحَ المَعْرِضُ صَباحَ اليَوْمِ.",
+      "تُسْتَخْدَمُ التِّقْنِيَةُ في التَّعَلُّمِ."
+    ],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  }
+]

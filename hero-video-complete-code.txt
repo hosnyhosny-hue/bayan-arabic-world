@@ -1,0 +1,355 @@
+
+==================================================
+FILE: app/(protected)/admin/cms/hero-video/page.tsx
+==================================================
+import HeroVideoManager from "@/src/components/cms/HeroVideoManager";
+
+export const dynamic = "force-dynamic";
+
+export const metadata = {
+  title: "فيديو الشهر | BAYAN CMS",
+};
+
+export default function HeroVideoAdminPage() {
+  return <HeroVideoManager />;
+}
+
+
+==================================================
+FILE: app/api/admin/cms/hero-video/route.ts
+==================================================
+import { cookies } from "next/headers";
+import { NextResponse } from "next/server";
+import { FieldValue } from "firebase-admin/firestore";
+import { adminAuth, adminDb } from "@/src/lib/firebase-admin";
+
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
+
+const COOKIE_NAME = "bayan_admin_session";
+const DOCUMENT_PATH = "siteSettings/heroVideo";
+
+const defaults = {
+  enabled: false,
+  videoUrl: "",
+  videoPath: "",
+  posterUrl: "",
+  posterPath: "",
+  titleAr: "نافذة بيان",
+  titleEn: "Bayan Spotlight",
+  descriptionAr: "فيلم قسم اللغة العربية لهذا الشهر",
+  descriptionEn: "Arabic Department Film of the Month",
+};
+
+async function getAdmin() {
+  const store = await cookies();
+  const session = store.get(COOKIE_NAME)?.value;
+
+  if (!session) return null;
+
+  try {
+    return await adminAuth.verifySessionCookie(session, true);
+  } catch {
+    return null;
+  }
+}
+
+function text(value: unknown, maximum: number) {
+  return typeof value === "string"
+    ? value.trim().slice(0, maximum)
+    : "";
+}
+
+function validUrl(value: string) {
+  if (!value) return true;
+
+  try {
+    return new URL(value).protocol === "https:";
+  } catch {
+    return false;
+  }
+}
+
+export async function GET() {
+  const user = await getAdmin();
+
+  if (!user) {
+    return NextResponse.json(
+      { success: false, message: "Unauthorized" },
+      { status: 401 }
+    );
+  }
+
+  const snapshot = await adminDb.doc(DOCUMENT_PATH).get();
+
+  return NextResponse.json({
+    success: true,
+    data: snapshot.exists
+      ? { ...defaults, ...snapshot.data() }
+      : defaults,
+  });
+}
+
+export async function PUT(request: Request) {
+  const user = await getAdmin();
+
+  if (!user) {
+    return NextResponse.json(
+      { success: false, message: "Unauthorized" },
+      { status: 401 }
+    );
+  }
+
+  const body = await request.json();
+
+  const videoUrl = text(body.videoUrl, 3000);
+  const posterUrl = text(body.posterUrl, 3000);
+
+  if (!validUrl(videoUrl) || !validUrl(posterUrl)) {
+    return NextResponse.json(
+      { success: false, message: "Media URLs must use HTTPS." },
+      { status: 400 }
+    );
+  }
+
+  if (body.enabled && !videoUrl) {
+    return NextResponse.json(
+      { success: false, message: "Upload a video before publishing." },
+      { status: 400 }
+    );
+  }
+
+  const data = {
+    enabled: Boolean(body.enabled),
+    videoUrl,
+    videoPath: text(body.videoPath, 1000),
+    posterUrl,
+    posterPath: text(body.posterPath, 1000),
+    titleAr: text(body.titleAr, 140) || defaults.titleAr,
+    titleEn: text(body.titleEn, 140) || defaults.titleEn,
+    descriptionAr:
+      text(body.descriptionAr, 500) || defaults.descriptionAr,
+    descriptionEn:
+      text(body.descriptionEn, 500) || defaults.descriptionEn,
+    updatedBy: user.email || user.uid,
+    updatedAt: FieldValue.serverTimestamp(),
+  };
+
+  await adminDb.doc(DOCUMENT_PATH).set(data, { merge: true });
+
+  return NextResponse.json({ success: true, data });
+}
+
+
+==================================================
+FILE: app/api/admin/cms/hero-video/upload/route.ts
+==================================================
+import { randomUUID } from "crypto";
+import { cookies } from "next/headers";
+import { NextResponse } from "next/server";
+import { getStorage } from "firebase-admin/storage";
+import { adminAuth } from "@/src/lib/firebase-admin";
+
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
+
+const COOKIE_NAME = "bayan_admin_session";
+
+const allowedVideoTypes = new Set([
+  "video/mp4",
+  "video/webm",
+  "video/quicktime",
+]);
+
+const allowedImageTypes = new Set([
+  "image/jpeg",
+  "image/png",
+  "image/webp",
+]);
+
+async function requireAdmin() {
+  const cookieStore = await cookies();
+  const sessionCookie = cookieStore.get(COOKIE_NAME)?.value;
+
+  if (!sessionCookie) return null;
+
+  try {
+    return await adminAuth.verifySessionCookie(sessionCookie, true);
+  } catch {
+    return null;
+  }
+}
+
+function safeFileName(name: string) {
+  return name
+    .normalize("NFKD")
+    .replace(/[^\w.-]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "")
+    .toLowerCase();
+}
+
+export async function POST(request: Request) {
+  const user = await requireAdmin();
+
+  if (!user) {
+    return NextResponse.json(
+      { success: false, message: "Unauthorized" },
+      { status: 401 }
+    );
+  }
+
+  try {
+    const formData = await request.formData();
+    const fileValue = formData.get("file");
+    const typeValue = formData.get("type");
+
+    if (!(fileValue instanceof File)) {
+      return NextResponse.json(
+        { success: false, message: "لم يتم اختيار ملف." },
+        { status: 400 }
+      );
+    }
+
+    const type = typeValue === "poster" ? "poster" : "video";
+    const allowedTypes =
+      type === "video" ? allowedVideoTypes : allowedImageTypes;
+
+    if (!allowedTypes.has(fileValue.type)) {
+      return NextResponse.json(
+        {
+          success: false,
+          message:
+            type === "video"
+              ? "نوع الفيديو غير مدعوم. استخدم MP4 أو WebM أو MOV."
+              : "نوع الصورة غير مدعوم. استخدم JPG أو PNG أو WebP.",
+        },
+        { status: 400 }
+      );
+    }
+
+    const maximumSize =
+      type === "video"
+        ? 1024 * 1024 * 1024
+        : 15 * 1024 * 1024;
+
+    if (fileValue.size > maximumSize) {
+      return NextResponse.json(
+        {
+          success: false,
+          message:
+            type === "video"
+              ? "حجم الفيديو يتجاوز 1 جيجابايت."
+              : "حجم الصورة يتجاوز 15 ميجابايت.",
+        },
+        { status: 400 }
+      );
+    }
+
+    const buffer = Buffer.from(await fileValue.arrayBuffer());
+    const token = randomUUID();
+
+    const originalName =
+      safeFileName(fileValue.name) ||
+      `${type}-${Date.now()}`;
+
+    const path =
+      `cms/hero-video/${type}/` +
+      `${Date.now()}-${originalName}`;
+
+    const bucket = getStorage().bucket();
+    const storageFile = bucket.file(path);
+
+    await storageFile.save(buffer, {
+      resumable: false,
+      contentType: fileValue.type,
+      metadata: {
+        cacheControl: "public,max-age=31536000,immutable",
+        metadata: {
+          firebaseStorageDownloadTokens: token,
+          uploadedBy: user.email || user.uid,
+          section: "homepage-hero-video",
+        },
+      },
+    });
+
+    const encodedPath = encodeURIComponent(path);
+
+    const url =
+      `https://firebasestorage.googleapis.com/v0/b/` +
+      `${bucket.name}/o/${encodedPath}?alt=media&token=${token}`;
+
+    return NextResponse.json({
+      success: true,
+      data: {
+        url,
+        path,
+        name: fileValue.name,
+        size: fileValue.size,
+        contentType: fileValue.type,
+      },
+    });
+  } catch (error) {
+    console.error("Hero video upload error:", error);
+
+    return NextResponse.json(
+      {
+        success: false,
+        message:
+          error instanceof Error
+            ? error.message
+            : "فشل رفع الملف.",
+      },
+      { status: 500 }
+    );
+  }
+}
+
+
+==================================================
+FILE: app/api/public/hero-video/route.ts
+==================================================
+import { NextResponse } from "next/server";
+import { adminDb } from "@/src/lib/firebase-admin";
+
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
+
+export async function GET() {
+  try {
+    const snapshot = await adminDb
+      .doc("siteSettings/heroVideo")
+      .get();
+
+    const data = snapshot.data();
+
+    if (!snapshot.exists || !data?.enabled || !data?.videoUrl) {
+      return NextResponse.json({ success: true, data: null });
+    }
+
+    return NextResponse.json({
+      success: true,
+      data: {
+        enabled: true,
+        videoUrl: data.videoUrl,
+        posterUrl: data.posterUrl || "",
+        titleAr: data.titleAr || "نافذة بيان",
+        titleEn: data.titleEn || "Bayan Spotlight",
+        descriptionAr:
+          data.descriptionAr ||
+          "فيلم قسم اللغة العربية لهذا الشهر",
+        descriptionEn:
+          data.descriptionEn ||
+          "Arabic Department Film of the Month",
+      },
+    });
+  } catch (error) {
+    console.error("Hero video API error:", error);
+
+    return NextResponse.json(
+      { success: false, data: null },
+      { status: 500 }
+    );
+  }
+}
+

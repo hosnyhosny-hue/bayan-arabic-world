@@ -1,0 +1,18 @@
+{
+  "jobId": "extract-elementary-arabic-i-1670896059-355feb96-355feb96",
+  "sourceId": "elementary-arabic-i-1670896059-355feb96",
+  "extractedAt": "2026-07-28T17:08:16.941Z",
+  "metadata": {
+    "pdfVersion": "1.7",
+    "fileSizeBytes": 1683172,
+    "estimatedPageCount": 132,
+    "title": "Elementary Arabic I",
+    "author": null,
+    "creator": "Pressbooks 6.4.0",
+    "producer": "Prince 14.1 (www.princexml.com\\",
+    "creationDate": null,
+    "modificationDate": null,
+    "encrypted": false,
+    "extractionMethod": "native-pdf-object-scan-v1"
+  }
+}

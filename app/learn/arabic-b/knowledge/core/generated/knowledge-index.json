@@ -1,0 +1,1071 @@
+{
+  "generatedAt": "2026-07-29T10:14:09.086Z",
+  "version": "1.0.0",
+  "totalItems": 43,
+  "statistics": {
+    "byLevel": {
+      "A0": 7,
+      "A1": 9,
+      "A2": 8,
+      "B1": 8,
+      "B2": 6
+    },
+    "byType": {
+      "framework-level": 5,
+      "vocabulary": 12,
+      "grammar": 8,
+      "skill": 5,
+      "dialogue": 5,
+      "culture": 3,
+      "assessment": 5
+    }
+  },
+  "items": [
+    {
+      "id": "A0",
+      "nameAr": "التمهيدي",
+      "nameEn": "Foundation",
+      "learnerProfileAr": "يتعرف المتعلم إلى أصوات العربية وحروفها ويستخدم كلمات وعبارات محفوظة في مواقف شديدة الوضوح.",
+      "canDo": {
+        "listening": [
+          "أميز التحية والأسماء وبعض التعليمات الصفية القصيرة.",
+          "أتعرف إلى الأرقام والألوان والكلمات المتكررة."
+        ],
+        "speaking": [
+          "أقول اسمي وأستخدم تحية مناسبة.",
+          "أجيب بكلمة أو عبارة قصيرة عن معلومات شخصية بسيطة."
+        ],
+        "reading": [
+          "أتعرف إلى الحروف في أول الكلمة ووسطها وآخرها.",
+          "أقرأ كلمات مألوفة مدعومة بصورة."
+        ],
+        "writing": [
+          "أنسخ الحروف والكلمات القصيرة بوضوح.",
+          "أكتب اسمي وبعض البيانات الأساسية."
+        ]
+      },
+      "minimumVocabulary": 250,
+      "type": "framework-level",
+      "collection": "frameworks/bayan-proficiency.json",
+      "searchableText": "A0 framework-level"
+    },
+    {
+      "id": "A1",
+      "nameAr": "المبتدئ",
+      "nameEn": "Beginner",
+      "learnerProfileAr": "يتواصل المتعلم في حاجاته اليومية المباشرة مستخدمًا جملاً قصيرة ومفردات مألوفة.",
+      "canDo": {
+        "listening": [
+          "أفهم أسئلة مباشرة عن الأسرة والمدرسة والروتين.",
+          "أتبع تعليمات قصيرة إذا قيلت بوضوح."
+        ],
+        "speaking": [
+          "أصف نفسي وأسرتي وروتيني بجمل بسيطة.",
+          "أطلب طعامًا أو مساعدة أو معلومات أساسية."
+        ],
+        "reading": [
+          "أقرأ إعلانات وجداول ورسائل قصيرة.",
+          "أحدد الفكرة الأساسية في نص بسيط."
+        ],
+        "writing": [
+          "أكتب فقرة قصيرة عن نفسي.",
+          "أملأ نموذجًا وأكتب رسالة شخصية قصيرة."
+        ]
+      },
+      "minimumVocabulary": 750,
+      "type": "framework-level",
+      "collection": "frameworks/bayan-proficiency.json",
+      "searchableText": "A1 framework-level"
+    },
+    {
+      "id": "A2",
+      "nameAr": "الأساسي",
+      "nameEn": "Elementary",
+      "learnerProfileAr": "يتعامل المتعلم مع المواقف المتكررة ويصف خبراته وخططه وبيئته بلغة مترابطة نسبيًا.",
+      "canDo": {
+        "listening": [
+          "أفهم مضمون محادثة يومية قصيرة.",
+          "أستخرج تفاصيل محددة من إعلان أو تعليمات."
+        ],
+        "speaking": [
+          "أصف تجربة سابقة وخطة قريبة.",
+          "أشارك في حوار مألوف وأطلب التوضيح."
+        ],
+        "reading": [
+          "أفهم نصوصًا قصيرة حول الحياة اليومية.",
+          "أحدد تسلسل الأحداث والمعلومات المهمة."
+        ],
+        "writing": [
+          "أكتب رسالة أو وصفًا من عدة فقرات قصيرة.",
+          "أربط الجمل بأدوات شائعة."
+        ]
+      },
+      "minimumVocabulary": 1500,
+      "type": "framework-level",
+      "collection": "frameworks/bayan-proficiency.json",
+      "searchableText": "A2 framework-level"
+    },
+    {
+      "id": "B1",
+      "nameAr": "المتوسط",
+      "nameEn": "Intermediate",
+      "learnerProfileAr": "يتواصل المتعلم باستقلال نسبي، ويشرح رأيه، ويروي أحداثًا، ويتعامل مع معظم المواقف المألوفة.",
+      "canDo": {
+        "listening": [
+          "أفهم الأفكار الرئيسة في حديث واضح عن موضوع مألوف.",
+          "أميز رأي المتحدث وبعض الأدلة التي يقدمها."
+        ],
+        "speaking": [
+          "أشرح رأيي وأدعمه بأسباب وأمثلة.",
+          "أروي قصة أو تجربة بتسلسل واضح."
+        ],
+        "reading": [
+          "أفهم مقالات وقصصًا مبسطة متوسطة الطول.",
+          "أستنتج معنى بعض الكلمات من السياق."
+        ],
+        "writing": [
+          "أكتب نصًا منظمًا حول موضوع مألوف.",
+          "أقارن بين خيارات وأقدم أسبابًا وتوصيات."
+        ]
+      },
+      "minimumVocabulary": 3000,
+      "type": "framework-level",
+      "collection": "frameworks/bayan-proficiency.json",
+      "searchableText": "B1 framework-level"
+    },
+    {
+      "id": "B2",
+      "nameAr": "فوق المتوسط",
+      "nameEn": "Upper Intermediate",
+      "learnerProfileAr": "يستخدم المتعلم العربية بمرونة في الدراسة والحياة، ويناقش أفكارًا أكثر تجريدًا، وينتج نصوصًا مفصلة.",
+      "canDo": {
+        "listening": [
+          "أتابع عرضًا أو نقاشًا منظمًا في موضوع معروف.",
+          "أميز الموقف والنبرة والحجج الرئيسة."
+        ],
+        "speaking": [
+          "أشارك في نقاش وأدافع عن موقفي بوضوح.",
+          "أقدم عرضًا منظمًا وأجيب عن الأسئلة."
+        ],
+        "reading": [
+          "أحلل مقالات ونصوصًا أدبية مناسبة للمستوى.",
+          "أقارن بين وجهات نظر ومصادر متعددة."
+        ],
+        "writing": [
+          "أكتب مقالًا منظمًا يجمع الشرح والحجة.",
+          "أراجع نصي لتحسين الدقة والأسلوب والترابط."
+        ]
+      },
+      "minimumVocabulary": 5000,
+      "type": "framework-level",
+      "collection": "frameworks/bayan-proficiency.json",
+      "searchableText": "B2 framework-level"
+    },
+    {
+      "id": "vocab-a0-001",
+      "type": "vocabulary",
+      "level": "A0",
+      "arabic": "مَرْحَبًا",
+      "translationEn": "Hello",
+      "transliteration": "marhaban",
+      "partOfSpeech": "expression",
+      "topic": "greetings",
+      "examples": [
+        {
+          "arabic": "مَرْحَبًا يا سارة.",
+          "translationEn": "Hello, Sara."
+        }
+      ],
+      "tags": [
+        "greeting",
+        "high-frequency"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-a0-001 A0 vocabulary مَرْحَبًا Hello greeting high-frequency مَرْحَبًا يا سارة. Hello, Sara."
+    },
+    {
+      "id": "vocab-a0-002",
+      "type": "vocabulary",
+      "level": "A0",
+      "arabic": "شُكْرًا",
+      "translationEn": "Thank you",
+      "transliteration": "shukran",
+      "partOfSpeech": "expression",
+      "topic": "courtesy",
+      "examples": [
+        {
+          "arabic": "شُكْرًا لَكَ.",
+          "translationEn": "Thank you."
+        }
+      ],
+      "tags": [
+        "courtesy",
+        "high-frequency"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-a0-002 A0 vocabulary شُكْرًا Thank you courtesy high-frequency شُكْرًا لَكَ. Thank you."
+    },
+    {
+      "id": "vocab-a0-003",
+      "type": "vocabulary",
+      "level": "A0",
+      "arabic": "نَعَمْ",
+      "translationEn": "Yes",
+      "transliteration": "na'am",
+      "partOfSpeech": "response",
+      "topic": "classroom-language",
+      "examples": [
+        {
+          "arabic": "نَعَمْ، أَنَا جاهِزٌ.",
+          "translationEn": "Yes, I am ready."
+        }
+      ],
+      "tags": [
+        "response",
+        "high-frequency"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-a0-003 A0 vocabulary نَعَمْ Yes response high-frequency نَعَمْ، أَنَا جاهِزٌ. Yes, I am ready."
+    },
+    {
+      "id": "vocab-a1-001",
+      "type": "vocabulary",
+      "level": "A1",
+      "arabic": "مَدْرَسَة",
+      "translationEn": "School",
+      "transliteration": "madrasa",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "plural": "مَدارِس",
+      "topic": "school",
+      "examples": [
+        {
+          "arabic": "أَذْهَبُ إِلَى المَدْرَسَةِ صَباحًا.",
+          "translationEn": "I go to school in the morning."
+        }
+      ],
+      "tags": [
+        "school",
+        "place"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-a1-001 A1 vocabulary مَدْرَسَة School school place أَذْهَبُ إِلَى المَدْرَسَةِ صَباحًا. I go to school in the morning."
+    },
+    {
+      "id": "vocab-a1-002",
+      "type": "vocabulary",
+      "level": "A1",
+      "arabic": "أُرِيدُ",
+      "translationEn": "I want",
+      "transliteration": "ureedu",
+      "partOfSpeech": "verb",
+      "root": "ر و د",
+      "topic": "needs",
+      "examples": [
+        {
+          "arabic": "أُرِيدُ كُوبًا مِنَ الماءِ.",
+          "translationEn": "I want a cup of water."
+        }
+      ],
+      "tags": [
+        "request",
+        "verb",
+        "high-frequency"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-a1-002 A1 vocabulary أُرِيدُ I want request verb high-frequency أُرِيدُ كُوبًا مِنَ الماءِ. I want a cup of water."
+    },
+    {
+      "id": "vocab-a1-003",
+      "type": "vocabulary",
+      "level": "A1",
+      "arabic": "أَيْنَ",
+      "translationEn": "Where",
+      "transliteration": "ayna",
+      "partOfSpeech": "question-word",
+      "topic": "directions",
+      "examples": [
+        {
+          "arabic": "أَيْنَ المَكْتَبَةُ؟",
+          "translationEn": "Where is the library?"
+        }
+      ],
+      "tags": [
+        "question",
+        "location"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-a1-003 A1 vocabulary أَيْنَ Where question location أَيْنَ المَكْتَبَةُ؟ Where is the library?"
+    },
+    {
+      "id": "vocab-a2-001",
+      "type": "vocabulary",
+      "level": "A2",
+      "arabic": "رِحْلَة",
+      "translationEn": "Trip",
+      "transliteration": "rihla",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "plural": "رِحْلات",
+      "topic": "travel",
+      "examples": [
+        {
+          "arabic": "كانَتِ الرِّحْلَةُ مُفِيدَةً وَمُمْتِعَةً.",
+          "translationEn": "The trip was useful and enjoyable."
+        }
+      ],
+      "tags": [
+        "travel",
+        "experience"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-a2-001 A2 vocabulary رِحْلَة Trip travel experience كانَتِ الرِّحْلَةُ مُفِيدَةً وَمُمْتِعَةً. The trip was useful and enjoyable."
+    },
+    {
+      "id": "vocab-a2-002",
+      "type": "vocabulary",
+      "level": "A2",
+      "arabic": "أَفَضِّلُ",
+      "translationEn": "I prefer",
+      "transliteration": "ufaddilu",
+      "partOfSpeech": "verb",
+      "root": "ف ض ل",
+      "topic": "preferences",
+      "examples": [
+        {
+          "arabic": "أُفَضِّلُ القِراءَةَ في المَساءِ.",
+          "translationEn": "I prefer reading in the evening."
+        }
+      ],
+      "tags": [
+        "preference",
+        "opinion"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-a2-002 A2 vocabulary أَفَضِّلُ I prefer preference opinion أُفَضِّلُ القِراءَةَ في المَساءِ. I prefer reading in the evening."
+    },
+    {
+      "id": "vocab-b1-001",
+      "type": "vocabulary",
+      "level": "B1",
+      "arabic": "وِجْهَةُ نَظَر",
+      "translationEn": "Point of view",
+      "transliteration": "wijhat nazar",
+      "partOfSpeech": "noun-phrase",
+      "topic": "opinions",
+      "examples": [
+        {
+          "arabic": "أَحْتَرِمُ وِجْهَةَ نَظَرِكَ وَلَكِنَّنِي أَخْتَلِفُ مَعَكَ.",
+          "translationEn": "I respect your point of view, but I disagree with you."
+        }
+      ],
+      "tags": [
+        "discussion",
+        "opinion"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-b1-001 B1 vocabulary وِجْهَةُ نَظَر Point of view discussion opinion أَحْتَرِمُ وِجْهَةَ نَظَرِكَ وَلَكِنَّنِي أَخْتَلِفُ مَعَكَ. I respect your point of view, but I disagree with you."
+    },
+    {
+      "id": "vocab-b1-002",
+      "type": "vocabulary",
+      "level": "B1",
+      "arabic": "يُساهِمُ",
+      "translationEn": "Contributes",
+      "transliteration": "yusahimu",
+      "partOfSpeech": "verb",
+      "root": "س ه م",
+      "topic": "community",
+      "examples": [
+        {
+          "arabic": "يُساهِمُ التَّطَوُّعُ في تَحْسِينِ المُجْتَمَعِ.",
+          "translationEn": "Volunteering contributes to improving society."
+        }
+      ],
+      "tags": [
+        "community",
+        "cause-effect"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-b1-002 B1 vocabulary يُساهِمُ Contributes community cause-effect يُساهِمُ التَّطَوُّعُ في تَحْسِينِ المُجْتَمَعِ. Volunteering contributes to improving society."
+    },
+    {
+      "id": "vocab-b2-001",
+      "type": "vocabulary",
+      "level": "B2",
+      "arabic": "مِنْ ناحِيَةٍ أُخْرى",
+      "translationEn": "On the other hand",
+      "transliteration": "min nahiyatin ukhra",
+      "partOfSpeech": "discourse-marker",
+      "topic": "argumentation",
+      "examples": [
+        {
+          "arabic": "تُوَفِّرُ التِّقْنِيَةُ فُرَصًا كَبِيرَةً، وَمِنْ ناحِيَةٍ أُخْرى تَتَطَلَّبُ اسْتِخْدامًا واعِيًا.",
+          "translationEn": "Technology offers major opportunities; on the other hand, it requires responsible use."
+        }
+      ],
+      "tags": [
+        "argumentation",
+        "contrast"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-b2-001 B2 vocabulary مِنْ ناحِيَةٍ أُخْرى On the other hand argumentation contrast تُوَفِّرُ التِّقْنِيَةُ فُرَصًا كَبِيرَةً، وَمِنْ ناحِيَةٍ أُخْرى تَتَطَلَّبُ اسْتِخْدامًا واعِيًا. Technology offers major opportunities; on the other hand, it requires responsible use."
+    },
+    {
+      "id": "vocab-b2-002",
+      "type": "vocabulary",
+      "level": "B2",
+      "arabic": "يَتَرَتَّبُ عَلَى",
+      "translationEn": "Results from / entails",
+      "transliteration": "yatarattabu ala",
+      "partOfSpeech": "verb-phrase",
+      "topic": "cause-and-effect",
+      "examples": [
+        {
+          "arabic": "يَتَرَتَّبُ عَلَى القَرارِ تَغْيِيراتٌ مُهِمَّةٌ.",
+          "translationEn": "The decision entails significant changes."
+        }
+      ],
+      "tags": [
+        "academic-language",
+        "cause-effect"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-b2-002 B2 vocabulary يَتَرَتَّبُ عَلَى Results from / entails academic-language cause-effect يَتَرَتَّبُ عَلَى القَرارِ تَغْيِيراتٌ مُهِمَّةٌ. The decision entails significant changes."
+    },
+    {
+      "id": "grammar-a0-001",
+      "type": "grammar",
+      "level": "A0",
+      "titleAr": "هذا وهذه",
+      "titleEn": "This: masculine and feminine",
+      "function": "الإشارة إلى شخص أو شيء قريب.",
+      "explanationAr": "نستخدم هذا مع الاسم المفرد المذكر، وهذه مع الاسم المفرد المؤنث.",
+      "examples": [
+        "هذا كِتابٌ.",
+        "هذه حَقيبَةٌ."
+      ],
+      "commonErrors": [
+        {
+          "incorrect": "هذا سيارة.",
+          "correct": "هذه سيارة."
+        }
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "grammar/core-grammar.json",
+      "searchableText": "grammar-a0-001 A0 grammar هذا وهذه This: masculine and feminine نستخدم هذا مع الاسم المفرد المذكر، وهذه مع الاسم المفرد المؤنث. الإشارة إلى شخص أو شيء قريب. هذا كِتابٌ. هذه حَقيبَةٌ."
+    },
+    {
+      "id": "grammar-a1-001",
+      "type": "grammar",
+      "level": "A1",
+      "titleAr": "الجملة الاسمية البسيطة",
+      "titleEn": "Basic nominal sentence",
+      "function": "وصف الأشخاص والأماكن والأشياء.",
+      "explanationAr": "تبدأ الجملة الاسمية غالبًا باسم أو ضمير، ثم نذكر خبرًا يقدم معلومة عنه.",
+      "examples": [
+        "الطَّقْسُ جَميلٌ.",
+        "أَنا طالِبٌ."
+      ],
+      "commonErrors": [
+        {
+          "incorrect": "أنا يكون طالب.",
+          "correct": "أنا طالب."
+        }
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "grammar/core-grammar.json",
+      "searchableText": "grammar-a1-001 A1 grammar الجملة الاسمية البسيطة Basic nominal sentence تبدأ الجملة الاسمية غالبًا باسم أو ضمير، ثم نذكر خبرًا يقدم معلومة عنه. وصف الأشخاص والأماكن والأشياء. الطَّقْسُ جَميلٌ. أَنا طالِبٌ."
+    },
+    {
+      "id": "grammar-a1-002",
+      "type": "grammar",
+      "level": "A1",
+      "titleAr": "الفعل المضارع",
+      "titleEn": "Present tense",
+      "function": "التحدث عن العادات والأحداث الحالية.",
+      "explanationAr": "تبدأ أفعال المضارع عادة بأحد أحرف: أ، ن، ي، ت.",
+      "examples": [
+        "أَدْرُسُ اللُّغَةَ العَرَبِيَّةَ.",
+        "تَذْهَبُ مَرْيَمُ إِلَى المَدْرَسَةِ."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "grammar/core-grammar.json",
+      "searchableText": "grammar-a1-002 A1 grammar الفعل المضارع Present tense تبدأ أفعال المضارع عادة بأحد أحرف: أ، ن، ي، ت. التحدث عن العادات والأحداث الحالية. أَدْرُسُ اللُّغَةَ العَرَبِيَّةَ. تَذْهَبُ مَرْيَمُ إِلَى المَدْرَسَةِ."
+    },
+    {
+      "id": "grammar-a2-001",
+      "type": "grammar",
+      "level": "A2",
+      "titleAr": "الفعل الماضي",
+      "titleEn": "Past tense",
+      "function": "رواية أحداث انتهت.",
+      "explanationAr": "يتغير آخر الفعل الماضي بحسب المتحدث أو المخاطب أو الغائب.",
+      "examples": [
+        "زُرْتُ المَتْحَفَ أَمْسِ.",
+        "سافَرَتْ أُسْرَتي في العُطْلَةِ."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "grammar/core-grammar.json",
+      "searchableText": "grammar-a2-001 A2 grammar الفعل الماضي Past tense يتغير آخر الفعل الماضي بحسب المتحدث أو المخاطب أو الغائب. رواية أحداث انتهت. زُرْتُ المَتْحَفَ أَمْسِ. سافَرَتْ أُسْرَتي في العُطْلَةِ."
+    },
+    {
+      "id": "grammar-a2-002",
+      "type": "grammar",
+      "level": "A2",
+      "titleAr": "أدوات الربط الأساسية",
+      "titleEn": "Basic connectors",
+      "function": "ربط الأفكار والأحداث.",
+      "explanationAr": "نستخدم و، ثم، لكن، لأن؛ لإظهار الإضافة أو الترتيب أو التعارض أو السبب.",
+      "examples": [
+        "ذَهَبْتُ إِلَى السُّوقِ ثُمَّ عُدْتُ إِلَى البَيْتِ.",
+        "بَقِيتُ في البَيْتِ لِأَنَّ الطَّقْسَ كانَ حارًّا."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "grammar/core-grammar.json",
+      "searchableText": "grammar-a2-002 A2 grammar أدوات الربط الأساسية Basic connectors نستخدم و، ثم، لكن، لأن؛ لإظهار الإضافة أو الترتيب أو التعارض أو السبب. ربط الأفكار والأحداث. ذَهَبْتُ إِلَى السُّوقِ ثُمَّ عُدْتُ إِلَى البَيْتِ. بَقِيتُ في البَيْتِ لِأَنَّ الطَّقْسَ كانَ حارًّا."
+    },
+    {
+      "id": "grammar-b1-001",
+      "type": "grammar",
+      "level": "B1",
+      "titleAr": "أسلوب الشرط الواقعي",
+      "titleEn": "Real conditional",
+      "function": "التعبير عن نتيجة مرتبطة بشرط ممكن.",
+      "explanationAr": "يمكن استخدام إذا لعرض شرط متوقع ونتيجته.",
+      "examples": [
+        "إِذا دَرَسْتَ بِانْتِظامٍ فَسَتَتَقَدَّمُ.",
+        "إِذا كانَ الجَوُّ مُناسِبًا سَنَذْهَبُ إِلَى الحَديقَةِ."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "grammar/core-grammar.json",
+      "searchableText": "grammar-b1-001 B1 grammar أسلوب الشرط الواقعي Real conditional يمكن استخدام إذا لعرض شرط متوقع ونتيجته. التعبير عن نتيجة مرتبطة بشرط ممكن. إِذا دَرَسْتَ بِانْتِظامٍ فَسَتَتَقَدَّمُ. إِذا كانَ الجَوُّ مُناسِبًا سَنَذْهَبُ إِلَى الحَديقَةِ."
+    },
+    {
+      "id": "grammar-b1-002",
+      "type": "grammar",
+      "level": "B1",
+      "titleAr": "اسم الفاعل",
+      "titleEn": "Active participle",
+      "function": "وصف من يقوم بالفعل أو حالته.",
+      "explanationAr": "يُشتق اسم الفاعل من الفعل الثلاثي غالبًا على وزن فاعل.",
+      "examples": [
+        "الطالِبُ مُشارِكٌ في النَّشاطِ.",
+        "المُعَلِّمُ واقِفٌ أَمامَ السَّبّورَةِ."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "grammar/core-grammar.json",
+      "searchableText": "grammar-b1-002 B1 grammar اسم الفاعل Active participle يُشتق اسم الفاعل من الفعل الثلاثي غالبًا على وزن فاعل. وصف من يقوم بالفعل أو حالته. الطالِبُ مُشارِكٌ في النَّشاطِ. المُعَلِّمُ واقِفٌ أَمامَ السَّبّورَةِ."
+    },
+    {
+      "id": "grammar-b2-001",
+      "type": "grammar",
+      "level": "B2",
+      "titleAr": "المبني للمجهول",
+      "titleEn": "Passive voice",
+      "function": "التركيز على الحدث أو النتيجة بدلًا من القائم بالفعل.",
+      "explanationAr": "يُبنى الفعل للمجهول عندما يكون الفاعل غير معروف أو غير مهم في السياق.",
+      "examples": [
+        "اُفْتُتِحَ المَعْرِضُ صَباحَ اليَوْمِ.",
+        "تُسْتَخْدَمُ التِّقْنِيَةُ في التَّعَلُّمِ."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "grammar/core-grammar.json",
+      "searchableText": "grammar-b2-001 B2 grammar المبني للمجهول Passive voice يُبنى الفعل للمجهول عندما يكون الفاعل غير معروف أو غير مهم في السياق. التركيز على الحدث أو النتيجة بدلًا من القائم بالفعل. اُفْتُتِحَ المَعْرِضُ صَباحَ اليَوْمِ. تُسْتَخْدَمُ التِّقْنِيَةُ في التَّعَلُّمِ."
+    },
+    {
+      "id": "skill-a0-speaking-001",
+      "type": "skill",
+      "level": "A0",
+      "skill": "speaking",
+      "objectiveAr": "أن يقدم المتعلم نفسه باستخدام اسمه وجنسيته ولغته.",
+      "successCriteria": [
+        "يستخدم تحية مناسبة.",
+        "يقول اسمه بوضوح.",
+        "يستخدم جملة قصيرة صحيحة."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "collection": "skills/core-skills.json",
+      "searchableText": "skill-a0-speaking-001 A0 skill أن يقدم المتعلم نفسه باستخدام اسمه وجنسيته ولغته."
+    },
+    {
+      "id": "skill-a1-listening-001",
+      "type": "skill",
+      "level": "A1",
+      "skill": "listening",
+      "objectiveAr": "أن يستخرج المتعلم معلومات شخصية أساسية من حوار قصير.",
+      "successCriteria": [
+        "يحدد اسم المتحدث.",
+        "يحدد مكان السكن.",
+        "يحدد معلومة واحدة عن الروتين."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "collection": "skills/core-skills.json",
+      "searchableText": "skill-a1-listening-001 A1 skill أن يستخرج المتعلم معلومات شخصية أساسية من حوار قصير."
+    },
+    {
+      "id": "skill-a2-reading-001",
+      "type": "skill",
+      "level": "A2",
+      "skill": "reading",
+      "objectiveAr": "أن يحدد المتعلم الفكرة الرئيسة وتسلسل الأحداث في نص يومي.",
+      "successCriteria": [
+        "يحدد موضوع النص.",
+        "يرتب ثلاثة أحداث.",
+        "يستدل على معنى كلمة من السياق."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "collection": "skills/core-skills.json",
+      "searchableText": "skill-a2-reading-001 A2 skill أن يحدد المتعلم الفكرة الرئيسة وتسلسل الأحداث في نص يومي."
+    },
+    {
+      "id": "skill-b1-writing-001",
+      "type": "skill",
+      "level": "B1",
+      "skill": "writing",
+      "objectiveAr": "أن يكتب المتعلم نصًا مترابطًا يعرض رأيًا وأسبابًا.",
+      "successCriteria": [
+        "يقدم موقفًا واضحًا.",
+        "يدعم موقفه بسببين.",
+        "يستخدم أدوات ربط مناسبة."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "collection": "skills/core-skills.json",
+      "searchableText": "skill-b1-writing-001 B1 skill أن يكتب المتعلم نصًا مترابطًا يعرض رأيًا وأسبابًا."
+    },
+    {
+      "id": "skill-b2-speaking-001",
+      "type": "skill",
+      "level": "B2",
+      "skill": "speaking",
+      "objectiveAr": "أن يقدم المتعلم عرضًا منظمًا ويناقش الأسئلة المرتبطة به.",
+      "successCriteria": [
+        "ينظم العرض في مقدمة وأفكار وخاتمة.",
+        "يستخدم لغة تفسير ومقارنة.",
+        "يجيب عن الأسئلة بمرونة."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "collection": "skills/core-skills.json",
+      "searchableText": "skill-b2-speaking-001 B2 skill أن يقدم المتعلم عرضًا منظمًا ويناقش الأسئلة المرتبطة به."
+    },
+    {
+      "id": "dialogue-a0-greeting-001",
+      "type": "dialogue",
+      "level": "A0",
+      "titleAr": "التعارف الأول",
+      "titleEn": "First introduction",
+      "situation": "school",
+      "characters": [
+        "عُمَر",
+        "لَيْلى"
+      ],
+      "turns": [
+        {
+          "speaker": "عُمَر",
+          "arabic": "مَرْحَبًا. أَنا عُمَر. ما اسْمُكِ؟",
+          "translationEn": "Hello. I am Omar. What is your name?"
+        },
+        {
+          "speaker": "لَيْلى",
+          "arabic": "مَرْحَبًا. أَنا لَيْلى.",
+          "translationEn": "Hello. I am Layla."
+        },
+        {
+          "speaker": "عُمَر",
+          "arabic": "تَشَرَّفْتُ بِمَعْرِفَتِكِ.",
+          "translationEn": "Nice to meet you."
+        }
+      ],
+      "targets": [
+        "greetings",
+        "name",
+        "أنا"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "dialogues/core-dialogues.json",
+      "searchableText": "dialogue-a0-greeting-001 A0 dialogue التعارف الأول First introduction greetings name أنا عُمَر مَرْحَبًا. أَنا عُمَر. ما اسْمُكِ؟ Hello. I am Omar. What is your name? لَيْلى مَرْحَبًا. أَنا لَيْلى. Hello. I am Layla. عُمَر تَشَرَّفْتُ بِمَعْرِفَتِكِ. Nice to meet you."
+    },
+    {
+      "id": "dialogue-a1-cafe-001",
+      "type": "dialogue",
+      "level": "A1",
+      "titleAr": "في المقهى",
+      "titleEn": "At the café",
+      "situation": "cafe",
+      "characters": [
+        "النادل",
+        "سارة"
+      ],
+      "turns": [
+        {
+          "speaker": "النادل",
+          "arabic": "مَرْحَبًا، ماذا تُرِيدِينَ؟",
+          "translationEn": "Hello, what would you like?"
+        },
+        {
+          "speaker": "سارة",
+          "arabic": "أُرِيدُ عَصِيرَ بُرْتُقالٍ، مِنْ فَضْلِكَ.",
+          "translationEn": "I would like orange juice, please."
+        },
+        {
+          "speaker": "النادل",
+          "arabic": "هَلْ تُرِيدِينَ شَيْئًا آخَرَ؟",
+          "translationEn": "Would you like anything else?"
+        },
+        {
+          "speaker": "سارة",
+          "arabic": "لا، شُكْرًا.",
+          "translationEn": "No, thank you."
+        }
+      ],
+      "targets": [
+        "requests",
+        "food",
+        "courtesy"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "dialogues/core-dialogues.json",
+      "searchableText": "dialogue-a1-cafe-001 A1 dialogue في المقهى At the café requests food courtesy النادل مَرْحَبًا، ماذا تُرِيدِينَ؟ Hello, what would you like? سارة أُرِيدُ عَصِيرَ بُرْتُقالٍ، مِنْ فَضْلِكَ. I would like orange juice, please. النادل هَلْ تُرِيدِينَ شَيْئًا آخَرَ؟ Would you like anything else? سارة لا، شُكْرًا. No, thank you."
+    },
+    {
+      "id": "dialogue-a2-travel-001",
+      "type": "dialogue",
+      "level": "A2",
+      "titleAr": "السؤال عن الرحلة",
+      "titleEn": "Asking about a trip",
+      "situation": "travel",
+      "characters": [
+        "الموظف",
+        "خالد"
+      ],
+      "turns": [
+        {
+          "speaker": "خالد",
+          "arabic": "مَتى تَغادِرُ الرِّحْلَةُ إِلَى مَسْقَط؟",
+          "translationEn": "When does the flight to Muscat depart?"
+        },
+        {
+          "speaker": "الموظف",
+          "arabic": "تُغادِرُ في السّاعَةِ الثّامِنَةِ مَساءً.",
+          "translationEn": "It departs at eight in the evening."
+        },
+        {
+          "speaker": "خالد",
+          "arabic": "وَمِنْ أَيِّ بَوّابَةٍ؟",
+          "translationEn": "And from which gate?"
+        },
+        {
+          "speaker": "الموظف",
+          "arabic": "مِنَ البَوّابَةِ اثْنَتَيْ عَشْرَةَ.",
+          "translationEn": "From gate twelve."
+        }
+      ],
+      "targets": [
+        "time",
+        "travel",
+        "questions"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "dialogues/core-dialogues.json",
+      "searchableText": "dialogue-a2-travel-001 A2 dialogue السؤال عن الرحلة Asking about a trip time travel questions خالد مَتى تَغادِرُ الرِّحْلَةُ إِلَى مَسْقَط؟ When does the flight to Muscat depart? الموظف تُغادِرُ في السّاعَةِ الثّامِنَةِ مَساءً. It departs at eight in the evening. خالد وَمِنْ أَيِّ بَوّابَةٍ؟ And from which gate? الموظف مِنَ البَوّابَةِ اثْنَتَيْ عَشْرَةَ. From gate twelve."
+    },
+    {
+      "id": "dialogue-b1-school-project-001",
+      "type": "dialogue",
+      "level": "B1",
+      "titleAr": "التخطيط لمشروع مدرسي",
+      "titleEn": "Planning a school project",
+      "situation": "school-project",
+      "characters": [
+        "ريم",
+        "يوسف"
+      ],
+      "turns": [
+        {
+          "speaker": "ريم",
+          "arabic": "أَقْتَرِحُ أَنْ نُعِدَّ مَشْروعًا عَنِ الطّاقَةِ النَّظيفَةِ.",
+          "translationEn": "I suggest that we prepare a project about clean energy."
+        },
+        {
+          "speaker": "يوسف",
+          "arabic": "فِكْرَةٌ جَيِّدَةٌ، لَكِنْ نَحْتاجُ إِلى مَصادِرَ مَوْثوقَةٍ.",
+          "translationEn": "That is a good idea, but we need reliable sources."
+        },
+        {
+          "speaker": "ريم",
+          "arabic": "سَأَبْحَثُ عَنِ المَعْلوماتِ، وَيُمْكِنُكَ إِعْدادُ العَرْضِ.",
+          "translationEn": "I will research the information, and you can prepare the presentation."
+        }
+      ],
+      "targets": [
+        "suggestion",
+        "agreement",
+        "project-planning"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "dialogues/core-dialogues.json",
+      "searchableText": "dialogue-b1-school-project-001 B1 dialogue التخطيط لمشروع مدرسي Planning a school project suggestion agreement project-planning ريم أَقْتَرِحُ أَنْ نُعِدَّ مَشْروعًا عَنِ الطّاقَةِ النَّظيفَةِ. I suggest that we prepare a project about clean energy. يوسف فِكْرَةٌ جَيِّدَةٌ، لَكِنْ نَحْتاجُ إِلى مَصادِرَ مَوْثوقَةٍ. That is a good idea, but we need reliable sources. ريم سَأَبْحَثُ عَنِ المَعْلوماتِ، وَيُمْكِنُكَ إِعْدادُ العَرْضِ. I will research the information, and you can prepare the presentation."
+    },
+    {
+      "id": "dialogue-b2-debate-001",
+      "type": "dialogue",
+      "level": "B2",
+      "titleAr": "نقاش حول التعلم الرقمي",
+      "titleEn": "Discussion about digital learning",
+      "situation": "academic-discussion",
+      "characters": [
+        "نورة",
+        "آدم"
+      ],
+      "turns": [
+        {
+          "speaker": "نورة",
+          "arabic": "أَرى أَنَّ التَّعَلُّمَ الرَّقْمِيَّ يُوَسِّعُ فُرَصَ الوُصولِ إِلَى المَعْرِفَةِ.",
+          "translationEn": "I believe digital learning expands access to knowledge."
+        },
+        {
+          "speaker": "آدم",
+          "arabic": "أَتَّفِقُ مَعَكِ جُزْئِيًّا، وَلَكِنَّهُ لا يُغْنِي عَنِ التَّفاعُلِ الإِنْسانِيِّ.",
+          "translationEn": "I partly agree, but it does not replace human interaction."
+        },
+        {
+          "speaker": "نورة",
+          "arabic": "صَحيحٌ، وَلِذلِكَ قَدْ يَكونُ التَّعَلُّمُ المُدْمَجُ حَلًّا أَكْثَرَ تَوازُنًا.",
+          "translationEn": "That is true; therefore, blended learning may be a more balanced solution."
+        }
+      ],
+      "targets": [
+        "argumentation",
+        "partial-agreement",
+        "evaluation"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "dialogues/core-dialogues.json",
+      "searchableText": "dialogue-b2-debate-001 B2 dialogue نقاش حول التعلم الرقمي Discussion about digital learning argumentation partial-agreement evaluation نورة أَرى أَنَّ التَّعَلُّمَ الرَّقْمِيَّ يُوَسِّعُ فُرَصَ الوُصولِ إِلَى المَعْرِفَةِ. I believe digital learning expands access to knowledge. آدم أَتَّفِقُ مَعَكِ جُزْئِيًّا، وَلَكِنَّهُ لا يُغْنِي عَنِ التَّفاعُلِ الإِنْسانِيِّ. I partly agree, but it does not replace human interaction. نورة صَحيحٌ، وَلِذلِكَ قَدْ يَكونُ التَّعَلُّمُ المُدْمَجُ حَلًّا أَكْثَرَ تَوازُنًا. That is true; therefore, blended learning may be a more balanced solution."
+    },
+    {
+      "id": "culture-a1-hospitality-001",
+      "type": "culture",
+      "level": "A1",
+      "titleAr": "الضيافة العربية",
+      "titleEn": "Arab hospitality",
+      "summaryAr": "تُعَدُّ الضيافة قيمة مهمة في مجتمعات عربية كثيرة، وقد يُقدَّم للضيف القهوة أو الشاي أو الطعام ترحيبًا به.",
+      "learningFocus": [
+        "استخدام عبارات الترحيب.",
+        "قبول الضيافة أو الاعتذار عنها بأدب.",
+        "تجنب تعميم عادة واحدة على جميع البلدان العربية."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "culture/core-culture.json",
+      "searchableText": "culture-a1-hospitality-001 A1 culture الضيافة العربية Arab hospitality تُعَدُّ الضيافة قيمة مهمة في مجتمعات عربية كثيرة، وقد يُقدَّم للضيف القهوة أو الشاي أو الطعام ترحيبًا به."
+    },
+    {
+      "id": "culture-a2-arab-world-001",
+      "type": "culture",
+      "level": "A2",
+      "titleAr": "تنوع العالم العربي",
+      "titleEn": "Diversity of the Arab world",
+      "summaryAr": "يضم العالم العربي مجتمعات ولهجات وبيئات وعادات متنوعة، مع وجود العربية الفصحى لغة مشتركة في التعليم والإعلام والكتابة الرسمية.",
+      "learningFocus": [
+        "التفريق بين الفصحى واللهجات.",
+        "احترام التنوع الثقافي.",
+        "تحديد أمثلة على التنوع الجغرافي."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "culture/core-culture.json",
+      "searchableText": "culture-a2-arab-world-001 A2 culture تنوع العالم العربي Diversity of the Arab world يضم العالم العربي مجتمعات ولهجات وبيئات وعادات متنوعة، مع وجود العربية الفصحى لغة مشتركة في التعليم والإعلام والكتابة الرسمية."
+    },
+    {
+      "id": "culture-b1-majlis-001",
+      "type": "culture",
+      "level": "B1",
+      "titleAr": "المجلس والتواصل الاجتماعي",
+      "titleEn": "The majlis and social communication",
+      "summaryAr": "يؤدي المجلس في بعض مجتمعات الخليج أدوارًا اجتماعية وثقافية، وقد يكون مكانًا لاستقبال الضيوف وتبادل الأخبار ومناقشة شؤون المجتمع.",
+      "learningFocus": [
+        "مقارنة أشكال التجمع الاجتماعي.",
+        "استخدام لغة الوصف والمقارنة.",
+        "فهم ارتباط المكان بالهوية الاجتماعية."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "culture/core-culture.json",
+      "searchableText": "culture-b1-majlis-001 B1 culture المجلس والتواصل الاجتماعي The majlis and social communication يؤدي المجلس في بعض مجتمعات الخليج أدوارًا اجتماعية وثقافية، وقد يكون مكانًا لاستقبال الضيوف وتبادل الأخبار ومناقشة شؤون المجتمع."
+    },
+    {
+      "id": "assessment-a0-001",
+      "type": "assessment",
+      "level": "A0",
+      "skill": "vocabulary",
+      "questionType": "multiple-choice",
+      "promptAr": "اختر التحية المناسبة:",
+      "options": [
+        "مَرْحَبًا",
+        "كِتاب",
+        "مَدْرَسَة",
+        "قَلَم"
+      ],
+      "answer": "مَرْحَبًا",
+      "points": 1,
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "assessments/core-assessments.json",
+      "searchableText": "assessment-a0-001 A0 assessment"
+    },
+    {
+      "id": "assessment-a1-001",
+      "type": "assessment",
+      "level": "A1",
+      "skill": "grammar",
+      "questionType": "multiple-choice",
+      "promptAr": "اختر الجملة الصحيحة:",
+      "options": [
+        "هذه كتاب.",
+        "هذا كتاب.",
+        "هذا سيارة.",
+        "هذه قلم."
+      ],
+      "answer": "هذا كتاب.",
+      "points": 1,
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "assessments/core-assessments.json",
+      "searchableText": "assessment-a1-001 A1 assessment"
+    },
+    {
+      "id": "assessment-a2-001",
+      "type": "assessment",
+      "level": "A2",
+      "skill": "writing",
+      "questionType": "constructed-response",
+      "promptAr": "اكتب ست جمل تصف فيها رحلة قمت بها، واستخدم: ثم، لكن، لأن.",
+      "rubric": {
+        "content": 4,
+        "organization": 2,
+        "language": 3,
+        "mechanics": 1
+      },
+      "points": 10,
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "assessments/core-assessments.json",
+      "searchableText": "assessment-a2-001 A2 assessment"
+    },
+    {
+      "id": "assessment-b1-001",
+      "type": "assessment",
+      "level": "B1",
+      "skill": "speaking",
+      "questionType": "oral-task",
+      "promptAr": "تحدث لمدة دقيقتين عن أثر التطوع في المجتمع، واذكر سببين ومثالًا.",
+      "rubric": {
+        "communication": 4,
+        "organization": 2,
+        "vocabulary": 2,
+        "accuracy": 2
+      },
+      "points": 10,
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "assessments/core-assessments.json",
+      "searchableText": "assessment-b1-001 B1 assessment"
+    },
+    {
+      "id": "assessment-b2-001",
+      "type": "assessment",
+      "level": "B2",
+      "skill": "writing",
+      "questionType": "extended-response",
+      "promptAr": "اكتب مقالًا يناقش مزايا التعلم الرقمي وتحدياته، ثم قدم توصية متوازنة.",
+      "rubric": {
+        "argument": 4,
+        "organization": 3,
+        "languageRange": 3,
+        "accuracy": 3,
+        "mechanics": 2
+      },
+      "points": 15,
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "assessments/core-assessments.json",
+      "searchableText": "assessment-b2-001 B2 assessment"
+    }
+  ]
+}

@@ -1,0 +1,1098 @@
+.page {
+  --navy: #071832;
+  --navy-2: #102a50;
+  --blue: #376cf6;
+  --emerald: #079875;
+  --orange: #ff7b29;
+  --gold: #f2b733;
+  --red: #df4b58;
+  --violet: #7657e8;
+  --sky: #168bc5;
+  --ink: #17243d;
+  --muted: #68758b;
+  --line: rgba(14, 39, 79, 0.1);
+  --surface: rgba(255, 255, 255, 0.88);
+
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      circle at 8% 4%,
+      rgba(55, 108, 246, 0.12),
+      transparent 28rem
+    ),
+    radial-gradient(
+      circle at 96% 22%,
+      rgba(7, 152, 117, 0.1),
+      transparent 30rem
+    ),
+    #f7f9fd;
+  color: var(--ink);
+  direction: rtl;
+  font-family: Arial, "Segoe UI", Tahoma, sans-serif;
+}
+
+.page * {
+  box-sizing: border-box;
+}
+
+.page button,
+.page a {
+  font: inherit;
+}
+
+.glowOne,
+.glowTwo {
+  position: fixed;
+  z-index: 0;
+  width: 32rem;
+  height: 32rem;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(100px);
+  opacity: 0.13;
+}
+
+.glowOne {
+  top: 20rem;
+  right: -20rem;
+  background: var(--emerald);
+}
+
+.glowTwo {
+  bottom: 10rem;
+  left: -21rem;
+  background: var(--blue);
+}
+
+.header {
+  position: sticky;
+  z-index: 40;
+  top: 0;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  width: min(1420px, calc(100% - 44px));
+  min-height: 76px;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--line);
+  background: rgba(247, 249, 253, 0.88);
+  backdrop-filter: blur(18px);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  width: fit-content;
+  color: inherit;
+  text-decoration: none;
+}
+
+.brandSymbol {
+  display: grid;
+  width: 45px;
+  height: 45px;
+  place-items: center;
+  border-radius: 15px;
+  background: linear-gradient(145deg, var(--blue), var(--violet));
+  color: white;
+  font-size: 1.55rem;
+  font-weight: 900;
+  box-shadow: 0 12px 25px rgba(55, 108, 246, 0.24);
+}
+
+.brand strong,
+.brand small {
+  display: block;
+}
+
+.brand strong {
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+}
+
+.brand small {
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+
+.nav {
+  display: flex;
+  gap: 7px;
+  padding: 5px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: white;
+}
+
+.nav a {
+  padding: 9px 17px;
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav a:first-child {
+  background: var(--navy);
+  color: white;
+}
+
+.headerStats {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 9px;
+}
+
+.streak,
+.xp {
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  background: white;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.xp {
+  color: #9c6800;
+}
+
+.avatar {
+  display: grid;
+  width: 41px;
+  height: 41px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--navy);
+  color: white;
+  font-weight: 900;
+}
+
+.hero,
+.dailySection,
+.journeySection,
+.worldsSection,
+.progressSection,
+.footer {
+  position: relative;
+  z-index: 1;
+  width: min(1360px, calc(100% - 56px));
+  margin-inline: auto;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(410px, 0.85fr);
+  gap: 68px;
+  align-items: center;
+  padding: 75px 0 54px;
+}
+
+.welcome {
+  display: inline-flex;
+  padding: 8px 13px;
+  border: 1px solid rgba(7, 152, 117, 0.15);
+  border-radius: 999px;
+  background: rgba(230, 249, 243, 0.76);
+  color: #08785d;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.hero h1 {
+  max-width: 780px;
+  margin: 22px 0 0;
+  color: var(--navy);
+  font-size: clamp(3.2rem, 5.8vw, 6.3rem);
+  line-height: 1.03;
+  letter-spacing: -0.06em;
+}
+
+.hero h1 strong {
+  display: block;
+  background: linear-gradient(
+    100deg,
+    var(--blue),
+    var(--violet) 55%,
+    var(--emerald)
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.heroCopy > p {
+  max-width: 670px;
+  margin: 24px 0 0;
+  color: var(--muted);
+  font-size: 1.08rem;
+  line-height: 1.85;
+}
+
+.heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 11px;
+  margin-top: 31px;
+}
+
+.primaryButton,
+.secondaryButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 53px;
+  padding: 0 22px;
+  border-radius: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.primaryButton {
+  gap: 24px;
+  border: 0;
+  background: var(--navy);
+  color: white;
+  font-weight: 850;
+  box-shadow: 0 16px 28px rgba(7, 24, 50, 0.2);
+}
+
+.secondaryButton {
+  border: 1px solid var(--line);
+  background: white;
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.activeJourneyCard {
+  padding: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 28px;
+  background: linear-gradient(145deg, var(--navy), var(--navy-2));
+  color: white;
+  box-shadow: 0 31px 70px rgba(7, 24, 50, 0.25);
+}
+
+.activeJourneyTop,
+.progressHeader,
+.activeJourneyFooter,
+.worldCardTop,
+.worldProgressHeader,
+.sectionHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.continueLabel {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.74rem;
+  font-weight: 800;
+}
+
+.levelBadge {
+  padding: 6px 9px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--gold);
+  font-size: 0.72rem;
+  font-weight: 900;
+}
+
+.activeWorld {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 22px 0;
+}
+
+.activeWorldIcon {
+  display: grid;
+  width: 70px;
+  height: 70px;
+  place-items: center;
+  border-radius: 21px;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 2rem;
+}
+
+.activeWorld h2 {
+  margin: 0;
+  font-size: 1.7rem;
+}
+
+.activeWorld p {
+  margin: 6px 0 0;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 0.78rem;
+}
+
+.stagePreview {
+  display: flex;
+  gap: 13px;
+  padding: 17px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.stageIcon {
+  display: grid;
+  flex: 0 0 auto;
+  width: 45px;
+  height: 45px;
+  place-items: center;
+  border-radius: 14px;
+  background: var(--gold);
+  color: var(--navy);
+  font-weight: 900;
+}
+
+.stagePreview small,
+.stagePreview strong,
+.stagePreview p {
+  display: block;
+}
+
+.stagePreview small {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.stagePreview strong {
+  margin-top: 4px;
+}
+
+.stagePreview p {
+  margin: 5px 0 0;
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 0.72rem;
+  line-height: 1.5;
+}
+
+.progressHeader {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.75rem;
+}
+
+.progressHeader strong {
+  color: white;
+}
+
+.progressBar,
+.worldProgressBar {
+  overflow: hidden;
+  height: 7px;
+  margin-top: 9px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.progressBar span,
+.worldProgressBar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--gold), var(--orange));
+}
+
+.activeJourneyFooter {
+  margin-top: 14px;
+  color: rgba(255, 255, 255, 0.53);
+  font-size: 0.7rem;
+}
+
+.dailySection {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 18px;
+}
+
+.dailyMission,
+.coachCard,
+.readinessCard,
+.achievementCard,
+.nextRecommendation {
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--surface);
+  box-shadow: 0 18px 45px rgba(17, 44, 88, 0.07);
+}
+
+.dailyMission {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 21px;
+  align-items: center;
+  padding: 23px;
+  background:
+    radial-gradient(
+      circle at 100% 0,
+      rgba(242, 183, 51, 0.18),
+      transparent 15rem
+    ),
+    var(--surface);
+}
+
+.missionArtwork {
+  display: grid;
+  width: 84px;
+  height: 84px;
+  place-items: center;
+  border-radius: 24px;
+  background: #fff2d8;
+  font-size: 2.25rem;
+}
+
+.missionEyebrow {
+  color: var(--orange);
+  font-size: 0.72rem;
+  font-weight: 900;
+}
+
+.missionContent h2 {
+  margin: 5px 0 7px;
+  color: var(--navy);
+  font-size: 1.4rem;
+}
+
+.missionContent p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+.missionDetails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 0.68rem;
+}
+
+.missionButton,
+.completedMissionButton {
+  min-height: 47px;
+  padding: 0 17px;
+  border-radius: 14px;
+  font-weight: 850;
+}
+
+.missionButton {
+  border: 0;
+  background: var(--navy);
+  color: white;
+  cursor: pointer;
+}
+
+.completedMissionButton {
+  border: 1px solid rgba(7, 152, 117, 0.2);
+  background: #e8f9f3;
+  color: var(--emerald);
+}
+
+.coachCard {
+  display: flex;
+  gap: 15px;
+  padding: 22px;
+}
+
+.coachAvatar {
+  display: grid;
+  flex: 0 0 auto;
+  width: 52px;
+  height: 52px;
+  place-items: center;
+  border-radius: 17px;
+  background: linear-gradient(145deg, var(--emerald), #18b88f);
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.coachCard span,
+.coachCard strong {
+  display: block;
+}
+
+.coachCard span {
+  color: var(--emerald);
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+.coachCard strong {
+  margin-top: 7px;
+  color: var(--navy);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.coachCard p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.55;
+}
+
+.journeySection,
+.worldsSection {
+  padding-top: 82px;
+}
+
+.sectionHeading {
+  align-items: end;
+  margin-bottom: 27px;
+}
+
+.sectionHeading > div > span {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--blue);
+  font-size: 0.72rem;
+  font-weight: 900;
+}
+
+.sectionHeading h2 {
+  margin: 0;
+  color: var(--navy);
+  font-size: clamp(1.8rem, 3.2vw, 2.8rem);
+  letter-spacing: -0.04em;
+}
+
+.sectionHeading > p {
+  max-width: 510px;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.journeyPath {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+}
+
+.pathStage {
+  position: relative;
+  min-width: 0;
+  min-height: 180px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 21px;
+  background: white;
+  color: inherit;
+  text-align: right;
+  cursor: pointer;
+  transition: 180ms ease;
+}
+
+.pathStage:hover:not(:disabled) {
+  transform: translateY(-4px);
+  box-shadow: 0 17px 35px rgba(17, 44, 88, 0.09);
+}
+
+.pathStageNumber {
+  display: grid;
+  width: 46px;
+  height: 46px;
+  place-items: center;
+  border-radius: 15px;
+  background: #edf2ff;
+  color: var(--blue);
+  font-weight: 900;
+}
+
+.pathStageCopy {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+}
+
+.pathStageCopy small {
+  color: var(--muted);
+  font-size: 0.65rem;
+}
+
+.pathStageCopy strong {
+  margin-top: 5px;
+  color: var(--navy);
+  line-height: 1.45;
+}
+
+.pathStageCopy > span {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.68rem;
+}
+
+.pathXp {
+  position: absolute;
+  top: 17px;
+  left: 17px;
+  color: #a16a00;
+  font-size: 0.65rem;
+  font-weight: 900;
+}
+
+.completedStage {
+  border-color: rgba(7, 152, 117, 0.2);
+  background: #f3fcf9;
+}
+
+.completedStage .pathStageNumber {
+  background: #daf6ed;
+  color: var(--emerald);
+}
+
+.activeStage {
+  border-color: rgba(55, 108, 246, 0.4);
+  box-shadow: 0 18px 40px rgba(55, 108, 246, 0.11);
+}
+
+.lockedStage {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.worldGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.worldCard {
+  --accent: var(--blue);
+
+  position: relative;
+  overflow: hidden;
+  padding: 23px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background:
+    radial-gradient(
+      circle at 100% 0,
+      color-mix(in srgb, var(--accent) 14%, transparent),
+      transparent 15rem
+    ),
+    white;
+  box-shadow: 0 16px 40px rgba(17, 44, 88, 0.06);
+}
+
+.accent_blue {
+  --accent: var(--blue);
+}
+
+.accent_orange {
+  --accent: var(--orange);
+}
+
+.accent_emerald {
+  --accent: var(--emerald);
+}
+
+.accent_violet {
+  --accent: var(--violet);
+}
+
+.accent_red {
+  --accent: var(--red);
+}
+
+.accent_sky {
+  --accent: var(--sky);
+}
+
+.accent_navy {
+  --accent: var(--navy);
+}
+
+.activeWorldCard {
+  border-color: color-mix(in srgb, var(--accent) 38%, transparent);
+  box-shadow: 0 20px 50px
+    color-mix(in srgb, var(--accent) 13%, transparent);
+}
+
+.lockedWorldCard {
+  filter: grayscale(0.35);
+  opacity: 0.58;
+}
+
+.worldIcon {
+  display: grid;
+  width: 61px;
+  height: 61px;
+  place-items: center;
+  border-radius: 19px;
+  background: color-mix(in srgb, var(--accent) 12%, white);
+  font-size: 1.75rem;
+}
+
+.worldBadges {
+  display: flex;
+  gap: 6px;
+}
+
+.worldBadges span,
+.worldBadges strong {
+  padding: 6px 9px;
+  border-radius: 999px;
+  font-size: 0.65rem;
+}
+
+.worldBadges span {
+  background: #eef2f8;
+  color: var(--muted);
+}
+
+.worldBadges strong {
+  background: #fff2d7;
+  color: #9c6700;
+}
+
+.worldCard h3 {
+  margin: 20px 0 7px;
+  color: var(--navy);
+  font-size: 1.3rem;
+}
+
+.worldCard > p {
+  min-height: 44px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.55;
+}
+
+.worldProgressHeader {
+  margin-top: 21px;
+  color: var(--muted);
+  font-size: 0.68rem;
+}
+
+.worldProgressHeader strong {
+  color: var(--accent);
+}
+
+.worldProgressBar {
+  background: #edf1f7;
+}
+
+.worldProgressBar span {
+  background: var(--accent);
+}
+
+.worldActions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 19px;
+}
+
+.worldActions button,
+.worldActions a {
+  display: grid;
+  min-height: 42px;
+  place-items: center;
+  border-radius: 13px;
+  font-size: 0.74rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.worldActions button {
+  border: 0;
+  background: var(--navy);
+  color: white;
+  cursor: pointer;
+}
+
+.worldActions button:disabled {
+  background: #c8ced9;
+  cursor: not-allowed;
+}
+
+.worldActions a {
+  border: 1px solid var(--line);
+  background: white;
+  color: var(--ink);
+}
+
+.progressSection {
+  display: grid;
+  grid-template-columns: 1.1fr 0.95fr 0.95fr;
+  gap: 15px;
+  padding-top: 75px;
+}
+
+.readinessCard {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 24px;
+  background: linear-gradient(145deg, var(--navy), var(--navy-2));
+  color: white;
+}
+
+.readinessRing {
+  display: grid;
+  flex: 0 0 auto;
+  width: 128px;
+  height: 128px;
+  place-items: center;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, var(--navy) 57%, transparent 59%),
+    conic-gradient(
+      var(--gold) 0 38%,
+      rgba(255, 255, 255, 0.1) 38% 100%
+    );
+}
+
+.readinessRing div {
+  text-align: center;
+}
+
+.readinessRing strong,
+.readinessRing span {
+  display: block;
+}
+
+.readinessRing strong {
+  font-size: 1.7rem;
+}
+
+.readinessRing span {
+  color: rgba(255, 255, 255, 0.56);
+  font-size: 0.63rem;
+}
+
+.readinessCopy > span {
+  color: var(--gold);
+  font-size: 0.68rem;
+  font-weight: 900;
+}
+
+.readinessCopy h2 {
+  margin: 7px 0;
+  font-size: 1.3rem;
+}
+
+.readinessCopy p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.73rem;
+  line-height: 1.6;
+}
+
+.achievementCard,
+.nextRecommendation {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 14px;
+  align-items: center;
+  padding: 22px;
+}
+
+.achievementIcon,
+.nextIcon {
+  display: grid;
+  width: 54px;
+  height: 54px;
+  place-items: center;
+  border-radius: 17px;
+  font-size: 1.55rem;
+}
+
+.achievementIcon {
+  background: #fff3d9;
+}
+
+.nextIcon {
+  background: #e9f7f3;
+}
+
+.achievementCard small,
+.nextRecommendation small {
+  color: var(--muted);
+  font-size: 0.66rem;
+}
+
+.achievementCard strong,
+.nextRecommendation strong {
+  display: block;
+  margin-top: 4px;
+  color: var(--navy);
+}
+
+.achievementCard p,
+.nextRecommendation p {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 0.68rem;
+  line-height: 1.5;
+}
+
+.achievementProgress {
+  color: var(--orange);
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin-top: 70px;
+  padding: 28px 0 38px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.73rem;
+}
+
+.footer strong,
+.footer span {
+  display: block;
+}
+
+.footer strong {
+  margin-bottom: 4px;
+  color: var(--navy);
+}
+
+@media (max-width: 1120px) {
+  .header {
+    grid-template-columns: 1fr auto;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .activeJourneyCard {
+    max-width: 620px;
+  }
+
+  .dailySection {
+    grid-template-columns: 1fr;
+  }
+
+  .journeyPath {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .worldGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .progressSection {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .readinessCard {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 760px) {
+  .header,
+  .hero,
+  .dailySection,
+  .journeySection,
+  .worldsSection,
+  .progressSection,
+  .footer {
+    width: min(100% - 28px, 1360px);
+  }
+
+  .xp {
+    display: none;
+  }
+
+  .hero {
+    gap: 34px;
+    padding-top: 50px;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.8rem, 13vw, 4.8rem);
+  }
+
+  .dailyMission {
+    grid-template-columns: auto 1fr;
+  }
+
+  .dailyMission > button {
+    grid-column: 1 / -1;
+  }
+
+  .sectionHeading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .journeyPath,
+  .worldGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .pathStage {
+    min-height: 145px;
+  }
+
+  .progressSection {
+    grid-template-columns: 1fr;
+  }
+
+  .readinessCard {
+    grid-column: auto;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .brand small,
+  .streak {
+    display: none;
+  }
+
+  .hero h1 {
+    font-size: 2.7rem;
+  }
+
+  .activeJourneyCard {
+    padding: 20px;
+  }
+
+  .dailyMission {
+    grid-template-columns: 1fr;
+  }
+
+  .missionArtwork {
+    width: 65px;
+    height: 65px;
+  }
+
+  .readinessCard {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .worldActions {
+    grid-template-columns: 1fr;
+  }
+}

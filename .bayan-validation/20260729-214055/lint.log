@@ -1,0 +1,15 @@
+
+> arabic-department-portal@0.1.0 lint
+> eslint --max-warnings=0
+
+
+/Volumes/K/BAYAN/arabic-department-portal/app/parents/page.backup.20260729-214005.tsx
+  238:9   error  Do not use an `<a>` element to navigate to `/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages                 @next/next/no-html-link-for-pages
+  238:9   error  Do not use an `<a>` element to navigate to `/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages                 @next/next/no-html-link-for-pages
+  592:11  error  Do not use an `<a>` element to navigate to `/students/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages        @next/next/no-html-link-for-pages
+  593:11  error  Do not use an `<a>` element to navigate to `/learn/arabic-a/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages  @next/next/no-html-link-for-pages
+  594:11  error  Do not use an `<a>` element to navigate to `/learn/arabic-b/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages  @next/next/no-html-link-for-pages
+  595:11  error  Do not use an `<a>` element to navigate to `/teachers/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages        @next/next/no-html-link-for-pages
+
+✖ 6 problems (6 errors, 0 warnings)
+

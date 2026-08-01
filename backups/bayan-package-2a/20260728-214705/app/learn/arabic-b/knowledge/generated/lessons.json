@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-07-28T17:08:19.892Z",
+  "items": [
+    {
+      "id": "a0-greetings-introductions",
+      "title": "Greetings and Introductions",
+      "grade": 1,
+      "cefr": "A0",
+      "theme": "Introductions",
+      "worldIds": [
+        "school"
+      ],
+      "skills": [
+        "listening",
+        "speaking",
+        "vocabulary",
+        "pronunciation"
+      ],
+      "objectives": [
+        "Exchange a basic greeting.",
+        "Say and ask for a name.",
+        "Identify simple greeting expressions."
+      ],
+      "vocabulary": [
+        {
+          "id": "v-ahlan-wa-sahlan",
+          "arabic": "أَهْلًا وَسَهْلًا",
+          "english": "Welcome",
+          "partOfSpeech": "expression",
+          "tags": [
+            "greeting"
+          ]
+        },
+        {
+          "id": "v-ismi",
+          "arabic": "اِسْمِي",
+          "english": "My name is",
+          "partOfSpeech": "expression",
+          "tags": [
+            "introduction"
+          ]
+        },
+        {
+          "id": "v-shukran",
+          "arabic": "شُكْرًا",
+          "english": "Thank you",
+          "partOfSpeech": "expression",
+          "tags": [
+            "courtesy"
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "g-nominal-self-introduction",
+          "title": "Simple nominal self-introduction",
+          "description": "Using اِسْمِي followed by a personal name.",
+          "examples": [
+            "اِسْمِي سَامِي."
+          ]
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-first-meeting",
+          "title": "First meeting",
+          "turns": [
+            {
+              "speaker": "A",
+              "text": "السَّلَامُ عَلَيْكُمْ."
+            },
+            {
+              "speaker": "B",
+              "text": "وَعَلَيْكُمُ السَّلَامُ."
+            },
+            {
+              "speaker": "A",
+              "text": "مَا اسْمُكَ؟"
+            },
+            {
+              "speaker": "B",
+              "text": "اِسْمِي سَامِي."
+            }
+          ]
+        }
+      ],
+      "readings": [],
+      "activities": [
+        {
+          "id": "a-greeting-choice",
+          "type": "vocabulary",
+          "instruction": "Choose the correct greeting.",
+          "prompt": "How do you say Welcome?",
+          "expectedAnswer": "أَهْلًا وَسَهْلًا",
+          "choices": [
+            {
+              "id": "c1",
+              "label": "أَهْلًا وَسَهْلًا",
+              "correct": true
+            },
+            {
+              "id": "c2",
+              "label": "مَعَ السَّلَامَة",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "a-introduction-recording",
+          "type": "recording",
+          "instruction": "Record yourself introducing your name.",
+          "prompt": "Say: My name is …"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "seed-elementary-arabic-i",
+          "pageStart": 19,
+          "pageEnd": 33,
+          "note": "Seed record for validating the knowledge pipeline; original wording must be reviewed before publication."
+        }
+      ],
+      "status": "draft",
+      "version": 1,
+      "updatedAt": "2026-07-28T00:00:00.000Z"
+    }
+  ]
+}

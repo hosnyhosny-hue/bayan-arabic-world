@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "minimumCharactersPerPage": 40,
+  "minimumTextCoverageRatio": 0.35,
+  "arabicNormalization": {
+    "enabled": true,
+    "removeTatweel": true,
+    "normalizeAlef": true,
+    "normalizeYa": false,
+    "normalizeTaMarbuta": false,
+    "removeDiacritics": false
+  },
+  "preferredExtractor": "pdftotext",
+  "fallbackExtractor": "pdf-literal-string-scan-v1"
+}

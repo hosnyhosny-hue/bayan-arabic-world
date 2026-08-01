@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bayan.world/schemas/knowledge-graph-node.schema.json",
+  "title": "BAYAN Knowledge Graph Node",
+  "type": "object",
+  "required": [
+    "graphId",
+    "sourceId",
+    "type",
+    "level",
+    "label",
+    "sourceCollection",
+    "status"
+  ],
+  "properties": {
+    "graphId": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*:[a-z0-9-]+:[a-zA-Z0-9._-]+$"
+    },
+    "sourceId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "level": {
+      "type": ["string", "null"],
+      "enum": ["A0", "A1", "A2", "B1", "B2", null]
+    },
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "labelEn": {
+      "type": ["string", "null"]
+    },
+    "sourceCollection": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "draft", "review-required", "archived"]
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "searchableText": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,5 @@
+// Merge this match block into your existing storage.rules.
+match /bayan-core/{schoolId}/{ownerId}/{fileName} {
+  allow read: if request.auth != null;
+  allow write: if false; // Uploads pass through the protected server API.
+}

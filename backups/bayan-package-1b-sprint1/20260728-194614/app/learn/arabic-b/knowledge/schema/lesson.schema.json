@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bayan.world/schemas/knowledge-lesson.json",
+  "title": "BAYAN Knowledge Lesson",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "cefr",
+    "theme",
+    "worldIds",
+    "skills",
+    "objectives",
+    "vocabulary",
+    "grammar",
+    "dialogues",
+    "readings",
+    "activities",
+    "sources",
+    "status",
+    "version",
+    "updatedAt"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 3 },
+    "title": { "type": "string", "minLength": 1 },
+    "grade": { "type": "integer", "minimum": 1, "maximum": 12 },
+    "cefr": { "enum": ["A0", "A1", "A2", "B1", "B2"] },
+    "theme": { "type": "string", "minLength": 1 },
+    "worldIds": { "type": "array", "items": { "type": "string" } },
+    "skills": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "listening",
+          "speaking",
+          "reading",
+          "writing",
+          "vocabulary",
+          "grammar",
+          "pronunciation",
+          "culture"
+        ]
+      }
+    },
+    "objectives": { "type": "array", "items": { "type": "string" } },
+    "vocabulary": { "type": "array", "items": { "type": "object" } },
+    "grammar": { "type": "array", "items": { "type": "object" } },
+    "dialogues": { "type": "array", "items": { "type": "object" } },
+    "readings": { "type": "array", "items": { "type": "object" } },
+    "activities": { "type": "array", "items": { "type": "object" } },
+    "sources": { "type": "array", "items": { "type": "object" } },
+    "status": { "enum": ["draft", "reviewed", "approved"] },
+    "version": { "type": "integer", "minimum": 1 },
+    "updatedAt": { "type": "string" }
+  },
+  "additionalProperties": false
+}

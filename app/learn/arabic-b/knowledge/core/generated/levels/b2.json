@@ -1,0 +1,150 @@
+{
+  "level": "B2",
+  "generatedAt": "2026-07-29T10:14:09.086Z",
+  "items": [
+    {
+      "id": "vocab-b2-001",
+      "type": "vocabulary",
+      "level": "B2",
+      "arabic": "مِنْ ناحِيَةٍ أُخْرى",
+      "translationEn": "On the other hand",
+      "transliteration": "min nahiyatin ukhra",
+      "partOfSpeech": "discourse-marker",
+      "topic": "argumentation",
+      "examples": [
+        {
+          "arabic": "تُوَفِّرُ التِّقْنِيَةُ فُرَصًا كَبِيرَةً، وَمِنْ ناحِيَةٍ أُخْرى تَتَطَلَّبُ اسْتِخْدامًا واعِيًا.",
+          "translationEn": "Technology offers major opportunities; on the other hand, it requires responsible use."
+        }
+      ],
+      "tags": [
+        "argumentation",
+        "contrast"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-b2-001 B2 vocabulary مِنْ ناحِيَةٍ أُخْرى On the other hand argumentation contrast تُوَفِّرُ التِّقْنِيَةُ فُرَصًا كَبِيرَةً، وَمِنْ ناحِيَةٍ أُخْرى تَتَطَلَّبُ اسْتِخْدامًا واعِيًا. Technology offers major opportunities; on the other hand, it requires responsible use."
+    },
+    {
+      "id": "vocab-b2-002",
+      "type": "vocabulary",
+      "level": "B2",
+      "arabic": "يَتَرَتَّبُ عَلَى",
+      "translationEn": "Results from / entails",
+      "transliteration": "yatarattabu ala",
+      "partOfSpeech": "verb-phrase",
+      "topic": "cause-and-effect",
+      "examples": [
+        {
+          "arabic": "يَتَرَتَّبُ عَلَى القَرارِ تَغْيِيراتٌ مُهِمَّةٌ.",
+          "translationEn": "The decision entails significant changes."
+        }
+      ],
+      "tags": [
+        "academic-language",
+        "cause-effect"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-b2-002 B2 vocabulary يَتَرَتَّبُ عَلَى Results from / entails academic-language cause-effect يَتَرَتَّبُ عَلَى القَرارِ تَغْيِيراتٌ مُهِمَّةٌ. The decision entails significant changes."
+    },
+    {
+      "id": "grammar-b2-001",
+      "type": "grammar",
+      "level": "B2",
+      "titleAr": "المبني للمجهول",
+      "titleEn": "Passive voice",
+      "function": "التركيز على الحدث أو النتيجة بدلًا من القائم بالفعل.",
+      "explanationAr": "يُبنى الفعل للمجهول عندما يكون الفاعل غير معروف أو غير مهم في السياق.",
+      "examples": [
+        "اُفْتُتِحَ المَعْرِضُ صَباحَ اليَوْمِ.",
+        "تُسْتَخْدَمُ التِّقْنِيَةُ في التَّعَلُّمِ."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "grammar/core-grammar.json",
+      "searchableText": "grammar-b2-001 B2 grammar المبني للمجهول Passive voice يُبنى الفعل للمجهول عندما يكون الفاعل غير معروف أو غير مهم في السياق. التركيز على الحدث أو النتيجة بدلًا من القائم بالفعل. اُفْتُتِحَ المَعْرِضُ صَباحَ اليَوْمِ. تُسْتَخْدَمُ التِّقْنِيَةُ في التَّعَلُّمِ."
+    },
+    {
+      "id": "skill-b2-speaking-001",
+      "type": "skill",
+      "level": "B2",
+      "skill": "speaking",
+      "objectiveAr": "أن يقدم المتعلم عرضًا منظمًا ويناقش الأسئلة المرتبطة به.",
+      "successCriteria": [
+        "ينظم العرض في مقدمة وأفكار وخاتمة.",
+        "يستخدم لغة تفسير ومقارنة.",
+        "يجيب عن الأسئلة بمرونة."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "collection": "skills/core-skills.json",
+      "searchableText": "skill-b2-speaking-001 B2 skill أن يقدم المتعلم عرضًا منظمًا ويناقش الأسئلة المرتبطة به."
+    },
+    {
+      "id": "dialogue-b2-debate-001",
+      "type": "dialogue",
+      "level": "B2",
+      "titleAr": "نقاش حول التعلم الرقمي",
+      "titleEn": "Discussion about digital learning",
+      "situation": "academic-discussion",
+      "characters": [
+        "نورة",
+        "آدم"
+      ],
+      "turns": [
+        {
+          "speaker": "نورة",
+          "arabic": "أَرى أَنَّ التَّعَلُّمَ الرَّقْمِيَّ يُوَسِّعُ فُرَصَ الوُصولِ إِلَى المَعْرِفَةِ.",
+          "translationEn": "I believe digital learning expands access to knowledge."
+        },
+        {
+          "speaker": "آدم",
+          "arabic": "أَتَّفِقُ مَعَكِ جُزْئِيًّا، وَلَكِنَّهُ لا يُغْنِي عَنِ التَّفاعُلِ الإِنْسانِيِّ.",
+          "translationEn": "I partly agree, but it does not replace human interaction."
+        },
+        {
+          "speaker": "نورة",
+          "arabic": "صَحيحٌ، وَلِذلِكَ قَدْ يَكونُ التَّعَلُّمُ المُدْمَجُ حَلًّا أَكْثَرَ تَوازُنًا.",
+          "translationEn": "That is true; therefore, blended learning may be a more balanced solution."
+        }
+      ],
+      "targets": [
+        "argumentation",
+        "partial-agreement",
+        "evaluation"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "dialogues/core-dialogues.json",
+      "searchableText": "dialogue-b2-debate-001 B2 dialogue نقاش حول التعلم الرقمي Discussion about digital learning argumentation partial-agreement evaluation نورة أَرى أَنَّ التَّعَلُّمَ الرَّقْمِيَّ يُوَسِّعُ فُرَصَ الوُصولِ إِلَى المَعْرِفَةِ. I believe digital learning expands access to knowledge. آدم أَتَّفِقُ مَعَكِ جُزْئِيًّا، وَلَكِنَّهُ لا يُغْنِي عَنِ التَّفاعُلِ الإِنْسانِيِّ. I partly agree, but it does not replace human interaction. نورة صَحيحٌ، وَلِذلِكَ قَدْ يَكونُ التَّعَلُّمُ المُدْمَجُ حَلًّا أَكْثَرَ تَوازُنًا. That is true; therefore, blended learning may be a more balanced solution."
+    },
+    {
+      "id": "assessment-b2-001",
+      "type": "assessment",
+      "level": "B2",
+      "skill": "writing",
+      "questionType": "extended-response",
+      "promptAr": "اكتب مقالًا يناقش مزايا التعلم الرقمي وتحدياته، ثم قدم توصية متوازنة.",
+      "rubric": {
+        "argument": 4,
+        "organization": 3,
+        "languageRange": 3,
+        "accuracy": 3,
+        "mechanics": 2
+      },
+      "points": 15,
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "assessments/core-assessments.json",
+      "searchableText": "assessment-b2-001 B2 assessment"
+    }
+  ]
+}

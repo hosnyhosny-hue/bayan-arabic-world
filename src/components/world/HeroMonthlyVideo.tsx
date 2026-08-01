@@ -13,25 +13,49 @@ import {
 import { useWorld } from "@/src/context/WorldContext";
 import styles from "./HeroMonthlyVideo.module.css";
 
-const VIDEO_SRC = "/media/bayan-video-of-the-month.mp4";
-const POSTER_SRC = "/media/bayan-video-poster.svg";
+
+
+type PublicHeroVideo = {
+  enabled: boolean;
+  videoUrl: string;
+  posterUrl: string;
+  titleAr: string;
+  titleEn: string;
+  descriptionAr: string;
+  descriptionEn: string;
+};
 
 export default function HeroMonthlyVideo() {
   const { isArabic, playSound } = useWorld();
   const videoRef = useRef<HTMLVideoElement>(null);
+
+  const [heroVideo, setHeroVideo] =
+    useState<PublicHeroVideo | null>(null);
+  const [videoLoading, setVideoLoading] = useState(true);
 
   const [isOpen, setIsOpen] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const [hasError, setHasError] = useState(false);
 
-  const title = isArabic ? "نافذة بيان" : "Bayan Spotlight";
+  const title = isArabic
+    ? heroVideo?.titleAr || "نافذة بيان"
+    : heroVideo?.titleEn || "Bayan Spotlight";
+
   const subtitle = isArabic
-    ? "فيلم القسم لهذا الشهر"
-    : "Arabic Department Film of the Month";
+    ? heroVideo?.descriptionAr ||
+      "فيلم قسم اللغة العربية لهذا الشهر"
+    : heroVideo?.descriptionEn ||
+      "Arabic Department Film of the Month";
 
   const openCinema = async () => {
     playSound("click");
+
+    if (!heroVideo?.videoUrl) {
+      setHasError(true);
+      return;
+    }
+
     setHasError(false);
     setIsOpen(true);
 
@@ -120,6 +144,55 @@ export default function HeroMonthlyVideo() {
   };
 
   useEffect(() => {
+    let active = true;
+
+    async function loadHeroVideo() {
+      try {
+        const response = await fetch(
+          "/api/public/hero-video",
+          {
+            cache: "no-store",
+          }
+        );
+
+        const result = await response.json();
+
+        if (!response.ok || !result.success) {
+          throw new Error(
+            result.message ||
+              "Failed to load hero video."
+          );
+        }
+
+        if (active) {
+          setHeroVideo(result.data || null);
+          setHasError(false);
+        }
+      } catch (error) {
+        console.error(
+          "Failed to load homepage hero video:",
+          error
+        );
+
+        if (active) {
+          setHeroVideo(null);
+          setHasError(true);
+        }
+      } finally {
+        if (active) {
+          setVideoLoading(false);
+        }
+      }
+    }
+
+    void loadHeroVideo();
+
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  useEffect(() => {
     if (!isOpen) return;
 
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -145,6 +218,7 @@ export default function HeroMonthlyVideo() {
         type="button"
         className={styles.preview}
         onClick={openCinema}
+        disabled={videoLoading || !heroVideo?.videoUrl}
         onMouseEnter={() => playSound("hover")}
         aria-label={
           isArabic
@@ -209,8 +283,8 @@ export default function HeroMonthlyVideo() {
               <video
                 ref={videoRef}
                 className={styles.video}
-                src={VIDEO_SRC}
-                poster={POSTER_SRC}
+                src={heroVideo?.videoUrl || ""}
+                poster={heroVideo?.posterUrl || undefined}
                 preload="metadata"
                 playsInline
                 controls={false}
@@ -244,8 +318,8 @@ export default function HeroMonthlyVideo() {
                   </strong>
                   <span>
                     {isArabic
-                      ? "ضع الفيديو باسم bayan-video-of-the-month.mp4 داخل public/media"
-                      : "Add bayan-video-of-the-month.mp4 inside public/media"}
+                      ? "لم يتم نشر فيديو الشهر بعد من لوحة التحكم."
+                      : "The monthly video has not been published from the CMS yet."}
                   </span>
                 </div>
               )}

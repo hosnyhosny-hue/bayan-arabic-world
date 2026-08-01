@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-07-28T16:46:23.379Z",
+  "totals": {
+    "lessons": 1,
+    "vocabulary": 3,
+    "grammar": 1,
+    "dialogues": 1,
+    "readings": 0,
+    "activities": 2
+  },
+  "lessons": [
+    {
+      "id": "a0-greetings-introductions",
+      "title": "Greetings and Introductions",
+      "grade": 1,
+      "cefr": "A0",
+      "theme": "Introductions",
+      "worldIds": [
+        "school"
+      ],
+      "skills": [
+        "listening",
+        "speaking",
+        "vocabulary",
+        "pronunciation"
+      ],
+      "objectiveCount": 3,
+      "vocabularyCount": 3,
+      "grammarCount": 1,
+      "dialogueCount": 1,
+      "readingCount": 0,
+      "activityCount": 2,
+      "sourceCount": 1,
+      "status": "draft",
+      "version": 1
+    }
+  ],
+  "indexes": {
+    "vocabulary": "vocabulary-index.json",
+    "grammar": "grammar-index.json",
+    "themes": "theme-index.json",
+    "cefr": "cefr-index.json",
+    "skills": "skill-index.json",
+    "worlds": "world-index.json"
+  }
+}

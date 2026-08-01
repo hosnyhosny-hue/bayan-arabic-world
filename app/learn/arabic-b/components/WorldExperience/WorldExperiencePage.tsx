@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
 import { useJourneyEngine } from "../../engine/core/JourneyEngineProvider";
 import type { WorldId } from "../../engine/core/types";
 import {
@@ -41,6 +42,7 @@ const idOf = (record: UnknownRecord, fallback: string) =>
 
 export default function WorldExperiencePage({ worldId }: { worldId: WorldId }) {
   const engine = useJourneyEngine();
+  const router = useRouter();
   const world = getWorldExperience(worldId);
   const [isArabic, setIsArabic] = useState(false);
   const [activeMissionId, setActiveMissionId] = useState<string | null>(null);
@@ -66,7 +68,9 @@ export default function WorldExperiencePage({ worldId }: { worldId: WorldId }) {
   const startMission = (mission: UnknownRecord, index: number) => {
     const missionId = idOf(mission, `${worldId}-mission-${index + 1}`);
     engine.startWorld(worldId);
-    setActiveMissionId(missionId);
+    router.push(
+      `/learn/arabic-b/worlds/${worldId}/missions/${encodeURIComponent(missionId)}`,
+    );
   };
 
   const completeMission = (mission: UnknownRecord, index: number) => {

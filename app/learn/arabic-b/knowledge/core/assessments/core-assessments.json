@@ -1,0 +1,90 @@
+[
+  {
+    "id": "assessment-a0-001",
+    "type": "assessment",
+    "level": "A0",
+    "skill": "vocabulary",
+    "questionType": "multiple-choice",
+    "promptAr": "اختر التحية المناسبة:",
+    "options": ["مَرْحَبًا", "كِتاب", "مَدْرَسَة", "قَلَم"],
+    "answer": "مَرْحَبًا",
+    "points": 1,
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "assessment-a1-001",
+    "type": "assessment",
+    "level": "A1",
+    "skill": "grammar",
+    "questionType": "multiple-choice",
+    "promptAr": "اختر الجملة الصحيحة:",
+    "options": [
+      "هذه كتاب.",
+      "هذا كتاب.",
+      "هذا سيارة.",
+      "هذه قلم."
+    ],
+    "answer": "هذا كتاب.",
+    "points": 1,
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "assessment-a2-001",
+    "type": "assessment",
+    "level": "A2",
+    "skill": "writing",
+    "questionType": "constructed-response",
+    "promptAr": "اكتب ست جمل تصف فيها رحلة قمت بها، واستخدم: ثم، لكن، لأن.",
+    "rubric": {
+      "content": 4,
+      "organization": 2,
+      "language": 3,
+      "mechanics": 1
+    },
+    "points": 10,
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "assessment-b1-001",
+    "type": "assessment",
+    "level": "B1",
+    "skill": "speaking",
+    "questionType": "oral-task",
+    "promptAr": "تحدث لمدة دقيقتين عن أثر التطوع في المجتمع، واذكر سببين ومثالًا.",
+    "rubric": {
+      "communication": 4,
+      "organization": 2,
+      "vocabulary": 2,
+      "accuracy": 2
+    },
+    "points": 10,
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "assessment-b2-001",
+    "type": "assessment",
+    "level": "B2",
+    "skill": "writing",
+    "questionType": "extended-response",
+    "promptAr": "اكتب مقالًا يناقش مزايا التعلم الرقمي وتحدياته، ثم قدم توصية متوازنة.",
+    "rubric": {
+      "argument": 4,
+      "organization": 3,
+      "languageRange": 3,
+      "accuracy": 3,
+      "mechanics": 2
+    },
+    "points": 15,
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary",
+    "reviewStatus": "reviewed"
+  }
+]

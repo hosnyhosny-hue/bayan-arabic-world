@@ -1,0 +1,4491 @@
+{
+  "generatedAt": "2026-07-29T10:45:47.185Z",
+  "version": "2.0.0",
+  "totalEdges": 257,
+  "edges": [
+    {
+      "id": "edge:36e6d6450f4c",
+      "from": "vocab:a0:vocab-a0-001",
+      "to": "level:a0:A0",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A0"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:3c452b48a670",
+      "from": "vocab:a0:vocab-a0-002",
+      "to": "level:a0:A0",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A0"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:11b5f05886c0",
+      "from": "vocab:a0:vocab-a0-003",
+      "to": "level:a0:A0",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A0"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:2bee0139ebed",
+      "from": "vocab:a1:vocab-a1-001",
+      "to": "level:a1:A1",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A1"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:7cfc901a7bfd",
+      "from": "vocab:a1:vocab-a1-002",
+      "to": "level:a1:A1",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A1"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:529026d7ed34",
+      "from": "vocab:a1:vocab-a1-003",
+      "to": "level:a1:A1",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A1"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:459dfe229475",
+      "from": "vocab:a2:vocab-a2-001",
+      "to": "level:a2:A2",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A2"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:3d55e9684953",
+      "from": "vocab:a2:vocab-a2-002",
+      "to": "level:a2:A2",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A2"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:7699155efb76",
+      "from": "vocab:b1:vocab-b1-001",
+      "to": "level:b1:B1",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:B1"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:9d37ac1f8210",
+      "from": "vocab:b1:vocab-b1-002",
+      "to": "level:b1:B1",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:B1"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:60f428c3ce71",
+      "from": "vocab:b2:vocab-b2-001",
+      "to": "level:b2:B2",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:B2"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:8c1273d45028",
+      "from": "vocab:b2:vocab-b2-002",
+      "to": "level:b2:B2",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:B2"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:f66eafb8a8c7",
+      "from": "grammar:a0:grammar-a0-001",
+      "to": "level:a0:A0",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A0"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:08aaa29f8ebc",
+      "from": "grammar:a1:grammar-a1-001",
+      "to": "level:a1:A1",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A1"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:e1a26b23a7b0",
+      "from": "grammar:a1:grammar-a1-002",
+      "to": "level:a1:A1",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A1"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:13b1f258c04f",
+      "from": "grammar:a2:grammar-a2-001",
+      "to": "level:a2:A2",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A2"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:aa1681b08a75",
+      "from": "grammar:a2:grammar-a2-002",
+      "to": "level:a2:A2",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A2"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:d0c53e3036f0",
+      "from": "grammar:b1:grammar-b1-001",
+      "to": "level:b1:B1",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:B1"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:f0840fe78642",
+      "from": "grammar:b1:grammar-b1-002",
+      "to": "level:b1:B1",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:B1"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:c4759e50d25e",
+      "from": "grammar:b2:grammar-b2-001",
+      "to": "level:b2:B2",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:B2"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:0acb0ba91ca3",
+      "from": "skill:a0:skill-a0-speaking-001",
+      "to": "level:a0:A0",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A0"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:e0e8a0ad2d4c",
+      "from": "skill:a1:skill-a1-listening-001",
+      "to": "level:a1:A1",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A1"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:739ad7eb7f6c",
+      "from": "skill:a2:skill-a2-reading-001",
+      "to": "level:a2:A2",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A2"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:205f296316a5",
+      "from": "skill:b1:skill-b1-writing-001",
+      "to": "level:b1:B1",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:B1"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:5757ff949476",
+      "from": "skill:b2:skill-b2-speaking-001",
+      "to": "level:b2:B2",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:B2"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:2950ac311d7f",
+      "from": "dialogue:a0:dialogue-a0-greeting-001",
+      "to": "level:a0:A0",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A0"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:f7a7e2af1038",
+      "from": "dialogue:a1:dialogue-a1-cafe-001",
+      "to": "level:a1:A1",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A1"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:1baf6ebdd3c6",
+      "from": "dialogue:a2:dialogue-a2-travel-001",
+      "to": "level:a2:A2",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A2"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:f5a13e354ce1",
+      "from": "dialogue:b1:dialogue-b1-school-project-001",
+      "to": "level:b1:B1",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:B1"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:f58d6fd1e231",
+      "from": "dialogue:b2:dialogue-b2-debate-001",
+      "to": "level:b2:B2",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:B2"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:0207414574fd",
+      "from": "culture:a1:culture-a1-hospitality-001",
+      "to": "level:a1:A1",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A1"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:0396815a1c7d",
+      "from": "culture:a2:culture-a2-arab-world-001",
+      "to": "level:a2:A2",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A2"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:0e61f917beea",
+      "from": "culture:b1:culture-b1-majlis-001",
+      "to": "level:b1:B1",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:B1"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:694ea72cbbc2",
+      "from": "assessment:a0:assessment-a0-001",
+      "to": "level:a0:A0",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A0"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:03bb737a9604",
+      "from": "assessment:a1:assessment-a1-001",
+      "to": "level:a1:A1",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A1"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:537c1c7ecb40",
+      "from": "assessment:a2:assessment-a2-001",
+      "to": "level:a2:A2",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:A2"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:a1be8d721bf6",
+      "from": "assessment:b1:assessment-b1-001",
+      "to": "level:b1:B1",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:B1"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:3ef29114750a",
+      "from": "assessment:b2:assessment-b2-001",
+      "to": "level:b2:B2",
+      "type": "BELONGS_TO_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-level:B2"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:1a550639ce4e",
+      "from": "level:a0:A0",
+      "to": "level:a1:A1",
+      "type": "NEXT_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "bayan-proficiency-sequence"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:099a3758388c",
+      "from": "level:a1:A1",
+      "to": "level:a0:A0",
+      "type": "PREVIOUS_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "bayan-proficiency-sequence"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:b9990c14e99d",
+      "from": "level:a0:A0",
+      "to": "level:a1:A1",
+      "type": "PREREQUISITE_OF",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "bayan-proficiency-sequence"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:bca1b4b0eb30",
+      "from": "level:a1:A1",
+      "to": "level:a0:A0",
+      "type": "HAS_PREREQUISITE",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "bayan-proficiency-sequence"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:dd6058f15743",
+      "from": "level:a1:A1",
+      "to": "level:a2:A2",
+      "type": "NEXT_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "bayan-proficiency-sequence"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:f09357cd477f",
+      "from": "level:a2:A2",
+      "to": "level:a1:A1",
+      "type": "PREVIOUS_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "bayan-proficiency-sequence"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:529adaa13e12",
+      "from": "level:a1:A1",
+      "to": "level:a2:A2",
+      "type": "PREREQUISITE_OF",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "bayan-proficiency-sequence"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:00fc66718f17",
+      "from": "level:a2:A2",
+      "to": "level:a1:A1",
+      "type": "HAS_PREREQUISITE",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "bayan-proficiency-sequence"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:4bf5a8c0f08e",
+      "from": "level:a2:A2",
+      "to": "level:b1:B1",
+      "type": "NEXT_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "bayan-proficiency-sequence"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:2ea29400581a",
+      "from": "level:b1:B1",
+      "to": "level:a2:A2",
+      "type": "PREVIOUS_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "bayan-proficiency-sequence"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:4d735f5c314a",
+      "from": "level:a2:A2",
+      "to": "level:b1:B1",
+      "type": "PREREQUISITE_OF",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "bayan-proficiency-sequence"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:4e1c6fe034e4",
+      "from": "level:b1:B1",
+      "to": "level:a2:A2",
+      "type": "HAS_PREREQUISITE",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "bayan-proficiency-sequence"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:e6add3591889",
+      "from": "level:b1:B1",
+      "to": "level:b2:B2",
+      "type": "NEXT_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "bayan-proficiency-sequence"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:b24efb5d8f18",
+      "from": "level:b2:B2",
+      "to": "level:b1:B1",
+      "type": "PREVIOUS_LEVEL",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "bayan-proficiency-sequence"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:f9f1e8890521",
+      "from": "level:b1:B1",
+      "to": "level:b2:B2",
+      "type": "PREREQUISITE_OF",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "bayan-proficiency-sequence"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:0f4a9dc8dbcd",
+      "from": "level:b2:B2",
+      "to": "level:b1:B1",
+      "type": "HAS_PREREQUISITE",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "bayan-proficiency-sequence"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:61a757d68769",
+      "from": "vocab:a0:vocab-a0-001",
+      "to": "topic:global:greetings",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:greetings"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:58bd7f5a1551",
+      "from": "vocab:a0:vocab-a0-001",
+      "to": "topic:global:greeting",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:greeting"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:e89e037ecfa0",
+      "from": "vocab:a0:vocab-a0-001",
+      "to": "topic:global:high-frequency",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:high-frequency"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:0a916575cf64",
+      "from": "vocab:a0:vocab-a0-002",
+      "to": "topic:global:courtesy",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:courtesy"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:71775d67536c",
+      "from": "vocab:a0:vocab-a0-002",
+      "to": "topic:global:high-frequency",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:high-frequency"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:4dce68a0f9f4",
+      "from": "vocab:a0:vocab-a0-003",
+      "to": "topic:global:classroom-language",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:classroom-language"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:67ce3c1563e4",
+      "from": "vocab:a0:vocab-a0-003",
+      "to": "topic:global:response",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:response"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:fe322b9223a3",
+      "from": "vocab:a0:vocab-a0-003",
+      "to": "topic:global:high-frequency",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:high-frequency"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:1cebe759d0cd",
+      "from": "vocab:a1:vocab-a1-001",
+      "to": "topic:global:school",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:school"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:a9c1f6a4ec29",
+      "from": "vocab:a1:vocab-a1-001",
+      "to": "topic:global:place",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:place"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:3b02fbed75f5",
+      "from": "vocab:a1:vocab-a1-002",
+      "to": "topic:global:needs",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:needs"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:1acca9d04301",
+      "from": "vocab:a1:vocab-a1-002",
+      "to": "topic:global:request",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:request"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:f93ab2e436de",
+      "from": "vocab:a1:vocab-a1-002",
+      "to": "topic:global:verb",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:verb"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:2b103f22e358",
+      "from": "vocab:a1:vocab-a1-002",
+      "to": "topic:global:high-frequency",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:high-frequency"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:18d5b3829dea",
+      "from": "vocab:a1:vocab-a1-003",
+      "to": "topic:global:directions",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:directions"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:a00dc9253fae",
+      "from": "vocab:a1:vocab-a1-003",
+      "to": "topic:global:question",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:question"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:3cdbc0e30314",
+      "from": "vocab:a1:vocab-a1-003",
+      "to": "topic:global:location",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:location"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:cc01f65f1b52",
+      "from": "vocab:a2:vocab-a2-001",
+      "to": "topic:global:travel",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:travel"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:c002e2cfa77e",
+      "from": "vocab:a2:vocab-a2-001",
+      "to": "topic:global:experience",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:experience"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:99ecad10220d",
+      "from": "vocab:a2:vocab-a2-002",
+      "to": "topic:global:preferences",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:preferences"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:d32aea7f9829",
+      "from": "vocab:a2:vocab-a2-002",
+      "to": "topic:global:preference",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:preference"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:7e69881a9298",
+      "from": "vocab:a2:vocab-a2-002",
+      "to": "topic:global:opinion",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:opinion"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:6c54fdd0610f",
+      "from": "vocab:b1:vocab-b1-001",
+      "to": "topic:global:opinions",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:opinions"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:da9ca0ba3d71",
+      "from": "vocab:b1:vocab-b1-001",
+      "to": "topic:global:discussion",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:discussion"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:dd4e69998a03",
+      "from": "vocab:b1:vocab-b1-001",
+      "to": "topic:global:opinion",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:opinion"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:2556a438bf01",
+      "from": "vocab:b1:vocab-b1-002",
+      "to": "topic:global:community",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:community"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:deadc7ef193b",
+      "from": "vocab:b1:vocab-b1-002",
+      "to": "topic:global:cause-effect",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:cause-effect"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:31823d993436",
+      "from": "vocab:b2:vocab-b2-001",
+      "to": "topic:global:argumentation",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:argumentation"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:bbb47165c342",
+      "from": "vocab:b2:vocab-b2-001",
+      "to": "topic:global:contrast",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:contrast"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:ecd6bc06405f",
+      "from": "vocab:b2:vocab-b2-002",
+      "to": "topic:global:cause-and-effect",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:cause-and-effect"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:bf8537eac60d",
+      "from": "vocab:b2:vocab-b2-002",
+      "to": "topic:global:academic-language",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:academic-language"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:f968438d9f18",
+      "from": "vocab:b2:vocab-b2-002",
+      "to": "topic:global:cause-effect",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:cause-effect"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:79fb801f256a",
+      "from": "dialogue:a0:dialogue-a0-greeting-001",
+      "to": "topic:global:school",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:school"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:46ab3e505f39",
+      "from": "dialogue:a1:dialogue-a1-cafe-001",
+      "to": "topic:global:cafe",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:cafe"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:1548293b0d66",
+      "from": "dialogue:a2:dialogue-a2-travel-001",
+      "to": "topic:global:travel",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:travel"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:830900688143",
+      "from": "dialogue:b1:dialogue-b1-school-project-001",
+      "to": "topic:global:school-project",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:school-project"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:54728c8bd3aa",
+      "from": "dialogue:b2:dialogue-b2-debate-001",
+      "to": "topic:global:academic-discussion",
+      "type": "RELATED_TO_TOPIC",
+      "weight": 1,
+      "confidence": 1,
+      "origin": "generated",
+      "evidence": [
+        "explicit-topic:academic-discussion"
+      ],
+      "status": "active",
+      "metadata": {}
+    },
+    {
+      "id": "edge:534e219a0bc4",
+      "from": "dialogue:a0:dialogue-a0-greeting-001",
+      "to": "vocab:a0:vocab-a0-001",
+      "type": "USES_VOCABULARY",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:greeting",
+        "shared-token:001",
+        "shared-token:greetings",
+        "shared-token:مرحبا",
+        "shared-token:hello",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:d78f682f2a80",
+      "from": "vocab:a0:vocab-a0-001",
+      "to": "dialogue:a0:dialogue-a0-greeting-001",
+      "type": "USED_IN",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:greeting",
+        "shared-token:001",
+        "shared-token:greetings",
+        "shared-token:مرحبا",
+        "shared-token:hello",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:053d3bcba562",
+      "from": "dialogue:a0:dialogue-a0-greeting-001",
+      "to": "vocab:a0:vocab-a0-003",
+      "type": "USES_VOCABULARY",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:انا",
+        "shared-token:am",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:fffc9de0cc54",
+      "from": "vocab:a0:vocab-a0-003",
+      "to": "dialogue:a0:dialogue-a0-greeting-001",
+      "type": "USED_IN",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:انا",
+        "shared-token:am",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:9a8de6bc5315",
+      "from": "dialogue:a0:dialogue-a0-greeting-001",
+      "to": "vocab:a0:vocab-a0-002",
+      "type": "USES_VOCABULARY",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:you",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:08a449209a13",
+      "from": "vocab:a0:vocab-a0-002",
+      "to": "dialogue:a0:dialogue-a0-greeting-001",
+      "type": "USED_IN",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:you",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:baacc6b75551",
+      "from": "dialogue:a1:dialogue-a1-cafe-001",
+      "to": "vocab:a1:vocab-a1-002",
+      "type": "USES_VOCABULARY",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:اريد",
+        "shared-token:من",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:b2840944b977",
+      "from": "vocab:a1:vocab-a1-002",
+      "to": "dialogue:a1:dialogue-a1-cafe-001",
+      "type": "USED_IN",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:اريد",
+        "shared-token:من",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:c2e09d21043b",
+      "from": "dialogue:a1:dialogue-a1-cafe-001",
+      "to": "vocab:a1:vocab-a1-001",
+      "type": "USES_VOCABULARY",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:the",
+        "shared-token:a1",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:d1068be57cce",
+      "from": "vocab:a1:vocab-a1-001",
+      "to": "dialogue:a1:dialogue-a1-cafe-001",
+      "type": "USED_IN",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:the",
+        "shared-token:a1",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:e3bf240be6a5",
+      "from": "dialogue:a1:dialogue-a1-cafe-001",
+      "to": "vocab:a1:vocab-a1-003",
+      "type": "USES_VOCABULARY",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:the",
+        "shared-token:a1",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:0bb560c239d6",
+      "from": "vocab:a1:vocab-a1-003",
+      "to": "dialogue:a1:dialogue-a1-cafe-001",
+      "type": "USED_IN",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:the",
+        "shared-token:a1",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:90d0b14fce95",
+      "from": "dialogue:a2:dialogue-a2-travel-001",
+      "to": "vocab:a2:vocab-a2-001",
+      "type": "USES_VOCABULARY",
+      "weight": 0.95,
+      "confidence": 0.95,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:الرحله",
+        "shared-token:trip",
+        "shared-token:a2",
+        "shared-token:travel",
+        "shared-token:001",
+        "shared-token:the",
+        "shared-token:and",
+        "shared-token:reviewed",
+        "shared-topic:travel"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:60c5e87f4719",
+      "from": "vocab:a2:vocab-a2-001",
+      "to": "dialogue:a2:dialogue-a2-travel-001",
+      "type": "USED_IN",
+      "weight": 0.95,
+      "confidence": 0.95,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:الرحله",
+        "shared-token:trip",
+        "shared-token:a2",
+        "shared-token:travel",
+        "shared-token:001",
+        "shared-token:the",
+        "shared-token:and",
+        "shared-token:reviewed",
+        "shared-topic:travel"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:af95a1614727",
+      "from": "dialogue:a2:dialogue-a2-travel-001",
+      "to": "vocab:a2:vocab-a2-002",
+      "type": "USES_VOCABULARY",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:the",
+        "shared-token:في",
+        "shared-token:in",
+        "shared-token:evening",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:3ac200198fd2",
+      "from": "vocab:a2:vocab-a2-002",
+      "to": "dialogue:a2:dialogue-a2-travel-001",
+      "type": "USED_IN",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:the",
+        "shared-token:في",
+        "shared-token:in",
+        "shared-token:evening",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:06bf45707a19",
+      "from": "dialogue:b1:dialogue-b1-school-project-001",
+      "to": "vocab:b1:vocab-b1-001",
+      "type": "USES_VOCABULARY",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1",
+        "shared-token:001",
+        "shared-token:but",
+        "shared-token:you",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:e5d637c45306",
+      "from": "vocab:b1:vocab-b1-001",
+      "to": "dialogue:b1:dialogue-b1-school-project-001",
+      "type": "USED_IN",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1",
+        "shared-token:001",
+        "shared-token:but",
+        "shared-token:you",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:e7456fb6d69c",
+      "from": "dialogue:b2:dialogue-b2-debate-001",
+      "to": "vocab:b2:vocab-b2-001",
+      "type": "USES_VOCABULARY",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:b2",
+        "shared-token:001",
+        "shared-token:argumentation",
+        "shared-token:it",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:8e9a06276e25",
+      "from": "vocab:b2:vocab-b2-001",
+      "to": "dialogue:b2:dialogue-b2-debate-001",
+      "type": "USED_IN",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:b2",
+        "shared-token:001",
+        "shared-token:argumentation",
+        "shared-token:it",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:e92feb9f20fa",
+      "from": "dialogue:b2:dialogue-b2-debate-001",
+      "to": "vocab:b2:vocab-b2-002",
+      "type": "USES_VOCABULARY",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:b2",
+        "shared-token:academic",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:3c3fcff7cc09",
+      "from": "vocab:b2:vocab-b2-002",
+      "to": "dialogue:b2:dialogue-b2-debate-001",
+      "type": "USED_IN",
+      "weight": 0.55,
+      "confidence": 0.55,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:b2",
+        "shared-token:academic",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:e734772cbf2e",
+      "from": "dialogue:a0:dialogue-a0-greeting-001",
+      "to": "grammar:a0:grammar-a0-001",
+      "type": "PRACTICES_GRAMMAR",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:26fe2e3abe32",
+      "from": "grammar:a0:grammar-a0-001",
+      "to": "dialogue:a0:dialogue-a0-greeting-001",
+      "type": "PRACTICED_IN",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:875dd20cae15",
+      "from": "dialogue:a1:dialogue-a1-cafe-001",
+      "to": "grammar:a1:grammar-a1-001",
+      "type": "PRACTICES_GRAMMAR",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:7658a3dd1d81",
+      "from": "grammar:a1:grammar-a1-001",
+      "to": "dialogue:a1:dialogue-a1-cafe-001",
+      "type": "PRACTICED_IN",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:c8f68ff426aa",
+      "from": "dialogue:a1:dialogue-a1-cafe-001",
+      "to": "grammar:a1:grammar-a1-002",
+      "type": "PRACTICES_GRAMMAR",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:37dbd042db74",
+      "from": "grammar:a1:grammar-a1-002",
+      "to": "dialogue:a1:dialogue-a1-cafe-001",
+      "type": "PRACTICED_IN",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:d5d2df4e0dc3",
+      "from": "dialogue:a2:dialogue-a2-travel-001",
+      "to": "grammar:a2:grammar-a2-001",
+      "type": "PRACTICES_GRAMMAR",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:001",
+        "shared-token:في",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:62d37e89a63f",
+      "from": "grammar:a2:grammar-a2-001",
+      "to": "dialogue:a2:dialogue-a2-travel-001",
+      "type": "PRACTICED_IN",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:001",
+        "shared-token:في",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:5df400c8a3cc",
+      "from": "dialogue:a2:dialogue-a2-travel-001",
+      "to": "grammar:a2:grammar-a2-002",
+      "type": "PRACTICES_GRAMMAR",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:الي",
+        "shared-token:في",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:e0020e108301",
+      "from": "grammar:a2:grammar-a2-002",
+      "to": "dialogue:a2:dialogue-a2-travel-001",
+      "type": "PRACTICED_IN",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:الي",
+        "shared-token:في",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:d3194a1b81b0",
+      "from": "dialogue:b1:dialogue-b1-school-project-001",
+      "to": "grammar:b1:grammar-b1-001",
+      "type": "PRACTICES_GRAMMAR",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1",
+        "shared-token:001",
+        "shared-token:عن",
+        "shared-token:الي",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:e52b5bfd7e88",
+      "from": "grammar:b1:grammar-b1-001",
+      "to": "dialogue:b1:dialogue-b1-school-project-001",
+      "type": "PRACTICED_IN",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1",
+        "shared-token:001",
+        "shared-token:عن",
+        "shared-token:الي",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:a28f64519c84",
+      "from": "dialogue:b1:dialogue-b1-school-project-001",
+      "to": "grammar:b1:grammar-b1-002",
+      "type": "PRACTICES_GRAMMAR",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:1c31a8550d37",
+      "from": "grammar:b1:grammar-b1-002",
+      "to": "dialogue:b1:dialogue-b1-school-project-001",
+      "type": "PRACTICED_IN",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:618f93be6b5b",
+      "from": "dialogue:b2:dialogue-b2-debate-001",
+      "to": "grammar:b2:grammar-b2-001",
+      "type": "PRACTICES_GRAMMAR",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:التعلم",
+        "shared-token:b2",
+        "shared-token:001",
+        "shared-token:يكون",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:6f696b45b411",
+      "from": "grammar:b2:grammar-b2-001",
+      "to": "dialogue:b2:dialogue-b2-debate-001",
+      "type": "PRACTICED_IN",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:التعلم",
+        "shared-token:b2",
+        "shared-token:001",
+        "shared-token:يكون",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:a21db56b890b",
+      "from": "vocab:a0:vocab-a0-001",
+      "to": "skill:a0:skill-a0-speaking-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:3f393cc2030f",
+      "from": "skill:a0:skill-a0-speaking-001",
+      "to": "vocab:a0:vocab-a0-001",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:0d5855c84308",
+      "from": "vocab:a0:vocab-a0-002",
+      "to": "skill:a0:skill-a0-speaking-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:e404289c679a",
+      "from": "skill:a0:skill-a0-speaking-001",
+      "to": "vocab:a0:vocab-a0-002",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:0f748a8116e9",
+      "from": "vocab:a0:vocab-a0-003",
+      "to": "skill:a0:skill-a0-speaking-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:ba2f328524c7",
+      "from": "skill:a0:skill-a0-speaking-001",
+      "to": "vocab:a0:vocab-a0-003",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:3486f25eba95",
+      "from": "vocab:a1:vocab-a1-001",
+      "to": "skill:a1:skill-a1-listening-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:4d2dbca02e10",
+      "from": "skill:a1:skill-a1-listening-001",
+      "to": "vocab:a1:vocab-a1-001",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:3140c5b03de7",
+      "from": "vocab:a1:vocab-a1-002",
+      "to": "skill:a1:skill-a1-listening-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:من"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:9192fa2f7862",
+      "from": "skill:a1:skill-a1-listening-001",
+      "to": "vocab:a1:vocab-a1-002",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:من"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:d244b685c032",
+      "from": "vocab:a1:vocab-a1-003",
+      "to": "skill:a1:skill-a1-listening-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:93300a18286b",
+      "from": "skill:a1:skill-a1-listening-001",
+      "to": "vocab:a1:vocab-a1-003",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:c99817b53e88",
+      "from": "vocab:a2:vocab-a2-001",
+      "to": "skill:a2:skill-a2-reading-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:465383dfabe3",
+      "from": "skill:a2:skill-a2-reading-001",
+      "to": "vocab:a2:vocab-a2-001",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:6b20161e113b",
+      "from": "vocab:a2:vocab-a2-002",
+      "to": "skill:a2:skill-a2-reading-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:في",
+        "shared-token:reading"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:80f45cc7e8e0",
+      "from": "skill:a2:skill-a2-reading-001",
+      "to": "vocab:a2:vocab-a2-002",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:في",
+        "shared-token:reading"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:baf225936893",
+      "from": "vocab:b1:vocab-b1-001",
+      "to": "skill:b1:skill-b1-writing-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:176f279bb034",
+      "from": "skill:b1:skill-b1-writing-001",
+      "to": "vocab:b1:vocab-b1-001",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:be27656eaa9c",
+      "from": "vocab:b1:vocab-b1-002",
+      "to": "skill:b1:skill-b1-writing-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:bcdac9344038",
+      "from": "skill:b1:skill-b1-writing-001",
+      "to": "vocab:b1:vocab-b1-002",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:67edcfc421a1",
+      "from": "vocab:b2:vocab-b2-001",
+      "to": "skill:b2:skill-b2-speaking-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:b2",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:46ede6e11255",
+      "from": "skill:b2:skill-b2-speaking-001",
+      "to": "vocab:b2:vocab-b2-001",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:b2",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:af753db8924c",
+      "from": "vocab:b2:vocab-b2-002",
+      "to": "skill:b2:skill-b2-speaking-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:b2"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:48d2ee084b53",
+      "from": "skill:b2:skill-b2-speaking-001",
+      "to": "vocab:b2:vocab-b2-002",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:b2"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:826b2a10a40b",
+      "from": "grammar:a0:grammar-a0-001",
+      "to": "skill:a0:skill-a0-speaking-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:0c679cbedbd4",
+      "from": "skill:a0:skill-a0-speaking-001",
+      "to": "grammar:a0:grammar-a0-001",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:5eb78bd7f86e",
+      "from": "grammar:a1:grammar-a1-001",
+      "to": "skill:a1:skill-a1-listening-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:001",
+        "shared-token:معلومه"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:d5205735fd1a",
+      "from": "skill:a1:skill-a1-listening-001",
+      "to": "grammar:a1:grammar-a1-001",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:001",
+        "shared-token:معلومه"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:3e6096bfa518",
+      "from": "grammar:a1:grammar-a1-002",
+      "to": "skill:a1:skill-a1-listening-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:عن"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:20c71ad63698",
+      "from": "skill:a1:skill-a1-listening-001",
+      "to": "grammar:a1:grammar-a1-002",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:عن"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:e62e314e4098",
+      "from": "grammar:a2:grammar-a2-001",
+      "to": "skill:a2:skill-a2-reading-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:001",
+        "shared-token:احداث",
+        "shared-token:في"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:2f762baeeb35",
+      "from": "skill:a2:skill-a2-reading-001",
+      "to": "grammar:a2:grammar-a2-001",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:001",
+        "shared-token:احداث",
+        "shared-token:في"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:97191221c50a",
+      "from": "grammar:a2:grammar-a2-002",
+      "to": "skill:a2:skill-a2-reading-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:في"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:c2cd6a81384b",
+      "from": "skill:a2:skill-a2-reading-001",
+      "to": "grammar:a2:grammar-a2-002",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:في"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:a3517192ebf1",
+      "from": "grammar:b1:grammar-b1-001",
+      "to": "skill:b1:skill-b1-writing-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:e5ef265b5764",
+      "from": "skill:b1:skill-b1-writing-001",
+      "to": "grammar:b1:grammar-b1-001",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:7947f28aceb7",
+      "from": "grammar:b1:grammar-b1-002",
+      "to": "skill:b1:skill-b1-writing-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:f2c5ce7a0f57",
+      "from": "skill:b1:skill-b1-writing-001",
+      "to": "grammar:b1:grammar-b1-002",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:0fa4c8e4be62",
+      "from": "grammar:b2:grammar-b2-001",
+      "to": "skill:b2:skill-b2-speaking-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:b2",
+        "shared-token:001",
+        "shared-token:في"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:4ee17660cd98",
+      "from": "skill:b2:skill-b2-speaking-001",
+      "to": "grammar:b2:grammar-b2-001",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:b2",
+        "shared-token:001",
+        "shared-token:في"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:89a08fc39be8",
+      "from": "dialogue:a0:dialogue-a0-greeting-001",
+      "to": "skill:a0:skill-a0-speaking-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:b2669ff5cfa1",
+      "from": "skill:a0:skill-a0-speaking-001",
+      "to": "dialogue:a0:dialogue-a0-greeting-001",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:8bd5155afb6a",
+      "from": "dialogue:a1:dialogue-a1-cafe-001",
+      "to": "skill:a1:skill-a1-listening-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:001",
+        "shared-token:من"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:d9cc9d45cf32",
+      "from": "skill:a1:skill-a1-listening-001",
+      "to": "dialogue:a1:dialogue-a1-cafe-001",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:001",
+        "shared-token:من"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:8edc15313f3c",
+      "from": "dialogue:a2:dialogue-a2-travel-001",
+      "to": "skill:a2:skill-a2-reading-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:001",
+        "shared-token:في",
+        "shared-token:من"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:5def7e96c035",
+      "from": "skill:a2:skill-a2-reading-001",
+      "to": "dialogue:a2:dialogue-a2-travel-001",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:001",
+        "shared-token:في",
+        "shared-token:من"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:7675eccddc01",
+      "from": "dialogue:b1:dialogue-b1-school-project-001",
+      "to": "skill:b1:skill-b1-writing-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1",
+        "shared-token:001",
+        "shared-token:ان"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:666152838ad0",
+      "from": "skill:b1:skill-b1-writing-001",
+      "to": "dialogue:b1:dialogue-b1-school-project-001",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1",
+        "shared-token:001",
+        "shared-token:ان"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:5b71318e37e4",
+      "from": "dialogue:b2:dialogue-b2-debate-001",
+      "to": "skill:b2:skill-b2-speaking-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:b2",
+        "shared-token:001",
+        "shared-token:ان",
+        "shared-token:عن"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:c9a1419ea44c",
+      "from": "skill:b2:skill-b2-speaking-001",
+      "to": "dialogue:b2:dialogue-b2-debate-001",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:b2",
+        "shared-token:001",
+        "shared-token:ان",
+        "shared-token:عن"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:3a0cea198bc4",
+      "from": "culture:a1:culture-a1-hospitality-001",
+      "to": "skill:a1:skill-a1-listening-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:001",
+        "shared-token:واحده"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:9fe85c6e6378",
+      "from": "skill:a1:skill-a1-listening-001",
+      "to": "culture:a1:culture-a1-hospitality-001",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:001",
+        "shared-token:واحده"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:4cb86d7742c9",
+      "from": "culture:a2:culture-a2-arab-world-001",
+      "to": "skill:a2:skill-a2-reading-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:001",
+        "shared-token:في",
+        "shared-token:علي"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:f506231a92cc",
+      "from": "skill:a2:skill-a2-reading-001",
+      "to": "culture:a2:culture-a2-arab-world-001",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:001",
+        "shared-token:في",
+        "shared-token:علي"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:af12382d5f28",
+      "from": "culture:b1:culture-b1-majlis-001",
+      "to": "skill:b1:skill-b1-writing-001",
+      "type": "ALIGNS_WITH_SKILL",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:1cb84f15c683",
+      "from": "skill:b1:skill-b1-writing-001",
+      "to": "culture:b1:culture-b1-majlis-001",
+      "type": "DEVELOPED_BY",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:721989b22d5b",
+      "from": "vocab:a0:vocab-a0-001",
+      "to": "assessment:a0:assessment-a0-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:001",
+        "shared-token:vocabulary",
+        "shared-token:مرحبا",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:382d9882a613",
+      "from": "assessment:a0:assessment-a0-001",
+      "to": "vocab:a0:vocab-a0-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:001",
+        "shared-token:vocabulary",
+        "shared-token:مرحبا",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:836b01b38ffe",
+      "from": "vocab:a0:vocab-a0-002",
+      "to": "assessment:a0:assessment-a0-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:vocabulary",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:d8d79bea5204",
+      "from": "assessment:a0:assessment-a0-001",
+      "to": "vocab:a0:vocab-a0-002",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:vocabulary",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:3e4e97f9070f",
+      "from": "grammar:a0:grammar-a0-001",
+      "to": "assessment:a0:assessment-a0-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:001",
+        "shared-token:كتاب",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:b65c1fe04c42",
+      "from": "assessment:a0:assessment-a0-001",
+      "to": "grammar:a0:grammar-a0-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:001",
+        "shared-token:كتاب",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:ddf62a2ebe21",
+      "from": "vocab:a0:vocab-a0-003",
+      "to": "assessment:a0:assessment-a0-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:vocabulary",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:74a44d5df5d8",
+      "from": "assessment:a0:assessment-a0-001",
+      "to": "vocab:a0:vocab-a0-003",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:vocabulary",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:81760e00274e",
+      "from": "dialogue:a0:dialogue-a0-greeting-001",
+      "to": "assessment:a0:assessment-a0-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:001",
+        "shared-token:مرحبا",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:291113557c49",
+      "from": "assessment:a0:assessment-a0-001",
+      "to": "dialogue:a0:dialogue-a0-greeting-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:001",
+        "shared-token:مرحبا",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:f876fa36887e",
+      "from": "skill:a0:skill-a0-speaking-001",
+      "to": "assessment:a0:assessment-a0-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:a2cbddb6661d",
+      "from": "assessment:a0:assessment-a0-001",
+      "to": "skill:a0:skill-a0-speaking-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A0",
+        "shared-token:a0",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:77806677afb0",
+      "from": "grammar:a1:grammar-a1-001",
+      "to": "assessment:a1:assessment-a1-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:الجمله",
+        "shared-token:a1",
+        "shared-token:001",
+        "shared-token:grammar",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:7bad783e346c",
+      "from": "assessment:a1:assessment-a1-001",
+      "to": "grammar:a1:grammar-a1-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:الجمله",
+        "shared-token:a1",
+        "shared-token:001",
+        "shared-token:grammar",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:dff3769b4f23",
+      "from": "vocab:a1:vocab-a1-001",
+      "to": "assessment:a1:assessment-a1-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:32d938dbd89d",
+      "from": "assessment:a1:assessment-a1-001",
+      "to": "vocab:a1:vocab-a1-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:153c328f9dbb",
+      "from": "grammar:a1:grammar-a1-002",
+      "to": "assessment:a1:assessment-a1-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:grammar",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:58d6c86c70f5",
+      "from": "assessment:a1:assessment-a1-001",
+      "to": "grammar:a1:grammar-a1-002",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:grammar",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:5d3c0e5275c5",
+      "from": "vocab:a1:vocab-a1-003",
+      "to": "assessment:a1:assessment-a1-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:4d105be2b840",
+      "from": "assessment:a1:assessment-a1-001",
+      "to": "vocab:a1:vocab-a1-003",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:096e1b8da80b",
+      "from": "vocab:a1:vocab-a1-002",
+      "to": "assessment:a1:assessment-a1-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:d2b7e7ce6882",
+      "from": "assessment:a1:assessment-a1-001",
+      "to": "vocab:a1:vocab-a1-002",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:441905ecbab3",
+      "from": "culture:a1:culture-a1-hospitality-001",
+      "to": "assessment:a1:assessment-a1-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:622de5157cb1",
+      "from": "assessment:a1:assessment-a1-001",
+      "to": "culture:a1:culture-a1-hospitality-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A1",
+        "shared-token:a1",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:256720c6d1c5",
+      "from": "grammar:a2:grammar-a2-002",
+      "to": "assessment:a2:assessment-a2-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:ثم",
+        "shared-token:لكن",
+        "shared-token:لان",
+        "shared-token:a2",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:6e4116d25864",
+      "from": "assessment:a2:assessment-a2-001",
+      "to": "grammar:a2:grammar-a2-002",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:ثم",
+        "shared-token:لكن",
+        "shared-token:لان",
+        "shared-token:a2",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:c996be9519eb",
+      "from": "vocab:a2:vocab-a2-001",
+      "to": "assessment:a2:assessment-a2-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:رحله",
+        "shared-token:a2",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:e62988a7e5ad",
+      "from": "assessment:a2:assessment-a2-001",
+      "to": "vocab:a2:vocab-a2-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:رحله",
+        "shared-token:a2",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:7347b7ffcde8",
+      "from": "grammar:a2:grammar-a2-001",
+      "to": "assessment:a2:assessment-a2-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:eca04ada90aa",
+      "from": "assessment:a2:assessment-a2-001",
+      "to": "grammar:a2:grammar-a2-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:5a038a4f8d9f",
+      "from": "vocab:a2:vocab-a2-002",
+      "to": "assessment:a2:assessment-a2-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:e5229a70cb6c",
+      "from": "assessment:a2:assessment-a2-001",
+      "to": "vocab:a2:vocab-a2-002",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:ea0aefe14eb0",
+      "from": "culture:a2:culture-a2-arab-world-001",
+      "to": "assessment:a2:assessment-a2-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:4ff9ba5aafca",
+      "from": "assessment:a2:assessment-a2-001",
+      "to": "culture:a2:culture-a2-arab-world-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:d4cdbc14bf97",
+      "from": "skill:a2:skill-a2-reading-001",
+      "to": "assessment:a2:assessment-a2-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:44d44d92f930",
+      "from": "assessment:a2:assessment-a2-001",
+      "to": "skill:a2:skill-a2-reading-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:A2",
+        "shared-token:a2",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:1b3d49c50961",
+      "from": "vocab:b1:vocab-b1-002",
+      "to": "assessment:b1:assessment-b1-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:التطوع",
+        "shared-token:في",
+        "shared-token:المجتمع",
+        "shared-token:b1",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:04ceae085b79",
+      "from": "assessment:b1:assessment-b1-001",
+      "to": "vocab:b1:vocab-b1-002",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:التطوع",
+        "shared-token:في",
+        "shared-token:المجتمع",
+        "shared-token:b1",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:e0c39ff956a5",
+      "from": "culture:b1:culture-b1-majlis-001",
+      "to": "assessment:b1:assessment-b1-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:في",
+        "shared-token:المجتمع",
+        "shared-token:b1",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:2653a1c7262e",
+      "from": "assessment:b1:assessment-b1-001",
+      "to": "culture:b1:culture-b1-majlis-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:في",
+        "shared-token:المجتمع",
+        "shared-token:b1",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:3c266eb4a010",
+      "from": "grammar:b1:grammar-b1-001",
+      "to": "assessment:b1:assessment-b1-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:عن",
+        "shared-token:b1",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:16a6bcf3836c",
+      "from": "assessment:b1:assessment-b1-001",
+      "to": "grammar:b1:grammar-b1-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:عن",
+        "shared-token:b1",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:0f43808a06d3",
+      "from": "vocab:b1:vocab-b1-001",
+      "to": "assessment:b1:assessment-b1-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:6d13301bc970",
+      "from": "assessment:b1:assessment-b1-001",
+      "to": "vocab:b1:vocab-b1-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:b1",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:aa2f754ecfde",
+      "from": "grammar:b1:grammar-b1-002",
+      "to": "assessment:b1:assessment-b1-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:في",
+        "shared-token:b1",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:d0b5d825f11b",
+      "from": "assessment:b1:assessment-b1-001",
+      "to": "grammar:b1:grammar-b1-002",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:في",
+        "shared-token:b1",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:473d1451b370",
+      "from": "dialogue:b1:dialogue-b1-school-project-001",
+      "to": "assessment:b1:assessment-b1-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:عن",
+        "shared-token:b1",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:9f40b6a5c6e6",
+      "from": "assessment:b1:assessment-b1-001",
+      "to": "dialogue:b1:dialogue-b1-school-project-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B1",
+        "shared-token:عن",
+        "shared-token:b1",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:4ef7bcbac8af",
+      "from": "grammar:b2:grammar-b2-001",
+      "to": "assessment:b2:assessment-b2-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:التعلم",
+        "shared-token:b2",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:1e07cfb155af",
+      "from": "assessment:b2:assessment-b2-001",
+      "to": "grammar:b2:grammar-b2-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:التعلم",
+        "shared-token:b2",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:ae0a4875f7ba",
+      "from": "dialogue:b2:dialogue-b2-debate-001",
+      "to": "assessment:b2:assessment-b2-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:التعلم",
+        "shared-token:الرقمي",
+        "shared-token:b2",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:5630600f518b",
+      "from": "assessment:b2:assessment-b2-001",
+      "to": "dialogue:b2:dialogue-b2-debate-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:التعلم",
+        "shared-token:الرقمي",
+        "shared-token:b2",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:46379911c505",
+      "from": "vocab:b2:vocab-b2-001",
+      "to": "assessment:b2:assessment-b2-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:b2",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:65666f6af6e6",
+      "from": "assessment:b2:assessment-b2-001",
+      "to": "vocab:b2:vocab-b2-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:b2",
+        "shared-token:001",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:b2d4b2805932",
+      "from": "vocab:b2:vocab-b2-002",
+      "to": "assessment:b2:assessment-b2-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:b2",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:152c6e2cccb1",
+      "from": "assessment:b2:assessment-b2-001",
+      "to": "vocab:b2:vocab-b2-002",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:b2",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:6af85ff85a5f",
+      "from": "skill:b2:skill-b2-speaking-001",
+      "to": "assessment:b2:assessment-b2-001",
+      "type": "ASSESSED_BY",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:b2",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:e46c5d6b375d",
+      "from": "assessment:b2:assessment-b2-001",
+      "to": "skill:b2:skill-b2-speaking-001",
+      "type": "ASSESSES",
+      "weight": 0.48,
+      "confidence": 0.48,
+      "origin": "generated",
+      "evidence": [
+        "same-level:B2",
+        "shared-token:b2",
+        "shared-token:001"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:647d4c55514d",
+      "from": "grammar:a0:grammar-a0-001",
+      "to": "grammar:a1:grammar-a1-001",
+      "type": "PREREQUISITE_OF",
+      "weight": 0.45,
+      "confidence": 0.45,
+      "origin": "generated",
+      "evidence": [
+        "previous-level:A0",
+        "shared-token:grammar",
+        "shared-token:001",
+        "shared-token:او",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:effc25b38e9c",
+      "from": "grammar:a1:grammar-a1-001",
+      "to": "grammar:a0:grammar-a0-001",
+      "type": "HAS_PREREQUISITE",
+      "weight": 0.45,
+      "confidence": 0.45,
+      "origin": "generated",
+      "evidence": [
+        "previous-level:A0",
+        "shared-token:grammar",
+        "shared-token:001",
+        "shared-token:او",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:82a11732897c",
+      "from": "grammar:a0:grammar-a0-001",
+      "to": "grammar:a1:grammar-a1-002",
+      "type": "PREREQUISITE_OF",
+      "weight": 0.45,
+      "confidence": 0.45,
+      "origin": "generated",
+      "evidence": [
+        "previous-level:A0",
+        "shared-token:grammar",
+        "shared-token:الي",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:0efef0886605",
+      "from": "grammar:a1:grammar-a1-002",
+      "to": "grammar:a0:grammar-a0-001",
+      "type": "HAS_PREREQUISITE",
+      "weight": 0.45,
+      "confidence": 0.45,
+      "origin": "generated",
+      "evidence": [
+        "previous-level:A0",
+        "shared-token:grammar",
+        "shared-token:الي",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:d7b32fe07e00",
+      "from": "grammar:a1:grammar-a1-002",
+      "to": "grammar:a2:grammar-a2-001",
+      "type": "PREREQUISITE_OF",
+      "weight": 0.45,
+      "confidence": 0.45,
+      "origin": "generated",
+      "evidence": [
+        "previous-level:A1",
+        "shared-token:الفعل",
+        "shared-token:tense",
+        "shared-token:grammar",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:f20b8689c770",
+      "from": "grammar:a2:grammar-a2-001",
+      "to": "grammar:a1:grammar-a1-002",
+      "type": "HAS_PREREQUISITE",
+      "weight": 0.45,
+      "confidence": 0.45,
+      "origin": "generated",
+      "evidence": [
+        "previous-level:A1",
+        "shared-token:الفعل",
+        "shared-token:tense",
+        "shared-token:grammar",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:f2846f0e9ab9",
+      "from": "grammar:a1:grammar-a1-001",
+      "to": "grammar:a2:grammar-a2-002",
+      "type": "PREREQUISITE_OF",
+      "weight": 0.45,
+      "confidence": 0.45,
+      "origin": "generated",
+      "evidence": [
+        "previous-level:A1",
+        "shared-token:basic",
+        "shared-token:grammar",
+        "shared-token:او",
+        "shared-token:ثم",
+        "shared-token:الطقس",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:0ceb2c38deb4",
+      "from": "grammar:a2:grammar-a2-002",
+      "to": "grammar:a1:grammar-a1-001",
+      "type": "HAS_PREREQUISITE",
+      "weight": 0.45,
+      "confidence": 0.45,
+      "origin": "generated",
+      "evidence": [
+        "previous-level:A1",
+        "shared-token:basic",
+        "shared-token:grammar",
+        "shared-token:او",
+        "shared-token:ثم",
+        "shared-token:الطقس",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:9639488e4ec1",
+      "from": "grammar:a2:grammar-a2-002",
+      "to": "grammar:b1:grammar-b1-001",
+      "type": "PREREQUISITE_OF",
+      "weight": 0.45,
+      "confidence": 0.45,
+      "origin": "generated",
+      "evidence": [
+        "previous-level:A2",
+        "shared-token:grammar",
+        "shared-token:الي",
+        "shared-token:كان",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:3a06e56f6540",
+      "from": "grammar:b1:grammar-b1-001",
+      "to": "grammar:a2:grammar-a2-002",
+      "type": "HAS_PREREQUISITE",
+      "weight": 0.45,
+      "confidence": 0.45,
+      "origin": "generated",
+      "evidence": [
+        "previous-level:A2",
+        "shared-token:grammar",
+        "shared-token:الي",
+        "shared-token:كان",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:1ee8399c657d",
+      "from": "grammar:a2:grammar-a2-001",
+      "to": "grammar:b1:grammar-b1-002",
+      "type": "PREREQUISITE_OF",
+      "weight": 0.45,
+      "confidence": 0.45,
+      "origin": "generated",
+      "evidence": [
+        "previous-level:A2",
+        "shared-token:الفعل",
+        "shared-token:grammar",
+        "shared-token:او",
+        "shared-token:في",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:843e4b027b09",
+      "from": "grammar:b1:grammar-b1-002",
+      "to": "grammar:a2:grammar-a2-001",
+      "type": "HAS_PREREQUISITE",
+      "weight": 0.45,
+      "confidence": 0.45,
+      "origin": "generated",
+      "evidence": [
+        "previous-level:A2",
+        "shared-token:الفعل",
+        "shared-token:grammar",
+        "shared-token:او",
+        "shared-token:في",
+        "shared-token:reviewed"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:9dba4e579143",
+      "from": "grammar:b1:grammar-b1-002",
+      "to": "grammar:b2:grammar-b2-001",
+      "type": "PREREQUISITE_OF",
+      "weight": 0.45,
+      "confidence": 0.45,
+      "origin": "generated",
+      "evidence": [
+        "previous-level:B1",
+        "shared-token:الفاعل",
+        "shared-token:grammar",
+        "shared-token:من",
+        "shared-token:الفعل",
+        "shared-token:علي",
+        "shared-token:بالفعل",
+        "shared-token:او",
+        "shared-token:في"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    },
+    {
+      "id": "edge:131d9c3f07fd",
+      "from": "grammar:b2:grammar-b2-001",
+      "to": "grammar:b1:grammar-b1-002",
+      "type": "HAS_PREREQUISITE",
+      "weight": 0.45,
+      "confidence": 0.45,
+      "origin": "generated",
+      "evidence": [
+        "previous-level:B1",
+        "shared-token:الفاعل",
+        "shared-token:grammar",
+        "shared-token:من",
+        "shared-token:الفعل",
+        "shared-token:علي",
+        "shared-token:بالفعل",
+        "shared-token:او",
+        "shared-token:في"
+      ],
+      "status": "active",
+      "metadata": {
+        "generatedBy": "semantic-relations-v2"
+      }
+    }
+  ]
+}

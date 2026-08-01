@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "maxAttempts": 3,
+  "claimTimeoutMinutes": 30,
+  "supportedMediaTypes": ["application/pdf"],
+  "artifactDirectory": "app/learn/arabic-b/knowledge/extraction/artifacts"
+}

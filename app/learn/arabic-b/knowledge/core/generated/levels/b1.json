@@ -1,0 +1,186 @@
+{
+  "level": "B1",
+  "generatedAt": "2026-07-29T10:14:09.086Z",
+  "items": [
+    {
+      "id": "vocab-b1-001",
+      "type": "vocabulary",
+      "level": "B1",
+      "arabic": "وِجْهَةُ نَظَر",
+      "translationEn": "Point of view",
+      "transliteration": "wijhat nazar",
+      "partOfSpeech": "noun-phrase",
+      "topic": "opinions",
+      "examples": [
+        {
+          "arabic": "أَحْتَرِمُ وِجْهَةَ نَظَرِكَ وَلَكِنَّنِي أَخْتَلِفُ مَعَكَ.",
+          "translationEn": "I respect your point of view, but I disagree with you."
+        }
+      ],
+      "tags": [
+        "discussion",
+        "opinion"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-b1-001 B1 vocabulary وِجْهَةُ نَظَر Point of view discussion opinion أَحْتَرِمُ وِجْهَةَ نَظَرِكَ وَلَكِنَّنِي أَخْتَلِفُ مَعَكَ. I respect your point of view, but I disagree with you."
+    },
+    {
+      "id": "vocab-b1-002",
+      "type": "vocabulary",
+      "level": "B1",
+      "arabic": "يُساهِمُ",
+      "translationEn": "Contributes",
+      "transliteration": "yusahimu",
+      "partOfSpeech": "verb",
+      "root": "س ه م",
+      "topic": "community",
+      "examples": [
+        {
+          "arabic": "يُساهِمُ التَّطَوُّعُ في تَحْسِينِ المُجْتَمَعِ.",
+          "translationEn": "Volunteering contributes to improving society."
+        }
+      ],
+      "tags": [
+        "community",
+        "cause-effect"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-b1-002 B1 vocabulary يُساهِمُ Contributes community cause-effect يُساهِمُ التَّطَوُّعُ في تَحْسِينِ المُجْتَمَعِ. Volunteering contributes to improving society."
+    },
+    {
+      "id": "grammar-b1-001",
+      "type": "grammar",
+      "level": "B1",
+      "titleAr": "أسلوب الشرط الواقعي",
+      "titleEn": "Real conditional",
+      "function": "التعبير عن نتيجة مرتبطة بشرط ممكن.",
+      "explanationAr": "يمكن استخدام إذا لعرض شرط متوقع ونتيجته.",
+      "examples": [
+        "إِذا دَرَسْتَ بِانْتِظامٍ فَسَتَتَقَدَّمُ.",
+        "إِذا كانَ الجَوُّ مُناسِبًا سَنَذْهَبُ إِلَى الحَديقَةِ."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "grammar/core-grammar.json",
+      "searchableText": "grammar-b1-001 B1 grammar أسلوب الشرط الواقعي Real conditional يمكن استخدام إذا لعرض شرط متوقع ونتيجته. التعبير عن نتيجة مرتبطة بشرط ممكن. إِذا دَرَسْتَ بِانْتِظامٍ فَسَتَتَقَدَّمُ. إِذا كانَ الجَوُّ مُناسِبًا سَنَذْهَبُ إِلَى الحَديقَةِ."
+    },
+    {
+      "id": "grammar-b1-002",
+      "type": "grammar",
+      "level": "B1",
+      "titleAr": "اسم الفاعل",
+      "titleEn": "Active participle",
+      "function": "وصف من يقوم بالفعل أو حالته.",
+      "explanationAr": "يُشتق اسم الفاعل من الفعل الثلاثي غالبًا على وزن فاعل.",
+      "examples": [
+        "الطالِبُ مُشارِكٌ في النَّشاطِ.",
+        "المُعَلِّمُ واقِفٌ أَمامَ السَّبّورَةِ."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "grammar/core-grammar.json",
+      "searchableText": "grammar-b1-002 B1 grammar اسم الفاعل Active participle يُشتق اسم الفاعل من الفعل الثلاثي غالبًا على وزن فاعل. وصف من يقوم بالفعل أو حالته. الطالِبُ مُشارِكٌ في النَّشاطِ. المُعَلِّمُ واقِفٌ أَمامَ السَّبّورَةِ."
+    },
+    {
+      "id": "skill-b1-writing-001",
+      "type": "skill",
+      "level": "B1",
+      "skill": "writing",
+      "objectiveAr": "أن يكتب المتعلم نصًا مترابطًا يعرض رأيًا وأسبابًا.",
+      "successCriteria": [
+        "يقدم موقفًا واضحًا.",
+        "يدعم موقفه بسببين.",
+        "يستخدم أدوات ربط مناسبة."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "collection": "skills/core-skills.json",
+      "searchableText": "skill-b1-writing-001 B1 skill أن يكتب المتعلم نصًا مترابطًا يعرض رأيًا وأسبابًا."
+    },
+    {
+      "id": "dialogue-b1-school-project-001",
+      "type": "dialogue",
+      "level": "B1",
+      "titleAr": "التخطيط لمشروع مدرسي",
+      "titleEn": "Planning a school project",
+      "situation": "school-project",
+      "characters": [
+        "ريم",
+        "يوسف"
+      ],
+      "turns": [
+        {
+          "speaker": "ريم",
+          "arabic": "أَقْتَرِحُ أَنْ نُعِدَّ مَشْروعًا عَنِ الطّاقَةِ النَّظيفَةِ.",
+          "translationEn": "I suggest that we prepare a project about clean energy."
+        },
+        {
+          "speaker": "يوسف",
+          "arabic": "فِكْرَةٌ جَيِّدَةٌ، لَكِنْ نَحْتاجُ إِلى مَصادِرَ مَوْثوقَةٍ.",
+          "translationEn": "That is a good idea, but we need reliable sources."
+        },
+        {
+          "speaker": "ريم",
+          "arabic": "سَأَبْحَثُ عَنِ المَعْلوماتِ، وَيُمْكِنُكَ إِعْدادُ العَرْضِ.",
+          "translationEn": "I will research the information, and you can prepare the presentation."
+        }
+      ],
+      "targets": [
+        "suggestion",
+        "agreement",
+        "project-planning"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "dialogues/core-dialogues.json",
+      "searchableText": "dialogue-b1-school-project-001 B1 dialogue التخطيط لمشروع مدرسي Planning a school project suggestion agreement project-planning ريم أَقْتَرِحُ أَنْ نُعِدَّ مَشْروعًا عَنِ الطّاقَةِ النَّظيفَةِ. I suggest that we prepare a project about clean energy. يوسف فِكْرَةٌ جَيِّدَةٌ، لَكِنْ نَحْتاجُ إِلى مَصادِرَ مَوْثوقَةٍ. That is a good idea, but we need reliable sources. ريم سَأَبْحَثُ عَنِ المَعْلوماتِ، وَيُمْكِنُكَ إِعْدادُ العَرْضِ. I will research the information, and you can prepare the presentation."
+    },
+    {
+      "id": "culture-b1-majlis-001",
+      "type": "culture",
+      "level": "B1",
+      "titleAr": "المجلس والتواصل الاجتماعي",
+      "titleEn": "The majlis and social communication",
+      "summaryAr": "يؤدي المجلس في بعض مجتمعات الخليج أدوارًا اجتماعية وثقافية، وقد يكون مكانًا لاستقبال الضيوف وتبادل الأخبار ومناقشة شؤون المجتمع.",
+      "learningFocus": [
+        "مقارنة أشكال التجمع الاجتماعي.",
+        "استخدام لغة الوصف والمقارنة.",
+        "فهم ارتباط المكان بالهوية الاجتماعية."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "culture/core-culture.json",
+      "searchableText": "culture-b1-majlis-001 B1 culture المجلس والتواصل الاجتماعي The majlis and social communication يؤدي المجلس في بعض مجتمعات الخليج أدوارًا اجتماعية وثقافية، وقد يكون مكانًا لاستقبال الضيوف وتبادل الأخبار ومناقشة شؤون المجتمع."
+    },
+    {
+      "id": "assessment-b1-001",
+      "type": "assessment",
+      "level": "B1",
+      "skill": "speaking",
+      "questionType": "oral-task",
+      "promptAr": "تحدث لمدة دقيقتين عن أثر التطوع في المجتمع، واذكر سببين ومثالًا.",
+      "rubric": {
+        "communication": 4,
+        "organization": 2,
+        "vocabulary": 2,
+        "accuracy": 2
+      },
+      "points": 10,
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "assessments/core-assessments.json",
+      "searchableText": "assessment-b1-001 B1 assessment"
+    }
+  ]
+}

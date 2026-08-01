@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bayan.world/schemas/source-record.json",
+  "title": "BAYAN Source Record",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "fileName",
+    "mediaType",
+    "sourceType",
+    "language",
+    "license",
+    "checksumSha256",
+    "registeredAt",
+    "updatedAt",
+    "lifecycle",
+    "reviewStatus"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 3 },
+    "title": { "type": "string", "minLength": 1 },
+    "author": { "type": "string" },
+    "publisher": { "type": "string" },
+    "publicationYear": { "type": "integer", "minimum": 1800, "maximum": 2200 },
+    "edition": { "type": "string" },
+    "isbn": { "type": "string" },
+    "fileName": { "type": "string", "minLength": 1 },
+    "originalPath": { "type": "string" },
+    "mediaType": { "type": "string", "minLength": 1 },
+    "sourceType": {
+      "enum": [
+        "student-book",
+        "teacher-guide",
+        "activity-book",
+        "assessment-book",
+        "curriculum-framework",
+        "audio",
+        "video",
+        "worksheet",
+        "reference",
+        "other"
+      ]
+    },
+    "grade": { "type": "integer", "minimum": 1, "maximum": 12 },
+    "cefr": { "enum": ["A0", "A1", "A2", "B1", "B2"] },
+    "language": { "type": "string", "minLength": 2 },
+    "license": { "type": "string", "minLength": 1 },
+    "pageCount": { "type": "integer", "minimum": 1 },
+    "checksumSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "registeredAt": { "type": "string" },
+    "updatedAt": { "type": "string" },
+    "lifecycle": {
+      "enum": [
+        "registered",
+        "queued",
+        "extracting",
+        "needs-review",
+        "approved",
+        "indexed",
+        "archived"
+      ]
+    },
+    "reviewStatus": {
+      "enum": ["pending", "in-review", "approved", "rejected"]
+    },
+    "notes": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": false
+}

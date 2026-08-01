@@ -1,0 +1,18 @@
+{
+  "jobId": "extract-book-7-93a54433-93a54433",
+  "sourceId": "book-7-93a54433",
+  "extractedAt": "2026-07-28T17:08:16.872Z",
+  "metadata": {
+    "pdfVersion": "1.4",
+    "fileSizeBytes": 7296576,
+    "estimatedPageCount": 50,
+    "title": null,
+    "author": null,
+    "creator": "Canon iR-ADV C5540  PDF",
+    "producer": "Adobe PSL 1.3e for Canon",
+    "creationDate": "D:20190911023133+04'00'",
+    "modificationDate": "D:20190911150918+04'00'",
+    "encrypted": false,
+    "extractionMethod": "native-pdf-object-scan-v1"
+  }
+}

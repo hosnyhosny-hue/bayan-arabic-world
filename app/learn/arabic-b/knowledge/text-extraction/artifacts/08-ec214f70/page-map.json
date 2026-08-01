@@ -1,0 +1,512 @@
+[
+  {
+    "page": 1,
+    "file": "pages/page-001.txt",
+    "rawOffsetStart": 0,
+    "rawOffsetEnd": 36,
+    "characters": 36,
+    "words": 3,
+    "paragraphs": 1,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 2,
+    "file": "pages/page-002.txt",
+    "rawOffsetStart": 38,
+    "rawOffsetEnd": 38,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 3,
+    "file": "pages/page-003.txt",
+    "rawOffsetStart": 40,
+    "rawOffsetEnd": 129,
+    "characters": 89,
+    "words": 23,
+    "paragraphs": 3,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 4,
+    "file": "pages/page-004.txt",
+    "rawOffsetStart": 131,
+    "rawOffsetEnd": 149,
+    "characters": 18,
+    "words": 6,
+    "paragraphs": 2,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 5,
+    "file": "pages/page-005.txt",
+    "rawOffsetStart": 151,
+    "rawOffsetEnd": 425,
+    "characters": 274,
+    "words": 47,
+    "paragraphs": 10,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 6,
+    "file": "pages/page-006.txt",
+    "rawOffsetStart": 427,
+    "rawOffsetEnd": 580,
+    "characters": 153,
+    "words": 24,
+    "paragraphs": 6,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 7,
+    "file": "pages/page-007.txt",
+    "rawOffsetStart": 582,
+    "rawOffsetEnd": 586,
+    "characters": 4,
+    "words": 2,
+    "paragraphs": 2,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 8,
+    "file": "pages/page-008.txt",
+    "rawOffsetStart": 588,
+    "rawOffsetEnd": 588,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 9,
+    "file": "pages/page-009.txt",
+    "rawOffsetStart": 590,
+    "rawOffsetEnd": 590,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 10,
+    "file": "pages/page-010.txt",
+    "rawOffsetStart": 592,
+    "rawOffsetEnd": 1258,
+    "characters": 666,
+    "words": 109,
+    "paragraphs": 7,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 11,
+    "file": "pages/page-011.txt",
+    "rawOffsetStart": 1260,
+    "rawOffsetEnd": 1260,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 12,
+    "file": "pages/page-012.txt",
+    "rawOffsetStart": 1262,
+    "rawOffsetEnd": 1325,
+    "characters": 63,
+    "words": 13,
+    "paragraphs": 5,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 13,
+    "file": "pages/page-013.txt",
+    "rawOffsetStart": 1327,
+    "rawOffsetEnd": 1327,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 14,
+    "file": "pages/page-014.txt",
+    "rawOffsetStart": 1329,
+    "rawOffsetEnd": 1501,
+    "characters": 172,
+    "words": 31,
+    "paragraphs": 3,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 15,
+    "file": "pages/page-015.txt",
+    "rawOffsetStart": 1503,
+    "rawOffsetEnd": 1843,
+    "characters": 340,
+    "words": 56,
+    "paragraphs": 7,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 16,
+    "file": "pages/page-016.txt",
+    "rawOffsetStart": 1845,
+    "rawOffsetEnd": 1845,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 17,
+    "file": "pages/page-017.txt",
+    "rawOffsetStart": 1847,
+    "rawOffsetEnd": 1848,
+    "characters": 1,
+    "words": 1,
+    "paragraphs": 1,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 18,
+    "file": "pages/page-018.txt",
+    "rawOffsetStart": 1850,
+    "rawOffsetEnd": 1850,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 19,
+    "file": "pages/page-019.txt",
+    "rawOffsetStart": 1852,
+    "rawOffsetEnd": 2000,
+    "characters": 148,
+    "words": 30,
+    "paragraphs": 3,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 20,
+    "file": "pages/page-020.txt",
+    "rawOffsetStart": 2002,
+    "rawOffsetEnd": 2289,
+    "characters": 287,
+    "words": 52,
+    "paragraphs": 4,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 21,
+    "file": "pages/page-021.txt",
+    "rawOffsetStart": 2291,
+    "rawOffsetEnd": 2292,
+    "characters": 1,
+    "words": 1,
+    "paragraphs": 1,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 22,
+    "file": "pages/page-022.txt",
+    "rawOffsetStart": 2294,
+    "rawOffsetEnd": 2294,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 23,
+    "file": "pages/page-023.txt",
+    "rawOffsetStart": 2296,
+    "rawOffsetEnd": 2547,
+    "characters": 251,
+    "words": 37,
+    "paragraphs": 5,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 24,
+    "file": "pages/page-024.txt",
+    "rawOffsetStart": 2549,
+    "rawOffsetEnd": 2549,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 25,
+    "file": "pages/page-025.txt",
+    "rawOffsetStart": 2551,
+    "rawOffsetEnd": 2772,
+    "characters": 221,
+    "words": 42,
+    "paragraphs": 5,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 26,
+    "file": "pages/page-026.txt",
+    "rawOffsetStart": 2774,
+    "rawOffsetEnd": 2774,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 27,
+    "file": "pages/page-027.txt",
+    "rawOffsetStart": 2776,
+    "rawOffsetEnd": 2776,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 28,
+    "file": "pages/page-028.txt",
+    "rawOffsetStart": 2778,
+    "rawOffsetEnd": 2778,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 29,
+    "file": "pages/page-029.txt",
+    "rawOffsetStart": 2780,
+    "rawOffsetEnd": 2950,
+    "characters": 170,
+    "words": 26,
+    "paragraphs": 2,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 30,
+    "file": "pages/page-030.txt",
+    "rawOffsetStart": 2952,
+    "rawOffsetEnd": 3012,
+    "characters": 60,
+    "words": 15,
+    "paragraphs": 3,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 31,
+    "file": "pages/page-031.txt",
+    "rawOffsetStart": 3014,
+    "rawOffsetEnd": 3014,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 32,
+    "file": "pages/page-032.txt",
+    "rawOffsetStart": 3016,
+    "rawOffsetEnd": 3016,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 33,
+    "file": "pages/page-033.txt",
+    "rawOffsetStart": 3018,
+    "rawOffsetEnd": 3018,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 34,
+    "file": "pages/page-034.txt",
+    "rawOffsetStart": 3020,
+    "rawOffsetEnd": 3240,
+    "characters": 220,
+    "words": 36,
+    "paragraphs": 4,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 35,
+    "file": "pages/page-035.txt",
+    "rawOffsetStart": 3242,
+    "rawOffsetEnd": 3979,
+    "characters": 737,
+    "words": 152,
+    "paragraphs": 10,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 36,
+    "file": "pages/page-036.txt",
+    "rawOffsetStart": 3981,
+    "rawOffsetEnd": 3981,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 37,
+    "file": "pages/page-037.txt",
+    "rawOffsetStart": 3983,
+    "rawOffsetEnd": 3983,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 38,
+    "file": "pages/page-038.txt",
+    "rawOffsetStart": 3985,
+    "rawOffsetEnd": 3985,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 39,
+    "file": "pages/page-039.txt",
+    "rawOffsetStart": 3987,
+    "rawOffsetEnd": 4154,
+    "characters": 167,
+    "words": 23,
+    "paragraphs": 2,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 40,
+    "file": "pages/page-040.txt",
+    "rawOffsetStart": 4156,
+    "rawOffsetEnd": 4256,
+    "characters": 100,
+    "words": 16,
+    "paragraphs": 3,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 41,
+    "file": "pages/page-041.txt",
+    "rawOffsetStart": 4258,
+    "rawOffsetEnd": 4258,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 42,
+    "file": "pages/page-042.txt",
+    "rawOffsetStart": 4260,
+    "rawOffsetEnd": 4260,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 43,
+    "file": "pages/page-043.txt",
+    "rawOffsetStart": 4262,
+    "rawOffsetEnd": 4262,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 44,
+    "file": "pages/page-044.txt",
+    "rawOffsetStart": 4264,
+    "rawOffsetEnd": 4322,
+    "characters": 58,
+    "words": 9,
+    "paragraphs": 1,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 45,
+    "file": "pages/page-045.txt",
+    "rawOffsetStart": 4324,
+    "rawOffsetEnd": 5205,
+    "characters": 881,
+    "words": 167,
+    "paragraphs": 7,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 46,
+    "file": "pages/page-046.txt",
+    "rawOffsetStart": 5207,
+    "rawOffsetEnd": 5207,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 47,
+    "file": "pages/page-047.txt",
+    "rawOffsetStart": 5209,
+    "rawOffsetEnd": 5209,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 48,
+    "file": "pages/page-048.txt",
+    "rawOffsetStart": 5211,
+    "rawOffsetEnd": 5211,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  },
+  {
+    "page": 49,
+    "file": "pages/page-049.txt",
+    "rawOffsetStart": 5213,
+    "rawOffsetEnd": 5297,
+    "characters": 84,
+    "words": 20,
+    "paragraphs": 6,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 50,
+    "file": "pages/page-050.txt",
+    "rawOffsetStart": 5299,
+    "rawOffsetEnd": 5672,
+    "characters": 373,
+    "words": 54,
+    "paragraphs": 8,
+    "hasMeaningfulText": true
+  },
+  {
+    "page": 51,
+    "file": "pages/page-051.txt",
+    "rawOffsetStart": 5674,
+    "rawOffsetEnd": 5674,
+    "characters": 0,
+    "words": 0,
+    "paragraphs": 0,
+    "hasMeaningfulText": false
+  }
+]

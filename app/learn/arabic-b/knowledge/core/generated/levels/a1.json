@@ -1,0 +1,226 @@
+{
+  "level": "A1",
+  "generatedAt": "2026-07-29T10:14:09.086Z",
+  "items": [
+    {
+      "id": "vocab-a1-001",
+      "type": "vocabulary",
+      "level": "A1",
+      "arabic": "مَدْرَسَة",
+      "translationEn": "School",
+      "transliteration": "madrasa",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "plural": "مَدارِس",
+      "topic": "school",
+      "examples": [
+        {
+          "arabic": "أَذْهَبُ إِلَى المَدْرَسَةِ صَباحًا.",
+          "translationEn": "I go to school in the morning."
+        }
+      ],
+      "tags": [
+        "school",
+        "place"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-a1-001 A1 vocabulary مَدْرَسَة School school place أَذْهَبُ إِلَى المَدْرَسَةِ صَباحًا. I go to school in the morning."
+    },
+    {
+      "id": "vocab-a1-002",
+      "type": "vocabulary",
+      "level": "A1",
+      "arabic": "أُرِيدُ",
+      "translationEn": "I want",
+      "transliteration": "ureedu",
+      "partOfSpeech": "verb",
+      "root": "ر و د",
+      "topic": "needs",
+      "examples": [
+        {
+          "arabic": "أُرِيدُ كُوبًا مِنَ الماءِ.",
+          "translationEn": "I want a cup of water."
+        }
+      ],
+      "tags": [
+        "request",
+        "verb",
+        "high-frequency"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-a1-002 A1 vocabulary أُرِيدُ I want request verb high-frequency أُرِيدُ كُوبًا مِنَ الماءِ. I want a cup of water."
+    },
+    {
+      "id": "vocab-a1-003",
+      "type": "vocabulary",
+      "level": "A1",
+      "arabic": "أَيْنَ",
+      "translationEn": "Where",
+      "transliteration": "ayna",
+      "partOfSpeech": "question-word",
+      "topic": "directions",
+      "examples": [
+        {
+          "arabic": "أَيْنَ المَكْتَبَةُ؟",
+          "translationEn": "Where is the library?"
+        }
+      ],
+      "tags": [
+        "question",
+        "location"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-a1-003 A1 vocabulary أَيْنَ Where question location أَيْنَ المَكْتَبَةُ؟ Where is the library?"
+    },
+    {
+      "id": "grammar-a1-001",
+      "type": "grammar",
+      "level": "A1",
+      "titleAr": "الجملة الاسمية البسيطة",
+      "titleEn": "Basic nominal sentence",
+      "function": "وصف الأشخاص والأماكن والأشياء.",
+      "explanationAr": "تبدأ الجملة الاسمية غالبًا باسم أو ضمير، ثم نذكر خبرًا يقدم معلومة عنه.",
+      "examples": [
+        "الطَّقْسُ جَميلٌ.",
+        "أَنا طالِبٌ."
+      ],
+      "commonErrors": [
+        {
+          "incorrect": "أنا يكون طالب.",
+          "correct": "أنا طالب."
+        }
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "grammar/core-grammar.json",
+      "searchableText": "grammar-a1-001 A1 grammar الجملة الاسمية البسيطة Basic nominal sentence تبدأ الجملة الاسمية غالبًا باسم أو ضمير، ثم نذكر خبرًا يقدم معلومة عنه. وصف الأشخاص والأماكن والأشياء. الطَّقْسُ جَميلٌ. أَنا طالِبٌ."
+    },
+    {
+      "id": "grammar-a1-002",
+      "type": "grammar",
+      "level": "A1",
+      "titleAr": "الفعل المضارع",
+      "titleEn": "Present tense",
+      "function": "التحدث عن العادات والأحداث الحالية.",
+      "explanationAr": "تبدأ أفعال المضارع عادة بأحد أحرف: أ، ن، ي، ت.",
+      "examples": [
+        "أَدْرُسُ اللُّغَةَ العَرَبِيَّةَ.",
+        "تَذْهَبُ مَرْيَمُ إِلَى المَدْرَسَةِ."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "grammar/core-grammar.json",
+      "searchableText": "grammar-a1-002 A1 grammar الفعل المضارع Present tense تبدأ أفعال المضارع عادة بأحد أحرف: أ، ن، ي، ت. التحدث عن العادات والأحداث الحالية. أَدْرُسُ اللُّغَةَ العَرَبِيَّةَ. تَذْهَبُ مَرْيَمُ إِلَى المَدْرَسَةِ."
+    },
+    {
+      "id": "skill-a1-listening-001",
+      "type": "skill",
+      "level": "A1",
+      "skill": "listening",
+      "objectiveAr": "أن يستخرج المتعلم معلومات شخصية أساسية من حوار قصير.",
+      "successCriteria": [
+        "يحدد اسم المتحدث.",
+        "يحدد مكان السكن.",
+        "يحدد معلومة واحدة عن الروتين."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "collection": "skills/core-skills.json",
+      "searchableText": "skill-a1-listening-001 A1 skill أن يستخرج المتعلم معلومات شخصية أساسية من حوار قصير."
+    },
+    {
+      "id": "dialogue-a1-cafe-001",
+      "type": "dialogue",
+      "level": "A1",
+      "titleAr": "في المقهى",
+      "titleEn": "At the café",
+      "situation": "cafe",
+      "characters": [
+        "النادل",
+        "سارة"
+      ],
+      "turns": [
+        {
+          "speaker": "النادل",
+          "arabic": "مَرْحَبًا، ماذا تُرِيدِينَ؟",
+          "translationEn": "Hello, what would you like?"
+        },
+        {
+          "speaker": "سارة",
+          "arabic": "أُرِيدُ عَصِيرَ بُرْتُقالٍ، مِنْ فَضْلِكَ.",
+          "translationEn": "I would like orange juice, please."
+        },
+        {
+          "speaker": "النادل",
+          "arabic": "هَلْ تُرِيدِينَ شَيْئًا آخَرَ؟",
+          "translationEn": "Would you like anything else?"
+        },
+        {
+          "speaker": "سارة",
+          "arabic": "لا، شُكْرًا.",
+          "translationEn": "No, thank you."
+        }
+      ],
+      "targets": [
+        "requests",
+        "food",
+        "courtesy"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "dialogues/core-dialogues.json",
+      "searchableText": "dialogue-a1-cafe-001 A1 dialogue في المقهى At the café requests food courtesy النادل مَرْحَبًا، ماذا تُرِيدِينَ؟ Hello, what would you like? سارة أُرِيدُ عَصِيرَ بُرْتُقالٍ، مِنْ فَضْلِكَ. I would like orange juice, please. النادل هَلْ تُرِيدِينَ شَيْئًا آخَرَ؟ Would you like anything else? سارة لا، شُكْرًا. No, thank you."
+    },
+    {
+      "id": "culture-a1-hospitality-001",
+      "type": "culture",
+      "level": "A1",
+      "titleAr": "الضيافة العربية",
+      "titleEn": "Arab hospitality",
+      "summaryAr": "تُعَدُّ الضيافة قيمة مهمة في مجتمعات عربية كثيرة، وقد يُقدَّم للضيف القهوة أو الشاي أو الطعام ترحيبًا به.",
+      "learningFocus": [
+        "استخدام عبارات الترحيب.",
+        "قبول الضيافة أو الاعتذار عنها بأدب.",
+        "تجنب تعميم عادة واحدة على جميع البلدان العربية."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "culture/core-culture.json",
+      "searchableText": "culture-a1-hospitality-001 A1 culture الضيافة العربية Arab hospitality تُعَدُّ الضيافة قيمة مهمة في مجتمعات عربية كثيرة، وقد يُقدَّم للضيف القهوة أو الشاي أو الطعام ترحيبًا به."
+    },
+    {
+      "id": "assessment-a1-001",
+      "type": "assessment",
+      "level": "A1",
+      "skill": "grammar",
+      "questionType": "multiple-choice",
+      "promptAr": "اختر الجملة الصحيحة:",
+      "options": [
+        "هذه كتاب.",
+        "هذا كتاب.",
+        "هذا سيارة.",
+        "هذه قلم."
+      ],
+      "answer": "هذا كتاب.",
+      "points": 1,
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "assessments/core-assessments.json",
+      "searchableText": "assessment-a1-001 A1 assessment"
+    }
+  ]
+}

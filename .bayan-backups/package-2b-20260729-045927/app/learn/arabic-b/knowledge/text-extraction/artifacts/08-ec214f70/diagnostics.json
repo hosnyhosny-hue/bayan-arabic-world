@@ -1,0 +1,19 @@
+{
+  "sourceId": "08-ec214f70",
+  "generatedAt": "2026-07-28T18:48:20.053Z",
+  "extractor": "pdf-literal-string-scan-v1",
+  "warnings": [
+    "pdftotext was not available; fallback extraction quality may be limited."
+  ],
+  "documentType": "scanned",
+  "status": "ocr-required",
+  "pageCount": 51,
+  "pagesWithMeaningfulText": 0,
+  "textCoverageRatio": 0,
+  "totalCharacters": 0,
+  "totalWords": 0,
+  "totalParagraphs": 0,
+  "averageCharactersPerPage": 0,
+  "averageWordsPerPage": 0,
+  "arabicCharacterRatio": 0
+}

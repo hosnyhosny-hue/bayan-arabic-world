@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-07-29T10:45:47.188Z",
+  "version": "2.0.0",
+  "nodes": 73,
+  "edges": 257,
+  "generatedTopics": 30,
+  "relationships": {
+    "BELONGS_TO_LEVEL": 38,
+    "NEXT_LEVEL": 4,
+    "PREVIOUS_LEVEL": 4,
+    "PREREQUISITE_OF": 11,
+    "HAS_PREREQUISITE": 11,
+    "RELATED_TO_TOPIC": 37,
+    "USES_VOCABULARY": 11,
+    "USED_IN": 11,
+    "PRACTICES_GRAMMAR": 8,
+    "PRACTICED_IN": 8,
+    "ALIGNS_WITH_SKILL": 28,
+    "DEVELOPED_BY": 28,
+    "ASSESSED_BY": 29,
+    "ASSESSES": 29
+  },
+  "methodology": {
+    "levelAlignment": true,
+    "topicMatching": true,
+    "normalizedArabicMatching": true,
+    "tokenSimilarity": true,
+    "confidenceScores": true,
+    "humanReviewRecommended": "Relations below 0.7 should be reviewed as the content library grows."
+  }
+}

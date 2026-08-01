@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { WorldProvider } from "@/src/context/WorldContext";
+import "./styles/bayan-design-tokens.css";
 
 export const metadata: Metadata = {
   title: "Bayan Arabic World | King's College Doha",

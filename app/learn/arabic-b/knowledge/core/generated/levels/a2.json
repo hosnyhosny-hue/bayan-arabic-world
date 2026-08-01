@@ -1,0 +1,193 @@
+{
+  "level": "A2",
+  "generatedAt": "2026-07-29T10:14:09.086Z",
+  "items": [
+    {
+      "id": "vocab-a2-001",
+      "type": "vocabulary",
+      "level": "A2",
+      "arabic": "رِحْلَة",
+      "translationEn": "Trip",
+      "transliteration": "rihla",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "plural": "رِحْلات",
+      "topic": "travel",
+      "examples": [
+        {
+          "arabic": "كانَتِ الرِّحْلَةُ مُفِيدَةً وَمُمْتِعَةً.",
+          "translationEn": "The trip was useful and enjoyable."
+        }
+      ],
+      "tags": [
+        "travel",
+        "experience"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-a2-001 A2 vocabulary رِحْلَة Trip travel experience كانَتِ الرِّحْلَةُ مُفِيدَةً وَمُمْتِعَةً. The trip was useful and enjoyable."
+    },
+    {
+      "id": "vocab-a2-002",
+      "type": "vocabulary",
+      "level": "A2",
+      "arabic": "أَفَضِّلُ",
+      "translationEn": "I prefer",
+      "transliteration": "ufaddilu",
+      "partOfSpeech": "verb",
+      "root": "ف ض ل",
+      "topic": "preferences",
+      "examples": [
+        {
+          "arabic": "أُفَضِّلُ القِراءَةَ في المَساءِ.",
+          "translationEn": "I prefer reading in the evening."
+        }
+      ],
+      "tags": [
+        "preference",
+        "opinion"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-a2-002 A2 vocabulary أَفَضِّلُ I prefer preference opinion أُفَضِّلُ القِراءَةَ في المَساءِ. I prefer reading in the evening."
+    },
+    {
+      "id": "grammar-a2-001",
+      "type": "grammar",
+      "level": "A2",
+      "titleAr": "الفعل الماضي",
+      "titleEn": "Past tense",
+      "function": "رواية أحداث انتهت.",
+      "explanationAr": "يتغير آخر الفعل الماضي بحسب المتحدث أو المخاطب أو الغائب.",
+      "examples": [
+        "زُرْتُ المَتْحَفَ أَمْسِ.",
+        "سافَرَتْ أُسْرَتي في العُطْلَةِ."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "grammar/core-grammar.json",
+      "searchableText": "grammar-a2-001 A2 grammar الفعل الماضي Past tense يتغير آخر الفعل الماضي بحسب المتحدث أو المخاطب أو الغائب. رواية أحداث انتهت. زُرْتُ المَتْحَفَ أَمْسِ. سافَرَتْ أُسْرَتي في العُطْلَةِ."
+    },
+    {
+      "id": "grammar-a2-002",
+      "type": "grammar",
+      "level": "A2",
+      "titleAr": "أدوات الربط الأساسية",
+      "titleEn": "Basic connectors",
+      "function": "ربط الأفكار والأحداث.",
+      "explanationAr": "نستخدم و، ثم، لكن، لأن؛ لإظهار الإضافة أو الترتيب أو التعارض أو السبب.",
+      "examples": [
+        "ذَهَبْتُ إِلَى السُّوقِ ثُمَّ عُدْتُ إِلَى البَيْتِ.",
+        "بَقِيتُ في البَيْتِ لِأَنَّ الطَّقْسَ كانَ حارًّا."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "grammar/core-grammar.json",
+      "searchableText": "grammar-a2-002 A2 grammar أدوات الربط الأساسية Basic connectors نستخدم و، ثم، لكن، لأن؛ لإظهار الإضافة أو الترتيب أو التعارض أو السبب. ربط الأفكار والأحداث. ذَهَبْتُ إِلَى السُّوقِ ثُمَّ عُدْتُ إِلَى البَيْتِ. بَقِيتُ في البَيْتِ لِأَنَّ الطَّقْسَ كانَ حارًّا."
+    },
+    {
+      "id": "skill-a2-reading-001",
+      "type": "skill",
+      "level": "A2",
+      "skill": "reading",
+      "objectiveAr": "أن يحدد المتعلم الفكرة الرئيسة وتسلسل الأحداث في نص يومي.",
+      "successCriteria": [
+        "يحدد موضوع النص.",
+        "يرتب ثلاثة أحداث.",
+        "يستدل على معنى كلمة من السياق."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "collection": "skills/core-skills.json",
+      "searchableText": "skill-a2-reading-001 A2 skill أن يحدد المتعلم الفكرة الرئيسة وتسلسل الأحداث في نص يومي."
+    },
+    {
+      "id": "dialogue-a2-travel-001",
+      "type": "dialogue",
+      "level": "A2",
+      "titleAr": "السؤال عن الرحلة",
+      "titleEn": "Asking about a trip",
+      "situation": "travel",
+      "characters": [
+        "الموظف",
+        "خالد"
+      ],
+      "turns": [
+        {
+          "speaker": "خالد",
+          "arabic": "مَتى تَغادِرُ الرِّحْلَةُ إِلَى مَسْقَط؟",
+          "translationEn": "When does the flight to Muscat depart?"
+        },
+        {
+          "speaker": "الموظف",
+          "arabic": "تُغادِرُ في السّاعَةِ الثّامِنَةِ مَساءً.",
+          "translationEn": "It departs at eight in the evening."
+        },
+        {
+          "speaker": "خالد",
+          "arabic": "وَمِنْ أَيِّ بَوّابَةٍ؟",
+          "translationEn": "And from which gate?"
+        },
+        {
+          "speaker": "الموظف",
+          "arabic": "مِنَ البَوّابَةِ اثْنَتَيْ عَشْرَةَ.",
+          "translationEn": "From gate twelve."
+        }
+      ],
+      "targets": [
+        "time",
+        "travel",
+        "questions"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "dialogues/core-dialogues.json",
+      "searchableText": "dialogue-a2-travel-001 A2 dialogue السؤال عن الرحلة Asking about a trip time travel questions خالد مَتى تَغادِرُ الرِّحْلَةُ إِلَى مَسْقَط؟ When does the flight to Muscat depart? الموظف تُغادِرُ في السّاعَةِ الثّامِنَةِ مَساءً. It departs at eight in the evening. خالد وَمِنْ أَيِّ بَوّابَةٍ؟ And from which gate? الموظف مِنَ البَوّابَةِ اثْنَتَيْ عَشْرَةَ. From gate twelve."
+    },
+    {
+      "id": "culture-a2-arab-world-001",
+      "type": "culture",
+      "level": "A2",
+      "titleAr": "تنوع العالم العربي",
+      "titleEn": "Diversity of the Arab world",
+      "summaryAr": "يضم العالم العربي مجتمعات ولهجات وبيئات وعادات متنوعة، مع وجود العربية الفصحى لغة مشتركة في التعليم والإعلام والكتابة الرسمية.",
+      "learningFocus": [
+        "التفريق بين الفصحى واللهجات.",
+        "احترام التنوع الثقافي.",
+        "تحديد أمثلة على التنوع الجغرافي."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "culture/core-culture.json",
+      "searchableText": "culture-a2-arab-world-001 A2 culture تنوع العالم العربي Diversity of the Arab world يضم العالم العربي مجتمعات ولهجات وبيئات وعادات متنوعة، مع وجود العربية الفصحى لغة مشتركة في التعليم والإعلام والكتابة الرسمية."
+    },
+    {
+      "id": "assessment-a2-001",
+      "type": "assessment",
+      "level": "A2",
+      "skill": "writing",
+      "questionType": "constructed-response",
+      "promptAr": "اكتب ست جمل تصف فيها رحلة قمت بها، واستخدم: ثم، لكن، لأن.",
+      "rubric": {
+        "content": 4,
+        "organization": 2,
+        "language": 3,
+        "mechanics": 1
+      },
+      "points": 10,
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "assessments/core-assessments.json",
+      "searchableText": "assessment-a2-001 A2 assessment"
+    }
+  ]
+}

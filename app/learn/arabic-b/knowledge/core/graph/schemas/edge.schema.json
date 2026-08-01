@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bayan.world/schemas/knowledge-graph-edge.schema.json",
+  "title": "BAYAN Knowledge Graph Edge",
+  "type": "object",
+  "required": [
+    "id",
+    "from",
+    "to",
+    "type",
+    "weight",
+    "origin",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "from": {
+      "type": "string",
+      "minLength": 1
+    },
+    "to": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "weight": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "origin": {
+      "type": "string",
+      "enum": ["explicit", "generated", "manual", "ai-suggested"]
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "draft", "review-required", "rejected"]
+    }
+  },
+  "additionalProperties": true
+}

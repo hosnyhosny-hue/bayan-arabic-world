@@ -1,0 +1,18 @@
+{
+  "jobId": "extract-elementary-arabic-ii-1738786591-print-6e48cc3d-6e48cc3d",
+  "sourceId": "elementary-arabic-ii-1738786591-print-6e48cc3d",
+  "extractedAt": "2026-07-28T17:08:17.071Z",
+  "metadata": {
+    "pdfVersion": "1.6",
+    "fileSizeBytes": 14023836,
+    "estimatedPageCount": 231,
+    "title": "Elementary Arabic II",
+    "author": null,
+    "creator": "Pressbooks 6.22.1",
+    "producer": "Prince 14.3 (www.princexml.com\\",
+    "creationDate": "D:20250205201651Z",
+    "modificationDate": "D:20250205201651Z",
+    "encrypted": false,
+    "extractionMethod": "native-pdf-object-scan-v1"
+  }
+}

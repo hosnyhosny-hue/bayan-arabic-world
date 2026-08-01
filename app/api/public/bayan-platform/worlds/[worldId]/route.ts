@@ -1,0 +1,4 @@
+import { NextResponse } from "next/server";
+import { readPublished } from "../../../../../learn/arabic-b/lib/bayan-platform-repository";
+export const runtime = "nodejs";
+export async function GET(_:Request,{params}:{params:Promise<{worldId:string}>}){ const {worldId}=await params; const published=await readPublished(); if(!published) return NextResponse.json({error:"no release"},{status:404}); const world=published.project.worlds.find((w:{id:string})=>w.id===worldId); if(!world) return NextResponse.json({error:"not found"},{status:404}); return NextResponse.json({releaseId:published.releaseId,world,characters:published.project.characters.filter((c:{id:string})=>world.characterIds.includes(c.id)),voices:published.project.voices.filter((v:{worldId:string})=>v.worldId===worldId),ambience:published.project.ambience.find((a:{id:string})=>a.id===world.ambienceAssetId)??null,tutor:published.project.tutor}); }

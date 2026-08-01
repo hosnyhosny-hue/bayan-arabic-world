@@ -1,0 +1,181 @@
+{
+  "level": "A0",
+  "generatedAt": "2026-07-29T10:14:09.086Z",
+  "items": [
+    {
+      "id": "vocab-a0-001",
+      "type": "vocabulary",
+      "level": "A0",
+      "arabic": "مَرْحَبًا",
+      "translationEn": "Hello",
+      "transliteration": "marhaban",
+      "partOfSpeech": "expression",
+      "topic": "greetings",
+      "examples": [
+        {
+          "arabic": "مَرْحَبًا يا سارة.",
+          "translationEn": "Hello, Sara."
+        }
+      ],
+      "tags": [
+        "greeting",
+        "high-frequency"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-a0-001 A0 vocabulary مَرْحَبًا Hello greeting high-frequency مَرْحَبًا يا سارة. Hello, Sara."
+    },
+    {
+      "id": "vocab-a0-002",
+      "type": "vocabulary",
+      "level": "A0",
+      "arabic": "شُكْرًا",
+      "translationEn": "Thank you",
+      "transliteration": "shukran",
+      "partOfSpeech": "expression",
+      "topic": "courtesy",
+      "examples": [
+        {
+          "arabic": "شُكْرًا لَكَ.",
+          "translationEn": "Thank you."
+        }
+      ],
+      "tags": [
+        "courtesy",
+        "high-frequency"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-a0-002 A0 vocabulary شُكْرًا Thank you courtesy high-frequency شُكْرًا لَكَ. Thank you."
+    },
+    {
+      "id": "vocab-a0-003",
+      "type": "vocabulary",
+      "level": "A0",
+      "arabic": "نَعَمْ",
+      "translationEn": "Yes",
+      "transliteration": "na'am",
+      "partOfSpeech": "response",
+      "topic": "classroom-language",
+      "examples": [
+        {
+          "arabic": "نَعَمْ، أَنَا جاهِزٌ.",
+          "translationEn": "Yes, I am ready."
+        }
+      ],
+      "tags": [
+        "response",
+        "high-frequency"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "vocabulary/core-vocabulary.json",
+      "searchableText": "vocab-a0-003 A0 vocabulary نَعَمْ Yes response high-frequency نَعَمْ، أَنَا جاهِزٌ. Yes, I am ready."
+    },
+    {
+      "id": "grammar-a0-001",
+      "type": "grammar",
+      "level": "A0",
+      "titleAr": "هذا وهذه",
+      "titleEn": "This: masculine and feminine",
+      "function": "الإشارة إلى شخص أو شيء قريب.",
+      "explanationAr": "نستخدم هذا مع الاسم المفرد المذكر، وهذه مع الاسم المفرد المؤنث.",
+      "examples": [
+        "هذا كِتابٌ.",
+        "هذه حَقيبَةٌ."
+      ],
+      "commonErrors": [
+        {
+          "incorrect": "هذا سيارة.",
+          "correct": "هذه سيارة."
+        }
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "grammar/core-grammar.json",
+      "searchableText": "grammar-a0-001 A0 grammar هذا وهذه This: masculine and feminine نستخدم هذا مع الاسم المفرد المذكر، وهذه مع الاسم المفرد المؤنث. الإشارة إلى شخص أو شيء قريب. هذا كِتابٌ. هذه حَقيبَةٌ."
+    },
+    {
+      "id": "skill-a0-speaking-001",
+      "type": "skill",
+      "level": "A0",
+      "skill": "speaking",
+      "objectiveAr": "أن يقدم المتعلم نفسه باستخدام اسمه وجنسيته ولغته.",
+      "successCriteria": [
+        "يستخدم تحية مناسبة.",
+        "يقول اسمه بوضوح.",
+        "يستخدم جملة قصيرة صحيحة."
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "collection": "skills/core-skills.json",
+      "searchableText": "skill-a0-speaking-001 A0 skill أن يقدم المتعلم نفسه باستخدام اسمه وجنسيته ولغته."
+    },
+    {
+      "id": "dialogue-a0-greeting-001",
+      "type": "dialogue",
+      "level": "A0",
+      "titleAr": "التعارف الأول",
+      "titleEn": "First introduction",
+      "situation": "school",
+      "characters": [
+        "عُمَر",
+        "لَيْلى"
+      ],
+      "turns": [
+        {
+          "speaker": "عُمَر",
+          "arabic": "مَرْحَبًا. أَنا عُمَر. ما اسْمُكِ؟",
+          "translationEn": "Hello. I am Omar. What is your name?"
+        },
+        {
+          "speaker": "لَيْلى",
+          "arabic": "مَرْحَبًا. أَنا لَيْلى.",
+          "translationEn": "Hello. I am Layla."
+        },
+        {
+          "speaker": "عُمَر",
+          "arabic": "تَشَرَّفْتُ بِمَعْرِفَتِكِ.",
+          "translationEn": "Nice to meet you."
+        }
+      ],
+      "targets": [
+        "greetings",
+        "name",
+        "أنا"
+      ],
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "dialogues/core-dialogues.json",
+      "searchableText": "dialogue-a0-greeting-001 A0 dialogue التعارف الأول First introduction greetings name أنا عُمَر مَرْحَبًا. أَنا عُمَر. ما اسْمُكِ؟ Hello. I am Omar. What is your name? لَيْلى مَرْحَبًا. أَنا لَيْلى. Hello. I am Layla. عُمَر تَشَرَّفْتُ بِمَعْرِفَتِكِ. Nice to meet you."
+    },
+    {
+      "id": "assessment-a0-001",
+      "type": "assessment",
+      "level": "A0",
+      "skill": "vocabulary",
+      "questionType": "multiple-choice",
+      "promptAr": "اختر التحية المناسبة:",
+      "options": [
+        "مَرْحَبًا",
+        "كِتاب",
+        "مَدْرَسَة",
+        "قَلَم"
+      ],
+      "answer": "مَرْحَبًا",
+      "points": 1,
+      "source": "BAYAN-original",
+      "license": "BAYAN-Proprietary",
+      "reviewStatus": "reviewed",
+      "collection": "assessments/core-assessments.json",
+      "searchableText": "assessment-a0-001 A0 assessment"
+    }
+  ]
+}

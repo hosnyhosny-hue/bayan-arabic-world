@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-07-28T17:08:19.302Z",
+  "totalSources": 12,
+  "byType": {
+    "student-book": 12
+  },
+  "byLifecycle": {
+    "needs-review": 12
+  },
+  "byReviewStatus": {
+    "pending": 12
+  },
+  "byLanguage": {
+    "ar": 12
+  },
+  "duplicateChecksums": [],
+  "sourcesWithoutOriginalPath": []
+}

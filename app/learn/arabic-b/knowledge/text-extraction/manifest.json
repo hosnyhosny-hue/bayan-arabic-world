@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-29T02:52:00.981Z",
+  "items": [
+    {
+      "sourceId": "08-ec214f70",
+      "sourceChecksum": "ec214f707e04f00f6898ce8050decf9001f282888db8a21d5770fd0621f3a1fd",
+      "status": "extracted",
+      "documentType": "mixed",
+      "extractor": "tesseract.js-ocr",
+      "pageCount": 51,
+      "totalCharacters": 5574,
+      "totalWords": 995,
+      "textCoverageRatio": 0.4118,
+      "artifactDirectory": "app/learn/arabic-b/knowledge/text-extraction/artifacts/08-ec214f70",
+      "updatedAt": "2026-07-29T02:52:00.981Z",
+      "attempts": 1,
+      "lastError": null
+    }
+  ]
+}

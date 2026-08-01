@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "sourceId": "08-ec214f70",
+  "sourceChecksum": "ec214f707e04f00f6898ce8050decf9001f282888db8a21d5770fd0621f3a1fd",
+  "extractedAt": "2026-07-29T02:52:00.980Z",
+  "extractor": "tesseract.js-ocr",
+  "status": "extracted",
+  "documentType": "mixed",
+  "rawTextPath": "app/learn/arabic-b/knowledge/text-extraction/artifacts/08-ec214f70/raw.txt",
+  "normalizedTextPath": "app/learn/arabic-b/knowledge/text-extraction/artifacts/08-ec214f70/normalized.txt",
+  "pageMapPath": "app/learn/arabic-b/knowledge/text-extraction/artifacts/08-ec214f70/page-map.json",
+  "diagnosticsPath": "app/learn/arabic-b/knowledge/text-extraction/artifacts/08-ec214f70/diagnostics.json"
+}

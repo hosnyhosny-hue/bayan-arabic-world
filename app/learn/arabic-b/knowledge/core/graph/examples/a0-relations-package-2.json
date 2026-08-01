@@ -1,0 +1,184 @@
+
+> arabic-department-portal@0.1.0 bayan:graph:query
+> node scripts/bayan-knowledge/graph/query.mjs relations A0
+
+{
+  "node": {
+    "graphId": "level:a0:A0",
+    "sourceId": "A0",
+    "type": "framework-level",
+    "level": "A0",
+    "label": "التمهيدي",
+    "labelEn": "Foundation",
+    "topics": []
+  },
+  "relations": [
+    {
+      "direction": "outgoing",
+      "type": "NEXT_LEVEL",
+      "confidence": 1,
+      "target": {
+        "graphId": "level:a1:A1",
+        "sourceId": "A1",
+        "type": "framework-level",
+        "level": "A1",
+        "label": "المبتدئ",
+        "labelEn": "Beginner",
+        "topics": []
+      }
+    },
+    {
+      "direction": "outgoing",
+      "type": "PREREQUISITE_OF",
+      "confidence": 1,
+      "target": {
+        "graphId": "level:a1:A1",
+        "sourceId": "A1",
+        "type": "framework-level",
+        "level": "A1",
+        "label": "المبتدئ",
+        "labelEn": "Beginner",
+        "topics": []
+      }
+    },
+    {
+      "direction": "incoming",
+      "type": "BELONGS_TO_LEVEL",
+      "confidence": 1,
+      "source": {
+        "graphId": "vocab:a0:vocab-a0-001",
+        "sourceId": "vocab-a0-001",
+        "type": "vocabulary",
+        "level": "A0",
+        "label": "مَرْحَبًا",
+        "labelEn": "Hello",
+        "topics": [
+          "greetings",
+          "greeting",
+          "high-frequency"
+        ]
+      }
+    },
+    {
+      "direction": "incoming",
+      "type": "BELONGS_TO_LEVEL",
+      "confidence": 1,
+      "source": {
+        "graphId": "vocab:a0:vocab-a0-002",
+        "sourceId": "vocab-a0-002",
+        "type": "vocabulary",
+        "level": "A0",
+        "label": "شُكْرًا",
+        "labelEn": "Thank you",
+        "topics": [
+          "courtesy",
+          "high-frequency"
+        ]
+      }
+    },
+    {
+      "direction": "incoming",
+      "type": "BELONGS_TO_LEVEL",
+      "confidence": 1,
+      "source": {
+        "graphId": "vocab:a0:vocab-a0-003",
+        "sourceId": "vocab-a0-003",
+        "type": "vocabulary",
+        "level": "A0",
+        "label": "نَعَمْ",
+        "labelEn": "Yes",
+        "topics": [
+          "classroom-language",
+          "response",
+          "high-frequency"
+        ]
+      }
+    },
+    {
+      "direction": "incoming",
+      "type": "BELONGS_TO_LEVEL",
+      "confidence": 1,
+      "source": {
+        "graphId": "grammar:a0:grammar-a0-001",
+        "sourceId": "grammar-a0-001",
+        "type": "grammar",
+        "level": "A0",
+        "label": "هذا وهذه",
+        "labelEn": "This: masculine and feminine",
+        "topics": []
+      }
+    },
+    {
+      "direction": "incoming",
+      "type": "BELONGS_TO_LEVEL",
+      "confidence": 1,
+      "source": {
+        "graphId": "skill:a0:skill-a0-speaking-001",
+        "sourceId": "skill-a0-speaking-001",
+        "type": "skill",
+        "level": "A0",
+        "label": "أن يقدم المتعلم نفسه باستخدام اسمه وجنسيته ولغته.",
+        "labelEn": null,
+        "topics": []
+      }
+    },
+    {
+      "direction": "incoming",
+      "type": "BELONGS_TO_LEVEL",
+      "confidence": 1,
+      "source": {
+        "graphId": "dialogue:a0:dialogue-a0-greeting-001",
+        "sourceId": "dialogue-a0-greeting-001",
+        "type": "dialogue",
+        "level": "A0",
+        "label": "التعارف الأول",
+        "labelEn": "First introduction",
+        "topics": [
+          "school"
+        ]
+      }
+    },
+    {
+      "direction": "incoming",
+      "type": "BELONGS_TO_LEVEL",
+      "confidence": 1,
+      "source": {
+        "graphId": "assessment:a0:assessment-a0-001",
+        "sourceId": "assessment-a0-001",
+        "type": "assessment",
+        "level": "A0",
+        "label": "اختر التحية المناسبة:",
+        "labelEn": null,
+        "topics": []
+      }
+    },
+    {
+      "direction": "incoming",
+      "type": "PREVIOUS_LEVEL",
+      "confidence": 1,
+      "source": {
+        "graphId": "level:a1:A1",
+        "sourceId": "A1",
+        "type": "framework-level",
+        "level": "A1",
+        "label": "المبتدئ",
+        "labelEn": "Beginner",
+        "topics": []
+      }
+    },
+    {
+      "direction": "incoming",
+      "type": "HAS_PREREQUISITE",
+      "confidence": 1,
+      "source": {
+        "graphId": "level:a1:A1",
+        "sourceId": "A1",
+        "type": "framework-level",
+        "level": "A1",
+        "label": "المبتدئ",
+        "labelEn": "Beginner",
+        "topics": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "skill-a0-speaking-001",
+    "type": "skill",
+    "level": "A0",
+    "skill": "speaking",
+    "objectiveAr": "أن يقدم المتعلم نفسه باستخدام اسمه وجنسيته ولغته.",
+    "successCriteria": [
+      "يستخدم تحية مناسبة.",
+      "يقول اسمه بوضوح.",
+      "يستخدم جملة قصيرة صحيحة."
+    ],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary"
+  },
+  {
+    "id": "skill-a1-listening-001",
+    "type": "skill",
+    "level": "A1",
+    "skill": "listening",
+    "objectiveAr": "أن يستخرج المتعلم معلومات شخصية أساسية من حوار قصير.",
+    "successCriteria": [
+      "يحدد اسم المتحدث.",
+      "يحدد مكان السكن.",
+      "يحدد معلومة واحدة عن الروتين."
+    ],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary"
+  },
+  {
+    "id": "skill-a2-reading-001",
+    "type": "skill",
+    "level": "A2",
+    "skill": "reading",
+    "objectiveAr": "أن يحدد المتعلم الفكرة الرئيسة وتسلسل الأحداث في نص يومي.",
+    "successCriteria": [
+      "يحدد موضوع النص.",
+      "يرتب ثلاثة أحداث.",
+      "يستدل على معنى كلمة من السياق."
+    ],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary"
+  },
+  {
+    "id": "skill-b1-writing-001",
+    "type": "skill",
+    "level": "B1",
+    "skill": "writing",
+    "objectiveAr": "أن يكتب المتعلم نصًا مترابطًا يعرض رأيًا وأسبابًا.",
+    "successCriteria": [
+      "يقدم موقفًا واضحًا.",
+      "يدعم موقفه بسببين.",
+      "يستخدم أدوات ربط مناسبة."
+    ],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary"
+  },
+  {
+    "id": "skill-b2-speaking-001",
+    "type": "skill",
+    "level": "B2",
+    "skill": "speaking",
+    "objectiveAr": "أن يقدم المتعلم عرضًا منظمًا ويناقش الأسئلة المرتبطة به.",
+    "successCriteria": [
+      "ينظم العرض في مقدمة وأفكار وخاتمة.",
+      "يستخدم لغة تفسير ومقارنة.",
+      "يجيب عن الأسئلة بمرونة."
+    ],
+    "source": "BAYAN-original",
+    "license": "BAYAN-Proprietary"
+  }
+]

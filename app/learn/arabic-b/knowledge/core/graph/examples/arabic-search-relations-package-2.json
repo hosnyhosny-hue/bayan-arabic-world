@@ -1,0 +1,180 @@
+
+> arabic-department-portal@0.1.0 bayan:graph:query
+> node scripts/bayan-knowledge/graph/query.mjs relations أريد
+
+{
+  "node": {
+    "graphId": "vocab:a1:vocab-a1-002",
+    "sourceId": "vocab-a1-002",
+    "type": "vocabulary",
+    "level": "A1",
+    "label": "أُرِيدُ",
+    "labelEn": "I want",
+    "topics": [
+      "needs",
+      "request",
+      "verb",
+      "high-frequency"
+    ]
+  },
+  "relations": [
+    {
+      "direction": "outgoing",
+      "type": "BELONGS_TO_LEVEL",
+      "confidence": 1,
+      "target": {
+        "graphId": "level:a1:A1",
+        "sourceId": "A1",
+        "type": "framework-level",
+        "level": "A1",
+        "label": "المبتدئ",
+        "labelEn": "Beginner",
+        "topics": []
+      }
+    },
+    {
+      "direction": "outgoing",
+      "type": "RELATED_TO_TOPIC",
+      "confidence": 1,
+      "target": {
+        "graphId": "topic:global:needs",
+        "sourceId": "needs",
+        "type": "topic",
+        "level": null,
+        "label": "needs",
+        "labelEn": null,
+        "topics": []
+      }
+    },
+    {
+      "direction": "outgoing",
+      "type": "RELATED_TO_TOPIC",
+      "confidence": 1,
+      "target": {
+        "graphId": "topic:global:request",
+        "sourceId": "request",
+        "type": "topic",
+        "level": null,
+        "label": "request",
+        "labelEn": null,
+        "topics": []
+      }
+    },
+    {
+      "direction": "outgoing",
+      "type": "RELATED_TO_TOPIC",
+      "confidence": 1,
+      "target": {
+        "graphId": "topic:global:verb",
+        "sourceId": "verb",
+        "type": "topic",
+        "level": null,
+        "label": "verb",
+        "labelEn": null,
+        "topics": []
+      }
+    },
+    {
+      "direction": "outgoing",
+      "type": "RELATED_TO_TOPIC",
+      "confidence": 1,
+      "target": {
+        "graphId": "topic:global:high-frequency",
+        "sourceId": "high-frequency",
+        "type": "topic",
+        "level": null,
+        "label": "high-frequency",
+        "labelEn": null,
+        "topics": []
+      }
+    },
+    {
+      "direction": "outgoing",
+      "type": "USED_IN",
+      "confidence": 0.55,
+      "target": {
+        "graphId": "dialogue:a1:dialogue-a1-cafe-001",
+        "sourceId": "dialogue-a1-cafe-001",
+        "type": "dialogue",
+        "level": "A1",
+        "label": "في المقهى",
+        "labelEn": "At the café",
+        "topics": [
+          "cafe"
+        ]
+      }
+    },
+    {
+      "direction": "incoming",
+      "type": "USES_VOCABULARY",
+      "confidence": 0.55,
+      "source": {
+        "graphId": "dialogue:a1:dialogue-a1-cafe-001",
+        "sourceId": "dialogue-a1-cafe-001",
+        "type": "dialogue",
+        "level": "A1",
+        "label": "في المقهى",
+        "labelEn": "At the café",
+        "topics": [
+          "cafe"
+        ]
+      }
+    },
+    {
+      "direction": "outgoing",
+      "type": "ALIGNS_WITH_SKILL",
+      "confidence": 0.5,
+      "target": {
+        "graphId": "skill:a1:skill-a1-listening-001",
+        "sourceId": "skill-a1-listening-001",
+        "type": "skill",
+        "level": "A1",
+        "label": "أن يستخرج المتعلم معلومات شخصية أساسية من حوار قصير.",
+        "labelEn": null,
+        "topics": []
+      }
+    },
+    {
+      "direction": "incoming",
+      "type": "DEVELOPED_BY",
+      "confidence": 0.5,
+      "source": {
+        "graphId": "skill:a1:skill-a1-listening-001",
+        "sourceId": "skill-a1-listening-001",
+        "type": "skill",
+        "level": "A1",
+        "label": "أن يستخرج المتعلم معلومات شخصية أساسية من حوار قصير.",
+        "labelEn": null,
+        "topics": []
+      }
+    },
+    {
+      "direction": "outgoing",
+      "type": "ASSESSED_BY",
+      "confidence": 0.48,
+      "target": {
+        "graphId": "assessment:a1:assessment-a1-001",
+        "sourceId": "assessment-a1-001",
+        "type": "assessment",
+        "level": "A1",
+        "label": "اختر الجملة الصحيحة:",
+        "labelEn": null,
+        "topics": []
+      }
+    },
+    {
+      "direction": "incoming",
+      "type": "ASSESSES",
+      "confidence": 0.48,
+      "source": {
+        "graphId": "assessment:a1:assessment-a1-001",
+        "sourceId": "assessment-a1-001",
+        "type": "assessment",
+        "level": "A1",
+        "label": "اختر الجملة الصحيحة:",
+        "labelEn": null,
+        "topics": []
+      }
+    }
+  ]
+}
