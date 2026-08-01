@@ -1,0 +1,281 @@
+.page{
+  min-height:100vh;
+  background:
+    radial-gradient(circle at 80% 0,rgba(239,138,37,.12),transparent 28rem),
+    radial-gradient(circle at 10% 20%,rgba(10,106,76,.12),transparent 32rem),
+    #f4f7f5;
+  color:#12372f;
+}
+
+.container{
+  width:min(1240px,calc(100% - 32px));
+  margin:auto;
+}
+
+.topbar{
+  position:sticky;
+  top:0;
+  z-index:20;
+  border-bottom:1px solid rgba(18,55,47,.08);
+  background:rgba(255,255,255,.86);
+  backdrop-filter:blur(18px);
+}
+
+.topbar .container{
+  min-height:78px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  color:inherit;
+  text-decoration:none;
+}
+
+.brandMark{
+  width:49px;
+  height:49px;
+  border-radius:17px;
+  display:grid;
+  place-items:center;
+  background:linear-gradient(135deg,#0a684b,#ef8a25);
+  color:white;
+  font-size:25px;
+  font-weight:950;
+}
+
+.brand strong,
+.brand small{
+  display:block;
+}
+
+.brand strong{
+  font-size:17px;
+}
+
+.brand small{
+  margin-top:3px;
+  color:#71867f;
+  font-size:10px;
+}
+
+.back{
+  min-height:44px;
+  padding:0 17px;
+  display:inline-flex;
+  align-items:center;
+  border-radius:14px;
+  background:#e8f3ee;
+  color:#0a684b;
+  text-decoration:none;
+  font-size:13px;
+  font-weight:900;
+}
+
+.article{
+  width:min(1240px,calc(100% - 32px));
+  margin:0 auto;
+  padding:80px 0 100px;
+}
+
+.heading{
+  max-width:940px;
+  margin:auto;
+  text-align:center;
+}
+
+.meta{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  flex-wrap:wrap;
+}
+
+.meta span{
+  padding:8px 12px;
+  border-radius:999px;
+  background:#e8f3ee;
+  color:#0a684b;
+  font-size:11px;
+  font-weight:950;
+}
+
+.meta time{
+  color:#71867f;
+  font-size:12px;
+}
+
+.heading h1{
+  margin:24px auto 20px;
+  font-size:clamp(42px,7vw,88px);
+  line-height:1.05;
+  letter-spacing:-.045em;
+}
+
+.lead{
+  max-width:800px;
+  margin:0 auto;
+  color:#607871;
+  font-size:clamp(17px,2vw,22px);
+  line-height:1.9;
+}
+
+.media,
+.pdfSection{
+  margin-top:55px;
+  overflow:hidden;
+  border:1px solid rgba(18,55,47,.08);
+  border-radius:34px;
+  background:white;
+  box-shadow:0 30px 90px rgba(18,55,47,.11);
+}
+
+.media img,
+.media video{
+  display:block;
+  width:100%;
+  max-height:760px;
+  object-fit:cover;
+}
+
+.pdfToolbar{
+  min-height:88px;
+  padding:18px 22px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  border-bottom:1px solid rgba(18,55,47,.08);
+}
+
+.pdfToolbar span,
+.pdfToolbar strong{
+  display:block;
+}
+
+.pdfToolbar span{
+  color:#ef8a25;
+  font-size:10px;
+  font-weight:950;
+  letter-spacing:.13em;
+}
+
+.pdfToolbar strong{
+  margin-top:5px;
+  font-size:19px;
+}
+
+.pdfFrame{
+  display:block;
+  width:100%;
+  height:min(82vh,950px);
+  border:0;
+  background:#e5e9e7;
+}
+
+.primaryButton,
+.secondaryButton{
+  min-height:46px;
+  padding:0 18px;
+  border-radius:14px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  font-weight:900;
+}
+
+.primaryButton{
+  background:#0a684b;
+  color:white;
+}
+
+.secondaryButton{
+  background:#e8f3ee;
+  color:#0a684b;
+}
+
+.body{
+  max-width:850px;
+  margin:60px auto 0;
+  padding:45px;
+  border-radius:30px;
+  background:white;
+  box-shadow:0 24px 70px rgba(18,55,47,.07);
+}
+
+.body p{
+  margin:0;
+  color:#294b43;
+  font-size:19px;
+  line-height:2.15;
+}
+
+.body p+p{
+  margin-top:24px;
+}
+
+.articleFooter{
+  margin-top:70px;
+  padding:28px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:22px;
+  border-top:1px solid rgba(18,55,47,.1);
+}
+
+.articleFooter span,
+.articleFooter strong{
+  display:block;
+}
+
+.articleFooter span{
+  color:#ef8a25;
+  font-size:10px;
+  font-weight:950;
+  letter-spacing:.13em;
+}
+
+.articleFooter strong{
+  margin-top:6px;
+}
+
+@media(max-width:700px){
+  .article{
+    padding-top:50px;
+  }
+
+  .heading h1{
+    font-size:clamp(38px,12vw,60px);
+  }
+
+  .pdfToolbar,
+  .articleFooter{
+    align-items:stretch;
+    flex-direction:column;
+  }
+
+  .pdfFrame{
+    height:70vh;
+  }
+
+  .body{
+    padding:25px;
+  }
+
+  .body p{
+    font-size:17px;
+  }
+
+  .primaryButton,
+  .secondaryButton{
+    width:100%;
+  }
+}

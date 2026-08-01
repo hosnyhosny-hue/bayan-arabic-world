@@ -1,0 +1,74 @@
+/* BAYAN Pulse semantic mapping layer */
+.page{
+  --pulse-page:var(--bayan-page);
+  --pulse-surface:var(--bayan-surface);
+  --pulse-text:var(--bayan-text-primary);
+  --pulse-muted:var(--bayan-text-secondary);
+  --pulse-brand:var(--bayan-brand);
+  --pulse-brand-deep:var(--bayan-brand-deep);
+  --pulse-accent:var(--bayan-accent);
+  --pulse-border:var(--bayan-border);
+  min-height:100vh;
+  background:
+    radial-gradient(circle at 8% 0%,color-mix(in srgb,var(--bayan-accent) 10%,transparent),transparent 32rem),
+    radial-gradient(circle at 92% 7%,color-mix(in srgb,var(--bayan-brand) 11%,transparent),transparent 34rem),
+    linear-gradient(180deg,var(--bayan-page) 0%,var(--bayan-page-subtle) 100%);
+  color:var(--bayan-text-primary);
+  font-family:var(--bayan-font-arabic);
+}
+
+.container{width:var(--bayan-container)}
+.header{
+  min-height:var(--bayan-header-height);
+  border-color:var(--bayan-border);
+  transition:background var(--bayan-duration-normal) var(--bayan-ease-standard);
+}
+.hero{
+  border-radius:var(--bayan-hero-radius);
+  box-shadow:var(--bayan-shadow-4);
+}
+.hero h1{
+  font-size:var(--bayan-display-lg);
+  line-height:var(--bayan-leading-none);
+  letter-spacing:var(--bayan-tracking-tight);
+}
+.hero p{
+  font-size:var(--bayan-text-lg);
+  line-height:var(--bayan-leading-relaxed);
+}
+.section{padding-top:var(--bayan-section-space)}
+.sectionHead{gap:var(--bayan-space-6);margin-bottom:var(--bayan-space-6)}
+.sectionHead h2{
+  font-size:var(--bayan-heading-xl);
+  line-height:var(--bayan-leading-tight);
+  letter-spacing:var(--bayan-tracking-tight);
+}
+.sectionHead p{color:var(--bayan-text-secondary);line-height:var(--bayan-leading-relaxed)}
+.channel,.timelineItem,.liveCounters,.suggestionCard,.stateCard{
+  border-color:var(--bayan-border);
+  transition:
+    transform var(--bayan-duration-fast) var(--bayan-ease-standard),
+    box-shadow var(--bayan-duration-normal) var(--bayan-ease-standard),
+    background var(--bayan-duration-normal) var(--bayan-ease-standard);
+}
+.channel{border-radius:var(--bayan-radius-round)}
+.storyRing{transition:transform var(--bayan-duration-fast) var(--bayan-ease-spring)}
+.lead,.sideStory,.videoCard,.achievementCard,.eventCard,.quoteCard,.feedCard{
+  border-radius:var(--bayan-card-radius);
+  box-shadow:var(--bayan-shadow-3);
+}
+.timelineItem{border-radius:var(--bayan-radius-xl)}
+.familyBtn,.ghostBtn,.iconBtn,.heroPrimary,.heroSecondary,.stateAction{
+  border-radius:var(--bayan-radius-md);
+  min-height:var(--bayan-control-height-md);
+  transition:
+    transform var(--bayan-duration-fast) var(--bayan-ease-standard),
+    box-shadow var(--bayan-duration-fast) var(--bayan-ease-standard);
+}
+.familyBtn:hover,.ghostBtn:hover,.iconBtn:hover,.heroPrimary:hover,.heroSecondary:hover,.stateAction:hover{
+  transform:translateY(-2px);
+}
+:where(a,button,input,select,textarea):focus-visible{
+  outline:0;
+  box-shadow:var(--bayan-shadow-focus);
+}
